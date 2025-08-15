@@ -1,0 +1,9 @@
+campaign_id,campaign_order,onscreen_name,prefix
+,,,
+main_3c,3,Empire Divided,3c_
+main_emperor,2,Imperator Augustus,emp_
+main_gaul,100,Caesar in Gaul,gaul_
+main_greek,102,Wrath of Sparta,pel_
+main_invasion,4,Rise of the Republic,inv_
+main_punic,101,Hannibal at the Gates,pun_
+main_rome,1,Grand Campaign,rom_

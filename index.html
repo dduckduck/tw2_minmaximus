@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TW: Rome II minMaximus</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>TW: Rome II minMaximus</h1>
+    </header>
+    <div id="divButtons">
+        <select id="campaignSelect">
+        </select>
+        <button type="button" id="unitButton" style="display:none;">Units</button>
+        <button type="button" id="regionButton" style="display:none;">Regions</button>
+    </div>
+
+    <main>
+        <!-- COLUMN 1: Player-->
+        <div class="selectionCard">
+            <div class="factionAndUnitSelection">
+                <label for="playerFactionSelect">Faction</label>
+                <select id="playerFactionSelect">
+                    <option value="">Select Faction</option>
+                </select>
+                <label for="playerUnitSelect">Unit</label>
+                <select id="playerUnitSelect">
+                    <option value="">Select Unit</option>
+                </select>
+            </div>
+            <div class="unitBlock" id="playerUnitBlock">
+                <pre>a placehodler</pre>
+            </div>
+        </div>
+        <!-- COLUMN 2: Comparison Data -->
+        <div class="centreContent">
+            <table id="comparisonData">
+                
+            </table>
+        </div>
+
+        <!-- COLUMN 3: AI-->
+        <div class="selectionCard">
+            <div class="factionAndUnitSelection">
+                <label for="aiFactionSelect">Faction</label>
+                <select id="aiFactionSelect">
+                    <option value="">Select Faction</option>
+                </select>
+
+                <label for="aiUnitSelect">Unit</label>
+                <select id="aiUnitSelect">
+                    <option value="">Select Unit</option>
+                </select>
+            </div>
+            <div class="unitBlock" id="aiUnitBlock">
+                <pre>a placehodler</pre>
+            </div>
+        </div>
+
+    </main>
+
+<footer>
+    <p>This repository exists purely because I could.</p>
+    <p>All rights belong to their respective owners.</p>
+    <p>Data may be wrong, outdated, or entirely made up without malicious intent.</p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,1554 @@
+land_unit_id,onscreen_name,accuracy,ammo,armour_id,bonus_hit_points,category,charge_bonus,melee_attack,melee_defence,morale,melee_weapon_id,range_weapon_id,reload,shield_id
+,,,,,,,,,,,,,,
+3c_Afr_Ballista,African Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Afr_Ballista_Bastion,African Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Afr_Cheiroballistra,African Scorpion,5,40,cloth,5,artillery,36,9,14,40,rome_shortsword,,4,none
+3c_Afr_Giant_Ballista,African Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Afr_Large_Onager,African Heavy Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Afr_Onager,African Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Afr_Onager_Bastion,African Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Afr_Scorpion,African Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Afr_Scorpion_Bastion,African Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Ala_Alani_Amazonian_Archers,Alani 'Amazonian' Archers,20,15,cloth,5,cavalry,4,7,2,40,rome_shortsword,rome_composite_bow_elite,10,none
+3c_Ala_Alani_Axe_Cavalry,Alani Axe Cavalry,5,0,padded_improved,15,cavalry,35,52,16,38,rome_eastern_axe,,0,none
+3c_Ala_Alani_Axemen,Alani Axemen,5,2,padded_improved,10,inf_melee,22,36,24,40,rome_eastern_axe,rome_javelin_precursor,0,round
+3c_Ala_Alani_Horse_Skirmishers,Alani Horse Skirmishers,5,7,cloth,10,cavalry,4,9,14,45,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+3c_Ala_Alani_Horsemen,Alani Horsemen,5,0,padded,15,cavalry,29,44,20,38,rome_spear_cav,,0,cavalry
+3c_Ala_Alani_Nobles,Alani Nobles,5,0,scale,15,cavalry,34,44,15,60,rome_spear_cav_elite,,0,cavalry
+3c_Ala_Alani_Noblewomen_Archers,Alani Noblewoman Archers,30,15,spolas,10,cavalry,15,30,3,60,rome_steppe_sword,rome_composite_bow_elite,23,none
+3c_Ala_Alani_Riders,Alani Riders,5,0,cloth,10,cavalry,33,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Ala_Alani_Royal_Horses,Alani Royal Horses,5,0,scale_elite,20,cavalry,43,49,23,70,rome_spear_cav_elite,,0,hoplite_cav
+3c_Ala_Alani_Royal_Horses_comm,Alani Royal Horses Bodyguard,5,0,scale_elite,20,cavalry,43,49,23,70,rome_spear_cav_elite,,0,hoplite_cav
+3c_Ala_Alani_Swordsmen,Alani Swordsmen,5,2,padded_improved,10,inf_melee,28,34,26,35,rome_celtic_hellenic_sword,rome_javelin_precursor,0,oval
+3c_Ala_Armoured_Axe_Warriors,Armoured Axe Warriors,5,2,scale,15,inf_melee,25,43,26,45,rome_eastern_axe,rome_javelin_precursor,0,round
+3c_Ala_Armoured_Steppe_Lancers,Armoured Steppe Lancers,5,0,spolas,15,cavalry,57,40,16,50,rome_lance,,0,none
+3c_Ala_Armoured_Steppe_Warriors,Armoured Steppe Warriors,5,2,scale,15,inf_melee,32,38,30,45,rome_celtic_hellenic_sword_elite,rome_javelin_precursor,0,round
+3c_Ala_Armoured_Steppe_Warriors_comm,Armoured Steppe Warriors Bodyguard,5,2,scale,15,inf_melee,32,38,30,45,rome_celtic_hellenic_sword_elite,rome_javelin_precursor,0,round
+3c_Ala_Noble_Steppe_Cataphracts,Noble Steppe Cataphracts,5,0,cataphract,30,cavalry,80,46,21,70,rome_lance_elite,,0,none
+3c_Ala_Noble_Steppe_Cataphracts_comm,Noble Steppe Cataphracts Bodyguard,5,0,cataphract,30,cavalry,80,46,21,70,rome_lance_elite,,0,none
+3c_Ala_Noble_Steppe_Lancers,Noble Steppe Lancers,5,0,scale,15,cavalry,76,46,21,60,rome_lance,,0,none
+3c_Ala_Steppe_Cataphract_Archers,Steppe Cataphract Archers,5,15,cataphract,15,cavalry,19,55,20,70,rome_steppe_sword,rome_composite_bow_horse,33,none
+3c_Ala_Steppe_Cataphract_Archers_comm,Steppe Cataphract Archers Bodyguard,5,15,cataphract,15,cavalry,19,55,20,70,rome_steppe_sword,rome_composite_bow_horse,33,none
+3c_Ala_Steppe_Cavalry,Steppe Cavalry,5,0,scale,15,cavalry,38,48,17,55,rome_celtic_spear_cav,,0,germanic_cav
+3c_Ala_Steppe_Horse_Archers,Steppe Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+3c_Ala_Steppe_Horse_Skirmishers,Steppe Horse Skirmishers,5,7,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_javelin,18,none
+3c_Ala_Steppe_Lancers,Steppe Lancers,5,0,cloth,10,cavalry,51,34,16,35,rome_lance,,0,none
+3c_Ala_Steppe_Warband,Steppe Warband,5,0,cloth,5,inf_melee,25,25,22,25,rome_celtic_hellenic_sword,,0,oval
+3c_Ala_Taifali_Cavalry,Taifali Cavalry,5,2,mail_improved,15,cavalry,32,40,15,60,rome_spear_cav_elite,rome_javelin_precursor,0,cavalry
+3c_Ara_Arabian_Camel_Archers,Arabian Camel Archers,5,13,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Ara_Arabian_Camel_Archers_comm,Arabian Camel Archers Bodyguard,5,13,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Ara_Arabian_Camel_Spearmen,Arabian Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+3c_Ara_Arabian_Javelinmen,Arabian Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,caetra
+3c_Ara_Arabian_Nobles,Arabian Nobles,5,2,scale,10,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Ara_Arabian_Nobles_comm,Arabian Nobles Bodyguard,5,2,scale,10,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Ara_Arabian_Slingers,Arabian Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,caetra
+3c_Ara_Arabian_Spearmen,Arabian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,oval
+3c_Ara_Arabian_Swordsmen,Arabian Swordsmen,5,2,padded,20,inf_melee,24,30,20,35,rome_hoplite_sword,rome_javelin_precursor,0,oval
+3c_Ara_Arabian_Swordsmen_comm,Arabian Swordsmen Bodyguard,5,2,padded,20,inf_melee,24,30,20,35,rome_hoplite_sword,rome_javelin_precursor,0,oval
+3c_Arm_Armenian_Archers,Armenian Archers,5,15,cloth,10,inf_ranged,4,11,15,40,rome_shortsword,rome_recurve_bow,18,none
+3c_Arm_Armenian_Pikemen,Armenian Pikemen,5,0,spolas,15,inf_melee,7,34,15,45,rome_pike,,0,pikemen
+3c_Arm_Armenian_Slingers,Armenian Slingers,5,25,light_padded,15,inf_ranged,6,10,13,40,rome_shortsword,rome_sling_lead,28,small_round
+3c_Arm_Armenian_Spearmen,Armenian Spearmen,5,0,padded_improved,5,inf_melee,11,15,25,35,rome_spear,,0,tower
+3c_Arm_Armoured_Armenian_Archers,Armoured Armenian Archers,5,15,scale,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_recurve_bow_elite,23,none
+3c_Arm_Armoured_Armenian_Archers_comm,Armoured Armenian Archers Bodyguard,5,15,scale,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_recurve_bow_elite,23,none
+3c_Arm_Armoured_Armenian_Pikemen,Armoured Armenian Pikemen,5,0,scale,15,inf_melee,9,39,23,55,rome_pike,,0,pikemen
+3c_Arm_Armoured_Axe_Warriors,Armoured Axe Warriors,5,2,scale,15,inf_melee,25,43,26,45,rome_eastern_axe,rome_javelin_precursor,0,thureos
+3c_Arm_Armoured_Horse_Archers,Armoured Horse Archers,5,13,scale,15,cavalry,14,36,13,45,rome_shortsword,rome_recurve_bow_horse,23,none
+3c_Arm_Azat_Guard,Azat Guard,5,0,scale_elite,20,inf_melee,28,41,42,70,rome_spear_elite,,0,hoplite
+3c_Arm_Azat_Guard_comm,Azat Guard Bodyguard,5,0,scale_elite,20,inf_melee,28,41,42,70,rome_spear_elite,,0,hoplite
+3c_Arm_Azat_Knights,Azat Knights,5,0,scale,20,cavalry,40,53,35,70,rome_spear_cav_elite,,0,cavalry
+3c_Arm_Azat_Knights_comm,Azat Knights Bodyguard,5,0,scale,20,cavalry,40,53,35,70,rome_spear_cav_elite,,0,cavalry
+3c_Arm_Noble_Armenian_Archers,Noble Armenian Archers,5,15,scale_elite,15,inf_ranged,18,28,32,65,rome_spear_anti_cav,rome_composite_bow_elite,23,none
+3c_Arm_Noble_Armenian_Archers_comm,Noble Armenian Archers Bodyguard,5,15,scale_elite,15,inf_ranged,18,28,32,65,rome_spear_anti_cav,rome_composite_bow_elite,23,none
+3c_Arm_Noble_Armenian_Cavalry,Noble Armenian Cavalry,5,0,scale,15,cavalry,34,46,15,60,rome_spear_cav,,0,cavalry
+3c_Arm_Noble_Cataphracts,Noble Cataphracts,5,0,cataphract_elite,20,cavalry,76,50,23,65,rome_lance_elite,,0,none
+3c_Arm_Noble_Cataphracts_comm,Noble Cataphracts Bodyguard,5,0,cataphract_elite,20,cavalry,76,50,23,65,rome_lance_elite,,0,none
+3c_Arm_Noble_Horse_Archers,Noble Horse Archers,5,15,cataphract,15,cavalry,22,39,19,55,rome_eastern_sword,rome_recurve_bow_horse,28,none
+3c_Arm_Noble_Horse_Archers_comm,Noble Horse Archers Bodyguard,5,15,cataphract,15,cavalry,22,39,19,55,rome_eastern_sword,rome_recurve_bow_horse,28,none
+3c_Arm_Persian_Spearmen,Persian Spearmen,5,0,padded,5,inf_melee,11,13,24,35,rome_spear,,0,tower
+3c_Aux_African_Elephants,Auxiliary African Elephants,5,0,leather,15,elephants,36,54,21,55,tusks,,0,none
+3c_Aux_Alae_Cavalry,Alae Cavalry,5,0,mail,15,cavalry,29,33,10,40,rome_spear_cav,,0,cavalry
+3c_Aux_Alae_Clibanarii,Alae Clibanarii,5,0,cataphract_elite,20,cavalry,76,50,23,60,rome_lance_elite,,0,none
+3c_Aux_Alae_Skirmishers,Alae Skirmishers,5,7,cloth,5,cavalry,4,9,13,35,rome_shortsword,rome_wooden_javelin,18,pelta_cavalry
+3c_Aux_Arabian_Camel_Archers,Auxiliary Arabian Camel Archers,5,13,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Aux_Arabian_Camel_Spearmen,Auxiliary Arabian Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+3c_Aux_Arabian_Spearmen,Auxiliary Arabian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,oval
+3c_Aux_Archers,Auxiliary Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Aux_Armenian_Archers,Auxiliary Armenian Archers,5,15,scale,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_recurve_bow_elite,23,none
+3c_Aux_Armoured_Chariots,Auxiliary Armored Chariots,5,8,mail_improved,20,cavalry,35,46,42,70,rome_celtic_longsword,rome_javelin_improved,20,cavalry
+3c_Aux_Armoured_Gallic_Spearmen,Auxiliary Armoured Gallic Spearmen,5,2,mail,15,inf_melee,22,26,42,55,rome_celtic_spear,rome_javelin_precursor,0,celtic
+3c_Aux_Armoured_Pikemen,Auxiliary Armoured Pikemen,5,0,scale,15,inf_melee,9,39,23,45,rome_pike,,0,pikemen
+3c_Aux_Bactrian_Hillmen,Auxiliary Bactrian Hillmen,5,2,cloth,5,inf_melee,10,28,11,25,rome_eastern_axe,rome_javelin_precursor,0,thureos
+3c_Aux_Bactrian_Horse_Archers,Auxiliary Bactrian Horse Archers,5,13,spolas,15,cavalry,14,40,17,50,rome_kopis,rome_composite_bow_horse,23,none
+3c_Aux_Bactrian_Light_Cavalry,Auxiliary Bactrian Light Cavalry,5,0,padded,10,cavalry,29,37,11,30,rome_spear_cav,,0,hoplite_cav
+3c_Aux_Briton_Slingers,Auxiliary Briton Slingers,5,25,cloth,10,inf_ranged,3,8,12,30,rome_shortsword,rome_sling_improved,18,celtic_round
+3c_Aux_Camel_Archers,Auxiliary Camel Archers,5,12,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Aux_Camel_Spearmen,Auxiliary Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+3c_Aux_Cappadocian_Cavalry,Auxiliary Cappadocian Cavalry,5,0,scale,15,cavalry,38,49,17,60,rome_spear_cav_elite,,0,cavalry
+3c_Aux_Celtic_Archers,Auxiliary Celtic Archers,5,15,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_bow,13,none
+3c_Aux_Celtic_Heavy_Cavalry,Auxiliary Celtic Heavy Cavalry,5,0,leather,15,cavalry,39,42,22,50,rome_celtic_spear_cav,,0,cavalry
+3c_Aux_Celtic_Horsemen,Auxiliary Celtic Horsemen,5,2,cloth,5,cavalry,31,38,10,30,rome_celtic_spear_cav,rome_javelin_precursor,0,cavalry
+3c_Aux_Celtic_Spearmen,Auxiliary Celtic Spearmen,5,2,cloth,10,inf_melee,21,17,28,35,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+3c_Aux_Celtic_Swordsmen,Auxiliary Celtic Swordsmen,5,2,leather,10,inf_melee,28,29,24,35,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Aux_Chariots,Auxiliary Chariots,5,8,mail,20,cavalry,32,43,39,60,rome_celtic_longsword,rome_javelin,20,cavalry
+3c_Aux_Cretan_Archers,Auxiliary Cretan Archers,5,15,leather,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+3c_Aux_Desert_Riders,Auxiliary Desert Riders,5,2,scale,10,cavalry,30,48,12,45,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Aux_Eastern_Heavy_Cavalry,Auxiliary Eastern Heavy Cavalry,5,0,scale,15,cavalry,34,44,15,50,rome_spear_cav_elite,,0,cavalry
+3c_Aux_Eastern_Javelinmen,Auxiliary Eastern Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin,13,pelta
+3c_Aux_Eastern_Pikemen,Auxiliary Eastern Pikemen,5,0,scale,15,inf_melee,9,39,23,55,rome_pike,,0,pikemen
+3c_Aux_Eastern_Spearmen,Auxiliary Eastern Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+3c_Aux_Egyptian_Archers,Auxiliary Egyptian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Aux_Egyptian_Infantry,Auxiliary Egyptian Infantry,5,2,padded,5,inf_melee,8,16,16,25,rome_shortsword,rome_javelin_precursor,0,thureos
+3c_Aux_Egyptian_Pikemen,Auxiliary Egyptian Pikemen,5,0,padded,10,inf_melee,4,30,5,35,rome_pike_levy,,0,pikemen
+3c_Aux_Gallic_Bowmen,Auxiliary Gallic Bowmen,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+3c_Aux_Gallic_Cavalry,Auxiliary Gallic Cavalry,5,2,cloth,10,cavalry,39,42,16,45,rome_celtic_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Aux_Gallic_Heavy_Infantry,Auxiliary Gallic Heavy Infantry,5,2,mail_improved,20,inf_melee,35,48,39,50,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Aux_Gallic_Skirmishers,Auxiliary Gallic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+3c_Aux_Gallic_Swordsmen,Auxiliary Gallic Swordsmen,5,2,cloth,10,inf_melee,20,25,28,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Aux_Germanic_Axe_Warriors,Auxiliary Germanic Axe Warriors,5,2,leather,15,inf_melee,24,37,20,45,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Aux_Germanic_Falxmen,Auxiliary Germanic Falxmen,5,0,cloth,10,inf_melee,48,38,11,35,rome_falx,,0,none
+3c_Aux_Germanic_Heavy_Infantry,Auxiliary Germanic Heavy Infantry,5,2,mail_improved,20,inf_melee,27,39,27,55,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Aux_Germanic_Hunters,Auxiliary Germanic Hunters,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+3c_Aux_Germanic_Skirmishers,Auxiliary Germanic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+3c_Aux_Germanic_Spear_Masters,Auxiliary Germanic Spear Masters,5,2,mail_improved,15,inf_melee,24,30,44,65,rome_celtic_spear,rome_javelin_precursor,0,germanic_wood
+3c_Aux_Germanic_Swordsmen,Auxiliary Germanic Swordsmen,5,2,leather,15,inf_melee,24,40,9,40,rome_celtic_hellenic_sword,rome_javelin_precursor,0,germanic_wood
+3c_Aux_Hillmen,Auxiliary Hillmen,5,2,cloth,5,inf_melee,10,20,11,25,rome_eastern_axe,rome_javelin_precursor,0,pelta
+3c_Aux_Horse_Skirmishers,Auxiliary Horse Skirmishers,5,7,cloth,5,cavalry,4,9,13,30,rome_shortsword,rome_javelin,18,pelta_cavalry
+3c_Aux_Iberian_Cavalry,Auxiliary Iberian Cavalry,5,2,cloth,10,cavalry,31,50,10,40,rome_falcata_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Aux_Iberian_Slingers,Auxiliary Iberian Slingers,5,25,cloth,5,inf_ranged,7,8,12,35,rome_shortsword,rome_sling,13,celtic_round
+3c_Aux_Iberian_Swordsmen,Auxiliary Iberian Swordsmen,5,5,cloth,10,inf_melee,20,35,20,35,rome_falcata,rome_javelin_light,0,caetra
+3c_Aux_Illyrian_Archers,Auxiliary Illyrian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Aux_Illyrian_Armoured_Pikemen,Auxiliary Illyrian Armoured Pikemen,5,0,mail,15,inf_melee,9,39,23,55,rome_pike,,0,pikemen
+3c_Aux_Illyrian_Cavalry,Auxiliary Illyrian Cavalry,5,0,chest,10,cavalry,30,28,20,45,rome_spear_cav,,0,cavalry
+3c_Aux_Illyrian_Raiders,Auxiliary Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,45,rome_celtic_axe,rome_javelin_precursor,0,thureos
+3c_Aux_Illyrian_Slingers,Auxiliary Illyrian Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,small_bronze
+3c_Aux_Illyrian_Swordsmen,Auxiliary Illyrian Swordsmen,5,2,chest,10,inf_melee,10,34,20,40,rome_gladius,rome_javelin_precursor,0,thureos
+3c_Aux_Indian_War_Elephants,Auxiliary Indian War Elephants,5,15,leather,15,elephants,28,34,20,65,tusks,rome_composite_bow_elephant,15,none
+3c_Aux_Lanciarii,Auxiliary Lanciarii,5,0,spolas,10,cavalry,52,36,16,35,rome_lance,,0,none
+3c_Aux_Libyan_Infantry,Auxiliary Libyan Infantry,5,2,mail,15,inf_melee,18,41,26,50,rome_kopis,rome_javelin_precursor,0,thureos
+3c_Aux_Numidian_Cavalry,Auxiliary Numidian Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+3c_Aux_Numidian_Infantry,Auxiliary Numidian Infantry,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear_anti_cav,,0,caetra
+3c_Aux_Numidian_Javelinmen,Auxiliary Numidian Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+3c_Aux_Peltasts,Auxiliary Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+3c_Aux_Persian_Archers,Auxiliary Persian Archers,5,15,cloth,10,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+3c_Aux_Persian_Cataphracts,Auxiliary Persian Cataphracts,5,0,cataphract,15,cavalry,67,40,17,60,rome_lance,,0,none
+3c_Aux_Persian_Cavalry,Auxiliary Persian Cavalry,5,0,padded,15,cavalry,29,45,18,40,rome_spear_cav,,0,cavalry
+3c_Aux_Persian_Horse_Skirmishers,Auxiliary Persian Horse Skirmishers,5,7,cloth,10,cavalry,4,9,16,45,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+3c_Aux_Persian_Skirmishers,Auxiliary Persian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin,13,small_round
+3c_Aux_Persian_Spearmen,Auxiliary Persian Spearmen,5,0,padded,5,inf_melee,11,13,24,35,rome_spear,,0,tower
+3c_Aux_Pontic_Cavalry,Auxiliary Pontic Cavalry,5,0,bronze,20,cavalry,76,46,17,60,rome_lance,,0,none
+3c_Aux_Rhodian_Slingers,Auxiliary Rhodian Slingers,5,25,light_padded,15,inf_ranged,6,12,14,55,rome_shortsword,rome_sling_lead,28,small_bronze
+3c_Aux_Sabean_Archers,Auxiliary Sabaean Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Aux_Sabean_Cavalry,Auxiliary Sabaean Cavalry,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Aux_Sabean_Spearmen,Auxiliary Sabaean Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,tower
+3c_Aux_Sarmatian_Horse_Archers,Auxiliary Sarmatian Horse Archers,5,13,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+3c_Aux_Sarmatian_Light_Cavalry,Auxiliary Sarmatian Light Cavalry,5,0,cloth,10,cavalry,35,39,11,40,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Aux_Scutarii,Auxiliary Scutarii,5,2,chest,15,inf_melee,21,42,30,45,rome_falcata,rome_iron_javelin,0,celtic
+3c_Aux_Scutarii_Cavalry,Auxiliary Scutarii Cavalry,5,0,chest,15,cavalry,37,42,24,55,rome_spear_cav,,0,cavalry
+3c_Aux_Scythed_Chariots,Auxiliary Scythed Chariots,5,0,scale_elite,15,cavalry,45,54,29,55,rome_gladius,,0,none
+3c_Aux_Spear_Infantry,Auxiliary Spear Infantry,5,0,mail,10,inf_melee,15,18,30,45,rome_spear,,0,oval
+3c_Aux_Steppe_Cavalry,Auxiliary Steppe Cavalry,5,0,scale,15,cavalry,38,48,17,50,rome_celtic_spear_cav,,0,germanic_cav
+3c_Aux_Steppe_Warriors,Auxiliary Steppe Warriors,5,0,padded,5,inf_melee,14,30,14,20,rome_celtic_axe,,0,caetra
+3c_Aux_Swordsmen,Auxiliary Swordsmen,5,2,chest,10,inf_melee,10,34,20,40,rome_gladius,rome_javelin_precursor,0,thureos
+3c_Aux_Swordsmen_comm,Auxiliary Swordsmen Bodyguard,5,2,chest,10,inf_melee,10,34,20,40,rome_gladius,rome_javelin_precursor,0,thureos
+3c_Aux_Syrian_Archers,Auxiliary Syrian Archers,5,15,scale,15,inf_ranged,4,10,13,40,rome_shortsword,rome_recurve_bow_elite,23,none
+3c_Aux_Thracian_Cavalry,Auxiliary Thracian Cavalry,5,0,leather,15,cavalry,31,31,16,45,rome_celtic_spear_cav,,0,cavalry
+3c_Aux_Thracian_Heroic_Riders,Auxiliary Thracian Heroic Riders,5,2,bronze,20,cavalry,43,49,16,70,rome_spear_cav_elite,rome_javelin_precursor,0,cavalry
+3c_Aux_Thracian_Horse_Skirmishers,Auxiliary Thracian Horse Skirmishers,5,7,cloth,10,cavalry,10,14,13,35,rome_shortsword,rome_javelin,18,cavalry
+3c_Aux_Thracian_Light_Cavalry,Auxiliary Thracian Light Cavalry,5,0,cloth,10,cavalry,33,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Aux_Thracian_Slingers,Auxiliary Thracian Slingers,5,25,cloth,5,inf_ranged,3,12,12,25,rome_shortsword,rome_sling,13,pelta
+3c_Aux_Thracian_Warriors,Auxiliary Thracian Warriors,5,0,cloth,10,inf_melee,36,46,12,40,rome_rhomphaia,,0,thracian
+3c_Bri_Ballista,Briton Ballista,5,15,cloth,5,artillery,6,9,14,45,rome_shortsword,,4,none
+3c_Bri_Ballista_Bastion,Briton Bastion Ballista,5,25,cloth,0,artillery,6,9,14,45,rome_shortsword,,20,none
+3c_Bri_Cheiroballistra,Briton Scorpion,5,40,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Bri_Giant_Ballista,Briton Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Bri_Large_Onager,Briton Heavy Onager,5,15,cloth,5,artillery,7,9,14,40,rome_shortsword,,4,none
+3c_Bri_Onager,Briton Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Bri_Onager_Bastion,Briton Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Bri_Scorpion,Briton Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Bri_Scorpion_Bastion,Briton Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Cal_Ambushers,Ambushers,5,5,none,10,inf_ranged,32,32,30,40,rome_celtic_longsword_bonus_infantry,rome_javelin_light_nonprecursor,0,celtic_shock
+3c_Cal_Armoured_Chariots,Armoured Chariots,5,8,mail_improved,20,cavalry,35,46,42,70,rome_celtic_longsword,rome_javelin_improved,20,cavalry
+3c_Cal_Armoured_Chariots_comm,Armoured Chariots Bodyguard,5,8,mail_improved,20,cavalry,35,46,42,70,rome_celtic_longsword,rome_javelin_improved,20,cavalry
+3c_Cal_Caledonian_Heroic_Riders,Caledonii Heroic Riders,5,0,mail,20,cavalry,46,49,24,70,rome_celtic_spear_cav_elite,,0,cavalry
+3c_Cal_Caledonian_Heroic_Riders_comm,Heroic Riders Bodyguard,5,0,mail,20,cavalry,46,49,24,70,rome_celtic_spear_cav_elite,,0,cavalry
+3c_Cal_Caledonian_Oathsworn,Caledonii Oathsworn,5,2,mail,20,inf_melee,32,43,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Cal_Caledonian_Oathsworn_comm,Caledonii Oathsworn Bodyguard,5,2,mail,20,inf_melee,32,43,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Cal_Caledonian_Spear_Wall,Caledonii Spear Wall,5,2,mail,15,inf_melee,22,28,40,55,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+3c_Cal_Chosen_Sword_Band,Chosen Sword Band,5,2,mail,15,inf_melee,29,33,29,50,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Cal_Elite_Highland_Archers,Elite Highland Archers,5,15,leather,15,inf_ranged,6,12,18,65,rome_celtic_hellenic_sword,rome_longbow,28,none
+3c_Cal_Highland_Archers,Highland Archers,5,15,cloth,15,inf_ranged,6,12,14,55,rome_celtic_hellenic_sword,rome_longbow,28,none
+3c_Cal_Scatha_Shadows,Scatha Shadows,5,5,leather,10,inf_melee,30,30,30,50,rome_celtic_longsword_bonus_infantry,rome_javelin_light_nonprecursor,0,celtic_round
+3c_Cel_Celtic_Archers,Celtic Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Cel_Celtic_Horse_Skirmishers,Celtic Horse Skirmishers,5,7,cloth,10,cavalry,22,32,8,30,rome_celtic_hellenic_sword_cav,rome_javelin,10,germanic_cav
+3c_Cel_Celtic_Horsemen,Celtic Horsemen,5,2,cloth,5,cavalry,31,38,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,cavalry
+3c_Cel_Celtic_Levy,Celtic Levy,5,2,cloth,10,inf_melee,15,12,25,30,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+3c_Cel_Celtic_Nobles,Celtic Nobles,5,0,leather,15,cavalry,39,42,22,55,rome_celtic_spear_cav,,0,cavalry
+3c_Cel_Celtic_Nobles_comm,Celtic Nobles Bodyguard,5,0,leather,15,cavalry,39,42,22,55,rome_celtic_spear_cav,,0,cavalry
+3c_Cel_Celtic_Skirmishers,Celtic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+3c_Cel_Celtic_Spearmen,Celtic Spearmen,5,2,cloth,10,inf_melee,21,17,28,40,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+3c_Cel_Celtic_Sword_Band,Celtic Sword Band,5,2,cloth,10,inf_melee,25,25,22,35,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Cel_Celtic_Swordsmen,Celtic Swordsmen,5,2,leather,10,inf_melee,28,29,24,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Cel_Celtic_Swordsmen_comm,Celtic Swordsmen Bodyguard,5,2,leather,10,inf_melee,28,29,24,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Cel_Celtic_Warhounds,Celtic Warhounds,5,0,cloth,5,inf_melee,35,24,28,35,rome_celtic_longsword,,0,caetra
+3c_Cel_Chariots,Chariots,5,8,mail,20,cavalry,32,43,39,70,rome_celtic_longsword,rome_javelin,20,cavalry
+3c_Cel_Chariots_comm,Chariots Bodyguard,5,8,mail,20,cavalry,32,43,39,70,rome_celtic_longsword,rome_javelin,20,cavalry
+3c_Cel_Chosen_Sword_Band,Chosen Sword Band,5,2,mail,15,inf_melee,29,33,29,50,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Cel_Chosen_Sword_Band_comm,Chosen Sword Band Bodyguard,5,2,mail,15,inf_melee,29,33,29,50,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Cel_Painted_Warriors,Painted Warriors,5,0,none,10,inf_melee,37,37,21,50,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+3c_Cel_Painted_Warriors_comm,Painted Warriors Bodyguard,5,0,none,10,inf_melee,37,37,21,50,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+3c_Cel_Wolfhounds,Wolfhounds,5,0,cloth,5,inf_melee,35,32,28,35,rome_celtic_longsword,,0,caetra
+3c_Eas_Ballista,Eastern Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Ballista_Bastion,Eastern Bastion Ballista,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Eas_Ballista_Shp,Eastern Ballista (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Cheiroballistra,Eastern Scorpion,5,40,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Eastern_Armoured_Cavalry,Eastern Armoured Cavalry,5,0,mail,15,cavalry,24,34,12,48,rome_generic_sword_cav,,0,cavalry
+3c_Eas_Eastern_Axe_Warriors,Eastern Axe Warriors,5,2,scale,10,inf_melee,22,36,24,45,rome_eastern_axe,rome_javelin_precursor,0,thureos
+3c_Eas_Eastern_Axe_Warriors_comm,Eastern Axe Warriors Bodyguard,5,2,scale,10,inf_melee,22,36,24,45,rome_eastern_axe,rome_javelin_precursor,0,thureos
+3c_Eas_Eastern_Bowmen,Eastern Bowmen,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Eas_Eastern_Cataphracts,Eastern Cataphracts,5,0,cataphract,15,cavalry,67,38,17,62,rome_lance,,0,none
+3c_Eas_Eastern_Cataphracts_comm,Eastern Cataphracts Bodyguard,5,0,cataphract,15,cavalry,67,38,17,62,rome_lance,,0,none
+3c_Eas_Eastern_Cavalry,Eastern Cavalry,5,0,padded,15,cavalry,29,42,18,38,rome_spear_cav,,0,cavalry
+3c_Eas_Eastern_Horse_Archers,Eastern Horse Archers,5,13,cloth,15,cavalry,4,10,12,38,rome_shortsword,rome_composite_bow_horse,23,none
+3c_Eas_Eastern_Horse_Skirmishers,Eastern Horse Skirmishers,5,7,cloth,10,cavalry,4,9,14,43,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+3c_Eas_Eastern_Infantry,Eastern Infantry,5,2,cloth,15,inf_melee,25,27,20,40,rome_eastern_sword,rome_javelin_precursor,0,tower
+3c_Eas_Eastern_Infantry_comm,Eastern Infantry Bodyguard,5,2,cloth,15,inf_melee,25,27,20,40,rome_eastern_sword,rome_javelin_precursor,0,tower
+3c_Eas_Eastern_Javelinmen,Eastern Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin_improved,13,pelta
+3c_Eas_Eastern_Nobles,Eastern Nobles,5,0,scale,15,cavalry,34,44,15,52,rome_spear_cav_elite,,0,cavalry
+3c_Eas_Eastern_Nobles_comm,Eastern Nobles Bodyguard,5,0,scale,15,cavalry,34,44,15,52,rome_spear_cav_elite,,0,cavalry
+3c_Eas_Eastern_Pikemen,Eastern Pikemen,5,0,leather,5,inf_melee,4,30,5,35,rome_pike_levy,,0,pikemen
+3c_Eas_Eastern_Slingers,Eastern Slingers,5,25,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_sling_improved,13,pelta
+3c_Eas_Eastern_Spearmen,Eastern Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+3c_Eas_Giant_Ballista,Eastern Giant Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Hillmen,Hillmen,5,2,cloth,5,inf_melee,12,25,11,30,rome_eastern_axe,rome_javelin_precursor,0,pelta
+3c_Eas_Large_Onager,Eastern Large Onager,5,15,cloth,5,artillery,7,9,14,35,rome_shortsword,,4,none
+3c_Eas_Noble_Spearmen,Noble Spearmen,5,0,scale,20,inf_melee,24,32,36,60,rome_spear_elite,,0,hoplite
+3c_Eas_Onager,Eastern Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Onager_Bastion,Eastern Bastion Onager,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Eas_Onager_Shp,Eastern Onager (Ship),5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Scorpion,Eastern Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Eas_Scorpion_Bastion,Eastern Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Eas_Scorpion_Pot_Ballista,Scorpion Pot Ballista,5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Gal_Armoured_Chariots,Armoured Chariots,5,8,mail_improved,20,cavalry,35,46,42,70,rome_celtic_longsword,rome_javelin_improved,20,cavalry
+3c_Gal_Armoured_Chariots_comm,Armoured Chariots Bodyguard,5,8,mail_improved,20,cavalry,35,46,42,70,rome_celtic_longsword,rome_javelin_improved,20,cavalry
+3c_Gal_Chariots,Chariots,5,8,mail,20,cavalry,32,43,39,70,rome_celtic_longsword,rome_javelin,20,cavalry
+3c_Gal_Cohors,Cohors,5,2,mail,15,inf_melee,14,47,23,50,rome_spatha,rome_pilum_heavy,0,oval
+3c_Gal_Equites,Equites,5,0,mail,10,cavalry,29,33,12,40,rome_spear_cav,,0,cavalry
+3c_Gal_Equites_Promoti,Equites Promoti,5,0,chest,10,cavalry,34,38,17,50,rome_spear_cav,,0,cavalry
+3c_Gal_Gallic_Heavy_Skirmishers,Gallic Heavy Skirmishers,15,7,mail,10,inf_ranged,12,26,15,50,rome_celtic_longsword,rome_javelin,13,celtic_missile
+3c_Gal_Gallic_Imperial_Guard,Gallic Imperial Guard,5,2,segmentata,20,inf_melee,19,65,30,70,rome_gladius_elite,rome_pilum_heavy,0,scutum_marian
+3c_Gal_Gallic_Imperial_Guard_comm,Gallic Imperial Bodyguard,5,2,segmentata,20,inf_melee,19,65,30,70,rome_gladius_elite,rome_pilum_heavy,0,scutum_marian
+3c_Gal_Gallic_Lanciarii,Gallic Lanciarii,5,0,spolas,10,cavalry,52,36,16,35,rome_lance,,0,none
+3c_Gal_Gallic_Legionaries,Gallic Legionaries,5,2,mail_improved,15,inf_melee,20,56,21,60,rome_spatha,rome_pilum_heavy,0,oval
+3c_Gal_Gallic_Legionary_Cavalry,Gallic Legionary Cavalry,5,0,mail,15,cavalry,26,30,10,45,rome_spear_cav,,0,cavalry
+3c_Gal_Gallic_Light_Cavalry,Gallic Light Cavalry,5,0,cloth,10,cavalry,33,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Gal_Gallic_Warriors,Gallic Warriors,5,2,cloth,10,inf_melee,28,32,22,35,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Gal_Heavy_Gallic_Spearmen,Heavy Gallic Spearmen,5,2,mail_improved,20,inf_melee,32,34,47,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+3c_Gal_Longsword_Cohort,Longsword Cohort,5,2,mail_improved,15,inf_melee,16,59,23,60,rome_celtic_longsword_bonus_infantry,rome_pilum_heavy,0,scutum_imperial
+3c_Gal_Spear_Warriors,Spear Warriors,5,2,leather,10,inf_melee,22,24,30,45,rome_celtic_spear,rome_javelin_precursor,0,celtic
+3c_Gal_Taifali_Cavalry,Taifali Cavalry,5,2,mail_improved,15,cavalry,32,40,15,60,rome_spear_cav_elite,rome_javelin_precursor,0,cavalry
+3c_Gal_Veteran_Gallic_Legionaries,Veteran Gallic Legionaries,5,2,mail_improved,20,inf_melee,19,65,30,60,rome_gladius_elite,rome_pilum_heavy,0,scutum_marian
+3c_Ger_Armoured_Germanic_Swordsmen,Armoured Germanic Swords,5,2,mail,20,inf_melee,27,39,27,55,rome_celtic_longsword,rome_javelin_precursor,0,germanic_wood
+3c_Ger_Armoured_Germanic_Swordsmen_comm,Armoured Germanic Swordsmen Bodyguard,5,2,mail,20,inf_melee,27,39,27,55,rome_celtic_longsword,rome_javelin_precursor,0,germanic_wood
+3c_Ger_Ballista,German Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Ger_Ballista_Bastion,German Bastion Ballista,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Ger_Cheiroballistra,German Scorpion,5,40,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Ger_Germanic_Axe_Warriors,Germanic Axe Warriors,5,2,leather,15,inf_melee,24,37,20,50,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Ger_Germanic_Band,Germanic Band,5,2,cloth,10,inf_melee,22,29,18,30,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Ger_Germanic_Horse_Skirmishers,Germanic Horse Skirmishers,5,7,cloth,10,cavalry,24,34,10,35,rome_celtic_hellenic_sword_cav,rome_javelin,10,germanic_cav
+3c_Ger_Germanic_Horsemen,Germanic Horsemen,5,0,leather,15,cavalry,31,31,16,45,rome_celtic_spear_cav,,0,germanic_cav
+3c_Ger_Germanic_Hunters,Germanic Hunters,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_longbow,18,none
+3c_Ger_Germanic_Hurlers,Germanic Hurlers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,10,germanic_small_skirm
+3c_Ger_Germanic_Lancers,Germanic Lancers,5,0,cloth,10,cavalry,51,34,16,35,rome_lance,,0,none
+3c_Ger_Germanic_Mounted_Warband,Germanic Mounted Warband,5,2,cloth,5,cavalry,28,36,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,germanic_cav
+3c_Ger_Germanic_Nobles,Germanic Nobles,5,2,mail_improved,20,inf_melee,27,39,27,60,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Ger_Germanic_Nobles_comm,Germanic Nobles Bodyguard,5,2,mail_improved,20,inf_melee,27,39,27,60,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Ger_Germanic_Pikes,Germanic Pikes,5,0,cloth,10,inf_melee,4,30,5,30,rome_pike_levy,,0,pikemen
+3c_Ger_Germanic_Skirmishers,Germanic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+3c_Ger_Germanic_Spear_Masters,Germanic Spear Masters,5,2,mail_improved,15,inf_melee,24,30,44,65,rome_celtic_spear,rome_javelin_precursor,0,germanic_wood
+3c_Ger_Germanic_Spear_Masters_comm,Germanic Spear Masters Bodyguard,5,2,mail_improved,15,inf_melee,24,30,44,65,rome_celtic_spear,rome_javelin_precursor,0,germanic_wood
+3c_Ger_Germanic_Spearmen,Germanic Spearmen,5,0,leather,10,inf_melee,19,20,36,45,rome_celtic_spear_anti_cav,,0,germanic_wood
+3c_Ger_Germanic_Swordsmen,Germanic Swordsmen,5,2,leather,15,inf_melee,24,40,9,40,rome_celtic_hellenic_sword,rome_javelin_precursor,0,germanic_wood
+3c_Ger_Giant_Ballista,German Giant Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Ger_Large_Onager,German Heavy Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Ger_Noble_Germanic_Horsemen,Noble Germanic Horsemen,5,0,mail_improved,20,cavalry,46,47,22,70,rome_celtic_spear_cav_elite,,0,germanic_cav
+3c_Ger_Onager,German Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Ger_Onager_Bastion,German Bastion Onager,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Ger_Savage_Dogs,Savage Dogs,5,0,cloth,5,inf_melee,20,23,28,35,rome_celtic_longsword,,0,caetra
+3c_Ger_Scorpion_Bastion,German Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Ger_Spear_Levy,Spear Levy,5,2,cloth,10,inf_melee,17,18,29,30,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,germanic_wood
+3c_Ger_Test_Cavalry,Test Cavalry,5,7,cloth,10,cavalry,24,34,10,35,rome_celtic_hellenic_sword_cav,rome_javelin,10,germanic_cav
+3c_Ger_Test_Infantry,Test Infantry,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+3c_Ger_Test_Mis,Test Missile,5,0,leather,10,inf_melee,19,20,36,45,rome_celtic_spear_anti_cav,,0,germanic_wood
+3c_Goth_Elite_Gothic_Archers,Elite Gothic Archers,5,15,mail,5,inf_ranged,5,17,15,50,rome_shortsword,rome_bow_long,30,none
+3c_Goth_Gothic_Archers,Gothic Archers,5,15,leather,5,inf_ranged,5,14,15,45,rome_shortsword,rome_bow_long,30,none
+3c_Goth_Gothic_Archers_comm,Gothic Archers Bodyguard,5,15,leather,5,inf_ranged,5,14,15,45,rome_shortsword,rome_bow_long,30,none
+3c_Goth_Gothic_Axe_Warriors,Gothic Axe Warriors,5,2,leather,15,inf_melee,24,37,20,50,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Goth_Gothic_Brigands,Gothic Brigands,5,7,cloth,10,inf_ranged,3,8,12,45,rome_shortsword,rome_javelin,13,celtic_missile
+3c_Goth_Gothic_Falxmen,Gothic Falxmen,5,0,cloth,10,inf_melee,48,38,11,40,rome_falx,,0,none
+3c_Goth_Gothic_Lancers,Gothic Lancers,5,0,cloth,10,cavalry,52,36,16,40,rome_lance,,0,none
+3c_Goth_Gothic_Mounted_Brigands,Gothic Mounted Brigands,5,7,cloth,10,cavalry,6,11,13,30,rome_shortsword,rome_javelin_improved,18,small_round
+3c_Goth_Gothic_Night_Riders,Gothic Night Riders,5,7,leather,10,cavalry,10,14,13,45,rome_shortsword,rome_javelin_improved,18,small_round
+3c_Goth_Gothic_Pikemen,Gothic Pikemen,5,0,leather,15,inf_melee,7,36,16,45,rome_pike,,0,pikemen
+3c_Goth_Gothic_Slingers,Gothic Slingers,5,25,cloth,5,inf_ranged,3,8,12,35,rome_shortsword,rome_sling,10,germanic_small_skirm
+3c_Goth_Gothic_Spearwomen,Gothic Spearwomen,5,2,light_padded,10,inf_melee,23,32,20,50,rome_celtic_spear,rome_javelin_precursor,0,germanic_hex
+3c_Goth_Gothic_Warband,Gothic Warband,5,2,cloth,10,inf_melee,30,32,20,40,rome_celtic_longsword,rome_javelin_precursor,0,germanic_wood
+3c_Goth_Greuthungi_Elite_Spears,Greuthungi Elite Spears,5,2,mail_improved,20,inf_melee,32,34,47,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+3c_Goth_Greuthungi_Elite_Spears_comm,Greuthungi Elite Spears Bodyguard,5,2,mail_improved,20,inf_melee,32,34,47,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+3c_Goth_Greuthungi_Lancers,Greuthungi Lancers,5,0,scale,20,cavalry,59,51,22,65,rome_lance,,0,none
+3c_Goth_Greuthungi_Lancers_comm,Greuthungi Lancers Bodyguard,5,0,scale,20,cavalry,59,51,22,65,rome_lance,,0,none
+3c_Goth_Greuthungi_Noble_Cavalry,Greuthungi Noble Cavalry,5,0,scale_elite,20,cavalry,48,49,20,70,rome_celtic_spear_cav_elite,,0,cavalry
+3c_Goth_Greuthungi_Noble_Cavalry_comm,Greuthungi Noble Cavalry Bodyguard,5,0,scale_elite,20,cavalry,48,49,20,70,rome_celtic_spear_cav_elite,,0,cavalry
+3c_Goth_Tervingi_Oathsworn,Tervingi Oathsworn,5,2,mail_improved,20,inf_melee,35,48,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Goth_Tervingi_Oathsworn_comm,Tervingi Oathsworn Bodyguard,5,2,mail_improved,20,inf_melee,35,48,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Goth_Tervingi_Warriors,Tervingi Warriors,5,2,mail,20,inf_melee,32,44,25,60,rome_celtic_longsword,rome_javelin_precursor,0,round
+3c_Marc_Armoured_Germanic_Axe_Warriors,Armoured Germanic Axe Warriors,5,2,mail,15,inf_melee,26,39,22,55,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Marc_Berserkers,Berserkers,5,0,none,25,inf_melee,51,56,31,70,rome_celtic_longsword_bonus_infantry,,0,germanic_shock
+3c_Marc_Club_Levy,Club Levy,5,2,cloth,10,inf_melee,16,20,11,25,rome_club,rome_javelin_precursor,0,germanic_wood
+3c_Marc_Germanic_Noble_Guard,Germanic Noble Guard,5,2,mail_improved,30,inf_melee,34,45,37,65,rome_celtic_longsword,rome_javelin_precursor,0,germanic_hex
+3c_Marc_Germanic_Noble_Guard_comm,Germanic Noble Bodyguard,5,2,mail_improved,30,inf_melee,34,45,37,65,rome_celtic_longsword,rome_javelin_precursor,0,germanic_hex
+3c_Marc_Germanic_Noblewomen_Archers,Germanic Noblewoman Archers,5,15,leather,15,inf_ranged,18,28,22,55,rome_spear_anti_cav,rome_recurve_bow,23,none
+3c_Marc_Horse_Hewers,Horse Hewers,5,2,cloth,10,inf_melee,22,20,11,50,rome_horse_hewer,rome_javelin_precursor,0,germanic_wood
+3c_Marc_Horse_Runners,Horse Runners,5,7,cloth,10,inf_ranged,22,36,5,40,rome_celtic_hellenic_sword,rome_javelin,8,germanic_wood
+3c_Marc_Longbow_Hunters,Longbow Hunters,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+3c_Marc_Longbow_Hunters_comm,Longbow Hunters Bodyguard,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_longbow,18,none
+3c_Marc_Night_Hunters,Night Hunters,5,2,none,20,inf_melee,28,35,23,55,rome_celtic_spear,rome_javelin_precursor,0,germanic_shock
+3c_Marc_Wodanaz_Spears,Wodanaz Spears,5,2,cloth,25,inf_melee,29,38,39,70,rome_celtic_spear_elite,rome_javelin_precursor,0,germanic_hex
+3c_Marc_Wodanaz_Spears_comm,Wodanaz Spears Bodyguard,5,2,cloth,25,inf_melee,29,38,39,70,rome_celtic_spear_elite,rome_javelin_precursor,0,germanic_hex
+3c_Marc_Wolf_Warriors,Wolf Warriors,5,2,cloth,15,inf_melee,35,42,21,60,rome_club,rome_javelin_precursor,0,germanic_shock
+3c_Mer_African_Elephants,Mercenary African Elephants,5,0,leather,15,elephants,36,54,21,55,tusks,,0,none
+3c_Mer_Arabian_Spearmen,Mercenary Arabian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,oval
+3c_Mer_Armoured_Gallic_Spearmen,Mercenary Armoured Gallic Spearmen,5,2,mail,15,inf_melee,22,26,42,55,rome_celtic_spear,rome_javelin_precursor,0,celtic
+3c_Mer_Armoured_Germanic_Swordsmen,Mercenary Armoured Germanic Swordsmen,5,2,mail,20,inf_melee,27,39,27,55,rome_celtic_longsword,rome_javelin_precursor,0,germanic_wood
+3c_Mer_Balearic_Slingers,Mercenary Balearic Slingers,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+3c_Mer_Camel_Archers,Mercenary Camel Archers,5,13,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Mer_Camel_Spearmen,Mercenary Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+3c_Mer_Cappadocian_Cavalry,Mercenary Cappadocian Cavalry,5,0,scale,15,cavalry,38,49,17,60,rome_spear_cav_elite,,0,cavalry
+3c_Mer_Celtic_Horsemen,Mercenary Celtic Horsemen,5,2,cloth,5,cavalry,31,38,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,cavalry
+3c_Mer_Celtic_Skirmishers,Mercenary Celtic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+3c_Mer_Cretan_Archers,Mercenary Cretan Archers,5,15,leather,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+3c_Mer_Eastern_Cataphracts,Mercenary Eastern Cataphracts,5,0,cataphract,15,cavalry,67,38,17,62,rome_lance,,0,none
+3c_Mer_Eastern_Pikemen,Mercenary Eastern Pikemen,5,0,leather,5,inf_melee,4,30,5,35,rome_pike_levy,,0,pikemen
+3c_Mer_Egyptian_Archers,Mercenary Egyptian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Mer_Egyptian_Infantry,Mercenary Egyptian Infantry,5,2,padded,5,inf_melee,8,16,16,25,rome_shortsword,rome_javelin_precursor,0,thureos
+3c_Mer_Egyptian_Pikemen,Mercenary Egyptian Pikemen,5,0,padded,10,inf_melee,4,30,5,35,rome_pike_levy,,0,pikemen
+3c_Mer_Gallic_Bowmen,Mercenary Gallic Bowmen,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+3c_Mer_Gallic_Heavy_Infantry,Mercenary Gallic Heavy Infantry,5,2,mail_improved,20,inf_melee,35,48,39,55,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Mer_Gallic_Swordsmen,Mercenary Gallic Swordsmen,5,2,cloth,10,inf_melee,20,25,28,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+3c_Mer_Germanic_Band,Mercenary Germanic Band,5,2,cloth,10,inf_melee,22,29,18,30,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Mer_Germanic_Hunters,Mercenary Germanic Hunters,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_longbow,18,none
+3c_Mer_Germanic_Mounted_Warband,Mercenary Germanic Mounted Warband,5,2,cloth,5,cavalry,28,36,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,germanic_cav
+3c_Mer_Gladiators,Mercenary Gladiators,5,0,none,25,inf_melee,22,67,25,50,rome_gladius_elite,,0,celtic_shock
+3c_Mer_Highland_Archers,Mercenary Highland Archers,5,15,cloth,15,inf_ranged,6,12,14,55,rome_celtic_hellenic_sword,rome_longbow,28,none
+3c_Mer_Hillmen,Mercenary Hillmen,5,2,cloth,5,inf_melee,12,25,11,30,rome_eastern_axe,rome_javelin_precursor,0,pelta
+3c_Mer_Horse_Skirmishers,Mercenary Horse Skirmishers,5,7,cloth,5,cavalry,4,9,13,30,rome_shortsword,rome_javelin,18,pelta_cavalry
+3c_Mer_Iberian_Slingers,Mercenary Iberian Slingers,5,25,cloth,5,inf_ranged,7,8,12,35,rome_shortsword,rome_sling,13,celtic_round
+3c_Mer_Iberian_Swordsmen,Mercenary Iberian Swordsmen,5,5,cloth,10,inf_melee,20,35,20,35,rome_falcata,rome_javelin_light,0,caetra
+3c_Mer_Illyrian_Archers,Mercenary Illyrian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Mer_Illyrian_Armoured_Pikemen,Mercenary Illyrian Armoured Pikemen,5,0,mail,15,inf_melee,9,39,23,55,rome_pike,,0,pikemen
+3c_Mer_Illyrian_Raiders,Mercenary Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,45,rome_celtic_axe,rome_javelin_precursor,0,thureos
+3c_Mer_Indian_War_Elephants,Mercenary Indian War Elephants,5,15,leather,15,elephants,28,34,20,40,tusks,rome_composite_bow_elephant,13,none
+3c_Mer_Lanciarii,Mercenary Lanciarii,5,0,spolas,10,cavalry,52,36,16,35,rome_lance,,0,none
+3c_Mer_Light_Roman_Skirmishers,Mercenary Light Roman Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,30,rome_shortsword,rome_javelin,13,pelta
+3c_Mer_Numidian_Cavalry,Mercenary Numidian Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+3c_Mer_Numidian_Infantry,Mercenary Numidian Infantry,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear_anti_cav,,0,caetra
+3c_Mer_Numidian_Javelinmen,Mercenary Numidian Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+3c_Mer_Painted_Warriors,Mercenary Painted Warriors,5,0,none,10,inf_melee,37,37,21,50,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+3c_Mer_Peltasts,Mercenary Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+3c_Mer_Persian_Archers,Mercenary Persian Archers,5,15,cloth,10,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+3c_Mer_Persian_Cataphracts,Mercenary Persian Cataphracts,5,0,cataphract,15,cavalry,67,40,17,65,rome_lance,,0,none
+3c_Mer_Persian_Cavalry,Mercenary Persian Cavalry,5,0,padded,15,cavalry,29,45,18,40,rome_spear_cav,,0,cavalry
+3c_Mer_Persian_Light_Infantry,Mercenary Persian Light Infantry,0,0,cloth,10,inf_melee,15,20,22,35,rome_eastern_sword,,0,round
+3c_Mer_Pontic_Cavalry,Mercenary Pontic Cavalry,5,0,bronze,20,cavalry,76,46,17,60,rome_lance,,0,none
+3c_Mer_Rhodian_Slingers,Mercenary Rhodian Slingers,5,25,light_padded,15,inf_ranged,6,12,14,55,rome_shortsword,rome_sling_lead,28,small_bronze
+3c_Mer_Sabean_Archers,Mercenary Sabean Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Mer_Sabean_Cavalry,Mercenary Sabean Cavalry,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Mer_Sabean_Javelinmen,Mercenary Sabean Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+3c_Mer_Sabean_Spearmen,Mercenary Sabean Spearmen,5,0,cloth,5,inf_melee,11,13,24,35,rome_spear,,0,tower
+3c_Mer_Sarmatian_Horse_Archers,Mercenary Sarmatian Horse Archers,5,13,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+3c_Mer_Sarmatian_Light_Cavalry,Mercenary Sarmatian Light Cavalry,5,0,cloth,10,cavalry,35,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Mer_Scutarii_Cavalry,Mercenary Scutarii Cavalry,5,0,chest,15,cavalry,37,42,24,55,rome_spear_cav,,0,cavalry
+3c_Mer_Slingers,Mercenary Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,small_bronze
+3c_Mer_Spear_Infantry,Mercenary Spear Infantry,5,0,mail,10,inf_melee,15,18,30,45,rome_spear,,0,oval
+3c_Mer_Steppe_Cavalry,Mercenary Steppe Cavalry,5,0,scale,15,cavalry,38,48,17,55,rome_celtic_spear_cav,,0,germanic_cav
+3c_Mer_Steppe_Slingers,Mercenary Steppe Slingers,5,25,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_sling_improved,13,pelta
+3c_Mer_Swordsmen,Mercenary Swordsmen,5,2,chest,10,inf_melee,10,34,20,40,rome_gladius,rome_javelin_precursor,0,thureos
+3c_Mer_Syrian_Archers,Mercenary Syrian Archers,5,15,scale,15,inf_ranged,4,10,13,40,rome_shortsword,rome_recurve_bow_elite,23,none
+3c_Mer_Syrian_Armoured_Elephants,Mercenary Syrian Armoured Elephants,5,7,leather,15,elephants,44,64,24,60,tusks,rome_javelin_elephant,15,none
+3c_Mer_Thracian_Horse_Skirmishers,Mercenary Thracian Horse Skirmishers,5,7,cloth,10,cavalry,10,14,13,35,rome_shortsword,rome_javelin,18,cavalry
+3c_Mer_Thracian_Light_Cavalry,Mercenary Thracian Light Cavalry,5,0,cloth,10,cavalry,33,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Mer_Thracian_Slingers,Mercenary Thracian Slingers,5,25,cloth,5,inf_ranged,3,12,12,25,rome_shortsword,rome_sling,13,pelta
+3c_Mer_Thracian_Warriors,Mercenary Thracian Warriors,5,0,cloth,10,inf_melee,36,46,12,40,rome_rhomphaia,,0,thracian
+3c_Num_Numidian_Cavalry,Numidian Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+3c_Num_Numidian_Infantry,Numidian Infantry,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear_anti_cav,,0,caetra
+3c_Num_Numidian_Javelinmen,Numidian Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+3c_Num_Numidian_Noble_Cavalry,Numidian Noble Cavalry,5,7,mail,25,cavalry,30,65,19,70,rome_kopis,rome_javelin_improved,20,pelta_cavalry
+3c_Num_Numidian_Noble_Cavalry_comm,Numidian Noble Cavalry Bodyguard,5,7,mail,25,cavalry,30,65,19,70,rome_kopis,rome_javelin_improved,20,pelta_cavalry
+3c_Num_Numidian_Slingers,Numidian Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+3c_Num_Numidian_Slingers_comm,Numidian Slingers Bodyguard,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+3c_Num_Numidian_Swordsmen,Numidian Swordsmen,5,2,padded,20,inf_melee,24,30,20,35,rome_hoplite_sword,rome_javelin_precursor,0,oval
+3c_Pal_Armoured_Camels,Armoured Camels,5,0,scale,5,cavalry,35,36,22,60,rome_spear_anti_cav,,0,cavalry
+3c_Pal_Armoured_Horse_Archers,Armoured Horse Archers,5,13,scale,15,cavalry,14,36,13,50,rome_shortsword,rome_recurve_bow_horse,23,none
+3c_Pal_Armoured_Pikemen,Armoured Pikemen,5,0,scale,15,inf_melee,9,39,23,60,rome_pike,,0,pikemen
+3c_Pal_Armoured_Swordsmen,Armoured Swordsmen,5,2,scale,15,inf_melee,32,38,30,45,rome_celtic_hellenic_sword_elite,rome_javelin_precursor,0,round
+3c_Pal_Camel_Spearmen,Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+3c_Pal_Hamian_Archers,Hamian Archers,5,15,scale,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_composite_bow_elite,23,none
+3c_Pal_Hamian_Archers_comm,Hamian Archers Bodyguard,5,15,scale,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_composite_bow_elite,23,none
+3c_Pal_Heavy_Palmyrene_Skirmishers,Heavy Palmyrene Skirmishers,5,10,scale,15,inf_ranged,12,28,16,60,rome_gladius,rome_javelin_improved,23,peltast_thureos
+3c_Pal_Hillmen,Hillmen,5,2,cloth,5,inf_melee,12,25,11,30,rome_eastern_axe,rome_javelin_precursor,0,pelta
+3c_Pal_Imperial_Palmyrene_Cataphracts,Imperial Palmyrene Cataphracts,5,0,cataphract_elite,20,cavalry,80,48,22,60,rome_lance_elite,,0,none
+3c_Pal_Imperial_Palmyrene_Cataphracts_comm,Imperial Cataphracts Bodyguard,5,0,cataphract_elite,20,cavalry,80,48,22,60,rome_lance_elite,,0,none
+3c_Pal_Imperial_Pikemen,Imperial Pikemen,5,0,scale_elite,20,inf_melee,13,49,33,70,rome_pike_elite,,0,pikemen
+3c_Pal_Imperial_Pikemen_comm,Imperial Pikemen Bodyguard,5,0,scale_elite,20,inf_melee,13,49,33,70,rome_pike_elite,,0,pikemen
+3c_Pal_Palmyrene_Cataphracts,Palmyrene Cataphracts,5,0,cataphract,15,cavalry,70,38,21,60,rome_lance,,0,small_round
+3c_Pal_Palmyrene_Cohors,Palmyrene Cohors,5,2,scale,15,inf_melee,16,42,25,55,rome_spear,rome_pilum_heavy,0,oval
+3c_Pal_Palmyrene_Lanciarii,Palmyrene Lanciarii,5,0,spolas,10,cavalry,52,36,16,35,rome_lance,,0,none
+3c_Pal_Palmyrene_Legionaries,Palmyrene Legionaries,5,2,scale,15,inf_melee,18,50,28,65,rome_spear_anti_cav,rome_pilum_heavy,0,oval
+3c_Pal_Palmyrene_Legionaries_comm,Palmyrene Legionaries Bodyguard,5,2,scale,15,inf_melee,18,50,28,65,rome_spear_anti_cav,rome_pilum_heavy,0,oval
+3c_Pal_Palmyrene_Legionary_Cavalry,Palmyrene Legionary Cavalry,5,0,scale,15,cavalry,26,30,10,45,rome_spear_cav,,0,cavalry
+3c_Pal_Palmyrene_Palace_Guard,Palmyrene Palace Guard,5,2,segmentata,20,inf_melee,22,60,34,70,rome_spear_elite,rome_pilum_heavy,0,scutum_marian
+3c_Pal_Palmyrene_Palace_Guard_comm,Palmyrene Palace Guard Bodyguard,5,2,segmentata,20,inf_melee,22,60,34,70,rome_spear_elite,rome_pilum_heavy,0,scutum_marian
+3c_Pal_Palmyrene_Skirmishers,Palmyrene Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,30,rome_shortsword,rome_javelin,13,pelta
+3c_Pal_Palmyrene_Spearmen,Palmyrene Spearmen,5,2,spolas,10,inf_melee,26,24,30,50,rome_spear,rome_javelin_light_nonprecursor,0,thureos
+3c_Pal_Palmyrene_Spearmen_comm,Palmyrene Spearmen Bodyguard,5,2,spolas,10,inf_melee,26,24,30,50,rome_spear,rome_javelin_light_nonprecursor,0,thureos
+3c_Pal_Peltasts,Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+3c_Pal_Scythed_Chariots,Scythed Chariots,5,0,scale_elite,15,cavalry,45,54,29,65,rome_gladius,,0,none
+3c_Pal_Scythed_Chariots_comm,Scythed Chariots Bodyguard,5,0,scale_elite,15,cavalry,45,54,29,65,rome_gladius,,0,none
+3c_Pal_Veteran_Palmyrene_Legionaries,Veteran Palmyrene Legionaries,5,2,scale_elite,20,inf_melee,22,58,32,70,rome_spear_elite,rome_pilum_heavy,0,scutum_marian
+3c_Per_Persian_Archers,Persian Archers,5,15,cloth,10,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+3c_Per_Persian_Armoured_Cavalry,Persian Armoured Cavalry,5,0,mail,15,cavalry,24,36,12,50,rome_generic_sword_cav,,0,cavalry
+3c_Per_Persian_Cataphracts,Persian Cataphracts,5,0,cataphract,15,cavalry,67,40,17,65,rome_lance,,0,none
+3c_Per_Persian_Cataphracts_comm,Persian Cataphracts Bodyguard,5,0,cataphract,15,cavalry,67,40,17,65,rome_lance,,0,none
+3c_Per_Persian_Cavalry,Persian Cavalry,5,0,padded,15,cavalry,29,45,18,40,rome_spear_cav,,0,cavalry
+3c_Per_Persian_Horse_Archers,Persian Horse Archers,5,13,cloth,15,cavalry,4,10,13,40,rome_shortsword,rome_composite_bow_horse,23,none
+3c_Per_Persian_Horse_Skirmishers,Persian Horse Skirmishers,5,7,cloth,10,cavalry,4,9,16,45,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+3c_Per_Persian_Levy,Persian Levy,5,2,padded,5,inf_melee,8,14,14,25,rome_shortsword,rome_javelin_precursor,0,thureos
+3c_Per_Persian_Light_Infantry,Persian Light Infantry,0,0,cloth,10,inf_melee,15,20,22,35,rome_eastern_sword,,0,round
+3c_Per_Persian_Nobles,Persian Nobles,5,0,scale,15,cavalry,34,46,15,55,rome_spear_cav_elite,,0,cavalry
+3c_Per_Persian_Nobles_comm,Persian Nobles Bodyguard,5,0,scale,15,cavalry,34,46,15,55,rome_spear_cav_elite,,0,cavalry
+3c_Per_Persian_Skirmishers,Persian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin,13,small_round
+3c_Per_Persian_Slingers,Persian Slingers,5,25,cloth,5,inf_ranged,3,12,12,25,rome_shortsword,rome_sling,13,pelta
+3c_Per_Persian_Spearmen,Persian Spearmen,5,0,padded,5,inf_melee,11,13,24,35,rome_spear,,0,tower
+3c_Per_Persian_Swordsmen,Persian Swordsmen,5,2,mail,10,inf_melee,28,32,22,35,rome_eastern_sword,rome_javelin_precursor,0,thureos
+3c_Per_Persian_Swordsmen_comm,Persian Swordsmen Bodyguard,5,2,mail,10,inf_melee,28,32,22,35,rome_eastern_sword,rome_javelin_precursor,0,thureos
+3c_Rom_Armoured_Archers,Armoured Archers,5,15,mail,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_recurve_bow_elite,23,none
+3c_Rom_Armoured_Horse_Skirmishers,Armoured Horse Skirmishers,5,7,mail,10,cavalry,10,14,13,40,rome_shortsword,rome_javelin,18,cavalry
+3c_Rom_Balearic_Slingers,Balearic Slingers,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+3c_Rom_Balearic_Slingers_comm,Balearic Slingers Bodyguard,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+3c_Rom_Ballista,Roman Ballista,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Ballista_Bastion,Roman Bastion Ballista,5,25,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Rom_Ballista_Shp,Roman Ballista (Ship),40,1,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Beehive_Onager,Roman Beehive Onager,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Cheiroballistra,Roman Scorpion,5,40,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Cohors,Cohors,5,2,mail,15,inf_melee,14,47,23,50,rome_spatha,rome_pilum_heavy,0,oval
+3c_Rom_Equites,Equites,5,0,mail,10,cavalry,29,33,12,40,rome_spear_cav,,0,cavalry
+3c_Rom_Equites_Catafractarii,Equites Catafractarii,5,0,cataphract,15,cavalry,67,40,22,60,rome_lance,,0,small_round
+3c_Rom_Equites_Catafractarii_comm,Equites Catafractarii Bodyguard,5,0,cataphract,15,cavalry,67,40,22,60,rome_lance,,0,small_round
+3c_Rom_Equites_Dalmatarum,Equites Dalmatarum,5,2,cloth,10,cavalry,25,30,12,40,rome_spear_cav,rome_javelin_precursor,0,cavalry
+3c_Rom_Equites_Promoti,Equites Promoti,5,0,chest,10,cavalry,34,38,17,50,rome_spear_cav,,0,cavalry
+3c_Rom_Equites_Scutarii,Equites Scutarii,5,2,bronze,20,cavalry,33,69,10,70,rome_gladius_elite_Cav,rome_javelin_precursor,0,scutum_imperial
+3c_Rom_Equites_Scutarii_comm,Equites Scutarii Bodyguard,5,2,bronze,20,cavalry,33,69,10,70,rome_gladius_elite_Cav,rome_javelin_precursor,0,scutum_imperial
+3c_Rom_Evocati_Cohort,Evocati Cohort,5,2,segmentata,15,inf_melee,15,61,23,60,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+3c_Rom_Evocati_Cohort_comm,Evocati Cohort Bodyguard,5,2,segmentata,15,inf_melee,15,61,23,60,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+3c_Rom_Giant_Ballista,Roman Giant Ballista,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Gladiators,Gladiators,5,0,none,25,inf_melee,22,67,25,50,rome_gladius_elite,,0,celtic_shock
+3c_Rom_Herculianii,Herculianii,5,2,segmentata,20,inf_melee,19,65,30,70,rome_gladius_elite,rome_pilum_heavy,0,oval
+3c_Rom_Horse_Archers,Horse Archers,5,13,cloth,15,cavalry,4,10,12,40,rome_shortsword,rome_composite_bow_horse,23,none
+3c_Rom_Jovianii,Jovianii,5,2,segmentata,20,inf_melee,19,65,30,70,rome_gladius_elite,rome_pilum_heavy,0,oval
+3c_Rom_Large_Onager,Roman Heavy Onager,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Light_Roman_Skirmishers,Light Roman Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,30,rome_shortsword,rome_javelin,13,pelta
+3c_Rom_Onager,Roman Onager,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Onager_Bastion,Roman Bastion Onager,5,25,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Rom_Onager_Shp,Roman Onager (Ship),5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+3c_Rom_Pikemen,Pikemen,5,0,spolas,15,inf_melee,7,34,15,45,rome_pike,,0,pikemen
+3c_Rom_Polybolos,Roman Polybolos,5,60,mail,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Rom_Praetorian_Cavalry,Praetorian Cavalry,5,0,mail,20,cavalry,42,49,22,70,rome_spear_cav_elite,,0,cavalry
+3c_Rom_Praetorian_Cavalry_comm,Praetorian Cavalry Bodyguard,5,0,mail,20,cavalry,42,49,22,70,rome_spear_cav_elite,,0,cavalry
+3c_Rom_Praetorian_Guard,Praetorian Guard,5,2,mail_improved,20,inf_melee,19,65,30,60,rome_gladius_elite,rome_pilum_heavy,0,scutum_marian
+3c_Rom_Roman_Legionaries,Roman Legionaries,5,2,mail_improved,15,inf_melee,15,59,23,60,rome_spatha,rome_pilum_heavy,0,oval
+3c_Rom_Roman_Legionaries_comm,Roman Legionaries Bodyguard,5,2,mail_improved,15,inf_melee,15,59,23,60,rome_spatha,rome_pilum_heavy,0,oval
+3c_Rom_Roman_Legionary_Cavalry,Roman Legionary Cavalry,5,0,mail,15,cavalry,29,33,10,45,rome_spear_cav,,0,cavalry
+3c_Rom_Roman_Legionary_Cavalry_comm,Roman Legionary Cavalry Bodyguard,5,0,mail,15,cavalry,29,33,10,45,rome_spear_cav,,0,cavalry
+3c_Rom_Roman_Levies,Roman Levies,5,2,leather,10,inf_melee,14,36,20,40,rome_gladius,rome_pilum_light,0,scutum
+3c_Rom_Scorpion_Bastion,Roman Bastion Scorpion,5,40,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+3c_Rom_Slingers,Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,small_bronze
+3c_Rom_Spear_Gladiators,Spear Gladiators,5,0,none,20,inf_melee,28,45,35,50,rome_spear_elite,,0,celtic_shock
+3c_Rom_Vigiles,Vigiles,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,scutum
+3c_Rom_Vigiles_comm,Vigiles Bodyguard,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,scutum
+3c_Rom_War_Dogs,War Dogs,5,0,cloth,5,inf_melee,20,21,30,35,rome_spear,,0,caetra
+3c_Sab_Sabean_Archers,Sabean Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+3c_Sab_Sabean_Armoured_Spearmen,Sabean Armoured Spearmen,5,0,padded,10,inf_melee,18,23,32,45,rome_spear,,0,tower
+3c_Sab_Sabean_Armoured_Spearmen_comm,Sabean Armoured Spearmen Bodyguard,5,0,padded,10,inf_melee,18,23,32,45,rome_spear,,0,tower
+3c_Sab_Sabean_Cavalry,Sabean Cavalry,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Sab_Sabean_Cavalry_comm,Sabean Cavalry Bodyguard,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+3c_Sab_Sabean_Javelinmen,Sabean Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+3c_Sab_Sabean_Spearmen,Sabean Spearmen,5,0,cloth,5,inf_melee,11,13,24,35,rome_spear,,0,tower
+3c_Sas_Anatolian_Slingers,Anatolian Slingers,5,25,light_padded,15,inf_ranged,6,10,13,55,rome_shortsword,rome_sling_lead,28,small_round
+3c_Sas_Armoured_Camel_Archers,Armoured Camel Archers,0,13,mail,5,cavalry,8,16,15,40,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Sas_Armoured_Indian_War_Elephants,Armoured Indian War Elephants,5,15,leather,15,elephants,44,64,24,60,tusks,rome_composite_bow_elephant,15,none
+3c_Sas_Armoured_Indian_War_Elephants_comm,Armoured Indian War Elephants Bodyguard,5,15,leather,15,elephants,44,64,24,60,tusks,rome_composite_bow_elephant,15,none
+3c_Sas_Camel_Archers,Camel Archers,5,13,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+3c_Sas_Camel_Cataphracts,Camel Cataphracts,5,0,cataphract,5,cavalry,71,44,19,65,rome_lance,,0,none
+3c_Sas_Camel_Spearmen,Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+3c_Sas_Daylamite_Cavalry,Daylamite Cavalry,5,2,mail,15,cavalry,24,36,12,50,rome_generic_sword_cav,rome_javelin_precursor,0,cavalry
+3c_Sas_Daylamite_Infantry,Daylamite Infantry,5,2,mail,15,inf_melee,15,26,28,35,rome_celtic_hellenic_sword,rome_javelin_precursor,0,round
+3c_Sas_Eastern_Horse_Archers,Eastern Horse Archers,5,13,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_recurve_bow_horse,18,none
+3c_Sas_Eastern_Horse_Skirmishers,Eastern Horse Skirmishers,5,7,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+3c_Sas_Eastern_Scouts,Eastern Scouts,5,0,cloth,10,cavalry,29,35,11,35,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Sas_Elite_Savaran_Cavalry,Elite Savaran Cavalry,5,0,scale,15,cavalry,34,46,15,60,rome_spear_cav,,0,cavalry
+3c_Sas_Grivpanvar_Cataphracts,Grivpanvar Cataphracts,5,0,cataphract,15,cavalry,57,40,16,50,rome_lance,,0,none
+3c_Sas_Gyan_Avspar,Gyan-Avspar,5,0,cataphract_elite,20,cavalry,76,50,28,65,rome_lance_elite,,0,small_round
+3c_Sas_Gyan_Avspar_comm,Gyan-Avspar Bodyguard,5,0,cataphract_elite,20,cavalry,76,50,28,65,rome_lance_elite,,0,small_round
+3c_Sas_Hamspah_Infantry,Hamspah Infantry,0,0,cloth,5,inf_melee,15,15,20,20,rome_eastern_sword,,0,none
+3c_Sas_Immortal_Infantry,Immortal Infantry,5,2,mail_improved,15,inf_melee,28,40,44,55,rome_celtic_hellenic_sword,rome_javelin_precursor,0,tower
+3c_Sas_Immortal_Infantry_Guard,Immortal Infantry Guard,5,2,scale_elite,20,inf_melee,30,44,48,70,rome_celtic_hellenic_sword_elite,rome_javelin_precursor,0,tower
+3c_Sas_Immortal_Infantry_comm,Immortal Infantry Bodyguard,5,2,mail_improved,15,inf_melee,28,40,44,55,rome_celtic_hellenic_sword,rome_javelin_precursor,0,tower
+3c_Sas_Immortal_Spear_Guard,Immortal Spear Guard,5,0,scale_elite,20,inf_melee,30,44,48,70,rome_spear_elite,,0,tower
+3c_Sas_Immortal_Spears,Immortal Spears,5,0,mail_improved,15,inf_melee,28,40,44,60,rome_spear,,0,tower
+3c_Sas_Indian_War_Elephants,Indian War Elephants,5,15,leather,15,elephants,28,34,20,40,tusks,rome_composite_bow_elephant,13,none
+3c_Sas_Kurdish_Archers,Kurdish Archers,5,15,mail,15,inf_ranged,11,20,28,50,rome_eastern_sword_elite,rome_composite_bow,23,none
+3c_Sas_Kurdish_Archers_comm,Kurdish Archers Bodyguard,5,15,mail,15,inf_ranged,11,20,28,50,rome_eastern_sword_elite,rome_composite_bow,23,none
+3c_Sas_Persian_Horse_Archers,Persian Horse Archers,5,13,cloth,15,cavalry,4,10,13,40,rome_shortsword,rome_composite_bow_horse,23,none
+3c_Sas_Persian_Light_Infantry,Persian Light Infantry,0,0,cloth,10,inf_melee,15,20,22,35,rome_eastern_sword,,0,round
+3c_Sas_Persian_Skirmishers,Persian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin,13,small_round
+3c_Sas_Persian_Spearmen,Persian Spearmen,5,0,leather,5,inf_melee,18,20,32,40,rome_spear,,0,tower
+3c_Sas_Pushtighban_Cataphracts,Pushtigban Cataphracts,5,0,cataphract,15,cavalry,67,40,22,60,rome_lance,,0,small_round
+3c_Sas_Royal_Archers,Royal Archers,5,15,mail,15,inf_ranged,14,22,32,60,rome_eastern_sword_elite,rome_composite_bow_elite,23,none
+3c_Sas_Royal_Sassanian_Archers,Royal Sassanian Archers,0,15,scale_elite,15,cavalry,22,39,19,55,rome_spear,rome_composite_bow_horse,13,none
+3c_Sas_Royal_Sassanian_Archers_comm,Royal Sassanian Archers Bodyguard,0,15,scale_elite,15,cavalry,22,39,19,55,rome_spear,rome_composite_bow_horse,13,none
+3c_Sas_Sassanian_Levy_Spearmen,Sassanian Levy Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,tower
+3c_Sas_Savaran_Cataphracts,Savaran Cataphracts,5,0,mail_improved,15,cavalry,52,38,18,50,rome_lance,,0,none
+3c_Sas_Savaran_Cavalry,Savaran Cavalry,5,0,scale,15,cavalry,34,40,15,50,rome_spear_cav,,0,cavalry
+3c_Sas_Zhayedan_Immortals,Zhayedan Immortals,5,0,scale_elite,20,cavalry,43,49,23,70,rome_spear_cav_elite,,0,hoplite_cav
+3c_Sas_Zhayedan_Immortals_comm,Zhayedan Immortals Bodyguard,5,0,scale_elite,20,cavalry,43,49,23,70,rome_spear_cav_elite,,0,hoplite_cav
+3c_Sax_Duguth_Spearmen,Duguth Spearmen,5,2,mail,15,inf_melee,22,26,42,55,rome_celtic_spear,rome_javelin_precursor,0,celtic
+3c_Sax_Duguth_Swordsmen,Duguth Swordsmen,5,2,mail,15,inf_melee,27,34,32,50,rome_celtic_longsword,rome_javelin_precursor,0,germanic_wood
+3c_Sax_Elite_Saxon_Javelinmen,Elite Saxoni Javelinmen,5,10,mail,15,inf_ranged,12,28,16,60,rome_kopis,rome_javelin_improved,23,peltast_thureos
+3c_Sax_Gedriht_Spearmen,Gedriht Spearmen,5,2,mail_improved,20,inf_melee,33,36,48,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+3c_Sax_Gedriht_Spearmen_comm,Gedriht Spearmen Bodyguard,5,2,mail_improved,20,inf_melee,33,36,48,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+3c_Sax_Gedriht_Swordsmen,Gedriht Swordsmen,5,2,mail_improved,20,inf_melee,35,48,39,60,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Sax_Gedriht_Swordsmen_comm,Gedriht Swordsmen Bodyguard,5,2,mail_improved,20,inf_melee,35,48,39,60,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+3c_Sax_Geoguth_Spearmen,Geoguth Spearmen,5,2,cloth,15,inf_melee,30,30,22,40,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+3c_Sax_Geoguth_Warriors,Geoguth Warriors,5,0,cloth,10,inf_melee,32,30,25,45,rome_celtic_longsword_bonus_infantry,,0,germanic_shock
+3c_Sax_Germanic_Archers,Germanic Archers,5,15,leather,5,inf_ranged,5,12,14,40,rome_shortsword,rome_bow_long,30,none
+3c_Sax_Noble_Saxon_Cavalry,Noble Saxoni Cavalry,5,0,mail_improved,20,cavalry,46,50,25,70,rome_celtic_spear_cav_elite,,0,germanic_cav
+3c_Sax_Noble_Saxon_Cavalry_comm,Noble Saxoni Cavalry Bodyguard,5,0,mail_improved,20,cavalry,46,50,25,70,rome_celtic_spear_cav_elite,,0,germanic_cav
+3c_Sax_Saxon_Bows,Saxoni Bows,5,15,cloth,5,inf_ranged,3,9,13,30,rome_shortsword,rome_bow,13,none
+3c_Sax_Saxon_Bows_comm,Saxoni Bows Bodyguard,5,15,cloth,5,inf_ranged,3,9,13,30,rome_shortsword,rome_bow,13,none
+3c_Sax_Saxon_Mounted_Warband,Saxoni Mounted Warband,5,2,cloth,5,cavalry,30,38,12,45,rome_celtic_spear_cav,rome_javelin_precursor,0,germanic_cav
+3c_Sax_Saxon_Raiders,Saxoni Raiders,5,2,leather,5,inf_melee,16,34,18,35,rome_celtic_axe,rome_javelin_precursor,0,round
+3c_Ste_Ballista,Steppe Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+3c_Ste_Ballista_Bastion,Steppe Bastion Ballista,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+3c_Ste_Sarmatian_Horse_Archers,Sarmatian Horse Archers,5,13,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+3c_Ste_Sarmatian_Light_Cavalry,Sarmatian Light Cavalry,5,0,cloth,10,cavalry,35,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+3c_Ste_Steppe_Cavalry,Steppe Cavalry,5,0,scale,15,cavalry,38,48,17,55,rome_celtic_spear_cav,,0,germanic_cav
+3c_Ste_Steppe_Nobles,Steppe Nobles,5,0,scale,15,cavalry,76,46,21,60,rome_lance,,0,none
+3c_Ste_Steppe_Nobles_comm,Steppe Nobles Bodyguard,5,0,scale,15,cavalry,76,46,21,60,rome_lance,,0,none
+3c_Ste_Steppe_Slingers,Steppe Slingers,5,25,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_sling_improved,13,pelta
+3c_Ste_Steppe_Slingers_comm,Steppe Slingers Bodyguard,5,25,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_sling_improved,13,pelta
+3c_Ste_Steppe_Spearmen,Steppe Spearmen,5,0,cloth,5,inf_melee,14,14,22,25,rome_spear_anti_cav,,0,celtic
+3c_Ste_Steppe_War_Dogs,Steppe War Dogs,5,0,cloth,5,inf_melee,20,26,22,35,rome_eastern_axe,,0,caetra
+3c_Ste_Steppe_Warriors,Steppe Warriors,5,0,padded,5,inf_melee,14,30,14,20,rome_celtic_axe,,0,caetra
+3c_Zenobia_Chariots,Zenobia,5,0,scale_elite,15,cavalry,45,54,29,65,rome_gladius,,0,none
+Aet_Cav,Aethiopian Cavalry,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+Aet_Sword,Swordsmen,5,2,cloth,15,inf_melee,14,31,25,40,rome_generic_sword,rome_javelin_precursor,0,oval
+Afr_Archers,Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Afr_Ballista,African Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Afr_Ballista_Bastion,African Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Afr_Ballista_Shp,African Ballista (Ship),40,1,cloth,5,artillery,9,9,14,40,rome_shortsword,,4,none
+Afr_Chariot_Raiders,Chariot Raiders,5,7,cloth,20,cavalry,6,16,17,55,rome_shortsword,rome_javelin,13,cavalry
+Afr_Cheiroballistra,African Scorpion,5,40,cloth,5,artillery,36,9,14,40,rome_shortsword,,4,none
+Afr_Elephants,African Elephants,5,0,leather,15,elephants,24,54,21,55,tusks,,0,none
+Afr_Giant_Ballista,African Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Afr_Javelinmen,Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+Afr_Large_Onager,African Heavy Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Afr_Large_Shield_Warriors,Large Shield Warriors,5,0,cloth,15,inf_melee,24,26,30,50,rome_spear,,0,large_hide
+Afr_Levy_Spear,Levy Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,thureos
+Afr_Numidian_Cav,Numidian Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+Afr_Numidian_Noble_Cav,Numidian Noble Cavalry,5,7,mail,25,cavalry,40,65,28,70,rome_kopis,rome_javelin_improved,28,pelta_cavalry
+Afr_Onager,African Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Afr_Onager_Bastion,African Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Afr_Onager_Shp,African Onager (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Afr_Scorpion,African Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Afr_Scorpion_Bastion,African Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Afr_Skirm_Cav,Skirmisher Cavalry,5,7,cloth,5,cavalry,4,9,13,35,rome_shortsword,rome_javelin,18,pelta_cavalry
+Afr_Tribal_Slingers,Tribal Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+Afr_Tribesmen,Tribesmen,5,7,cloth,0,inf_ranged,3,5,12,20,rome_shortsword,rome_javelin,8,none
+Afr_War_Elephants,African War Elephants,5,7,leather,15,elephants,44,64,24,65,tusks,rome_javelin_elephant,15,none
+Ara_Camel_Archers,Camel Archers,5,15,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+Ara_Camel_Spear,Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+Ara_Cav,Arabian Cavalry,5,2,cloth,10,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+Ara_Levy_Skirm,Levy Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,caetra
+Ara_Levy_Spear,Levy Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,oval
+Ara_Noble_Sword,Noble Swordsmen,5,0,cloth,20,inf_melee,22,45,35,65,rome_hoplite_sword,,0,oval
+Ara_Slingers,Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,caetra
+Ara_Tribes_People,Tribes People,5,7,cloth,0,inf_ranged,3,5,12,20,rome_shortsword,rome_javelin,8,none
+Aux_Afr_Archers,Auxiliary Sabaean Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Aux_Afr_Cav,Auxiliary Sabaean Cavalry,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+Aux_Afr_Elephant,Auxiliary African Elephants,5,0,leather,15,elephants,36,54,21,55,tusks,,0,none
+Aux_Afr_Spr,Auxiliary Sabaean Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,tower
+Aux_Ara_Camel_Archers,Auxiliary Camel Archers,5,15,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+Aux_Ara_Camel_Spear,Auxiliary Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+Aux_Ara_Cav,Auxiliary Arabian Cavalry,5,2,cloth,10,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+Aux_Ara_Spr,Auxiliary Arabian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,oval
+Aux_Bac_Hillmen,Auxiliary Bactrian Hillmen,5,2,cloth,5,inf_melee,10,28,11,25,rome_eastern_axe,rome_javelin_precursor,0,thureos
+Aux_Bac_Light_Horse,Auxiliary Bactrian Light Horse,5,0,padded,10,cavalry,29,37,11,30,rome_spear_cav,,0,hoplite_cav
+Aux_Bri_Scout_Riders,Auxiliary Briton Scout Riders,5,2,cloth,5,cavalry,31,38,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,cavalry
+Aux_Bri_Slingers,Auxiliary Briton Slingers,5,25,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_sling_improved,18,celtic_round
+Aux_Bri_Spear_Band,Auxiliary Spear Band,5,2,cloth,5,inf_melee,21,17,28,40,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+Aux_Cav,Auxiliary Cavalry,5,0,mail,10,cavalry,37,40,17,55,rome_spear_cav,,0,cavalry
+Aux_Cel_Axe_Warriors,Auxiliary Axe Warriors,5,2,leather,15,inf_melee,20,35,20,55,rome_celtic_axe,rome_javelin_precursor,0,celtic
+Aux_Cel_Light_Horse,Auxiliary Celtic Light Horse,5,2,cloth,10,cavalry,39,42,16,45,rome_celtic_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+Aux_Cel_Naked_Swords,Auxiliary Naked Swords,5,0,none,15,inf_melee,32,30,24,55,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+Aux_Cel_Short_Swords,Auxiliary Short Swords,5,2,cloth,10,inf_melee,19,37,15,40,rome_hoplite_sword,rome_javelin_precursor,0,celtic
+Aux_Cel_Skirm,Auxiliary Celtic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+Aux_Cel_Warriors,Auxiliary Celtic Warriors,5,2,cloth,15,inf_melee,25,27,20,45,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Aux_Dac_Bowmen,Auxiliary Dacian Bowmen,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Aux_Dac_Falxmen,Auxiliary Falxmen,5,0,cloth,10,inf_melee,48,38,11,40,rome_falx,,0,none
+Aux_Dac_Skirm,Auxiliary Dacian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+Aux_Dac_Spear_Horsemen,Auxiliary Spear Horsemen,5,0,leather,15,cavalry,33,31,16,45,rome_celtic_spear_cav,,0,cavalry
+Aux_Dac_Spears,Auxiliary Dacian Spears,5,0,cloth,5,inf_melee,13,11,24,30,rome_celtic_spear_anti_cav,,0,celtic
+Aux_Eas_Cappadocian_Cav,Auxiliary Cappadocian Cavalry,5,0,scale,15,cavalry,38,49,17,60,rome_spear_cav_elite,,0,cavalry
+Aux_Eas_Hillmen,Auxiliary Hillmen,5,2,cloth,5,inf_melee,10,20,11,25,rome_eastern_axe,rome_javelin_precursor,0,pelta
+Aux_Eas_Horse_Skirm,Auxiliary Horse Skirmishers,5,7,cloth,5,cavalry,4,9,13,30,rome_shortsword,rome_javelin,18,pelta_cavalry
+Aux_Eas_Javelinmen,Auxiliary Eastern Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin,13,pelta
+Aux_Egy_Archers,Auxiliary Egyptian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Aux_Egy_Infantry,Auxiliary Egyptian Infantry,5,2,padded,5,inf_melee,8,16,16,30,rome_shortsword,rome_javelin_precursor,0,thureos
+Aux_Gal_Gallic_Hunters,Auxiliary Gallic Hunters,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+Aux_Gal_Light_Horse,Auxiliary Gallic Light Horse,5,2,cloth,10,cavalry,39,42,16,45,rome_celtic_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+Aux_Gal_Noble_Horse,Auxiliary Noble Horse,5,0,mail_improved,20,cavalry,47,51,24,70,rome_celtic_spear_cav_elite,,0,cavalry
+Aux_Gal_Warriors,Auxiliary Gallic Warriors,5,2,cloth,10,inf_melee,20,25,28,45,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Aux_Ger_Longbow_Hunters,Auxiliary Longbow Hunters,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_longbow,18,none
+Aux_Ger_Scout_Riders,Auxiliary Germanic Scout Riders,5,7,cloth,10,cavalry,24,34,10,45,rome_celtic_hellenic_sword_cav,rome_javelin,10,germanic_cav
+Aux_Ger_Spear_Brothers,Auxiliary Spear Brothers,5,2,cloth,15,inf_melee,23,25,36,40,rome_celtic_spear,rome_javelin_precursor,0,germanic_hex
+Aux_Gre_Citizen_Cav,Auxiliary Citizen Cavalry,5,0,spolas,10,cavalry,28,37,13,45,rome_hoplite_spear_cav,,0,hoplite_cav
+Aux_Gre_Cretan_Archers,Auxiliary Cretan Archers,5,15,leather,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+Aux_Gre_Hoplites,Auxiliary Hoplites,5,0,spolas,15,inf_melee,21,34,42,55,rome_hoplite_spear,,0,hoplite
+Aux_Gre_Peltasts,Auxiliary Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+Aux_Gre_Rhodian_Slingers,Auxiliary Rhodian Slingers,5,25,light_padded,15,inf_ranged,6,12,14,55,rome_shortsword,rome_sling_lead,28,small_bronze
+Aux_Gre_Tarantine_cav,Auxiliary Tarantine Cavalry,5,7,spolas,15,cavalry,11,18,16,50,rome_kopis,rome_javelin,23,cavalry
+Aux_Ibe_Balearic_Slingers,Auxiliary Balearic Slingers,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+Aux_Ibe_Cantabrian_Cav,Auxiliary Cantabrian Cavalry,5,7,cloth,15,cavalry,15,46,11,55,rome_falcata,rome_javelin_improved,28,caetra
+Aux_Ibe_Cav,Auxiliary Iberian Cavalry,5,2,cloth,10,cavalry,31,50,10,40,rome_falcata_cav,rome_javelin_precursor,0,caetra_cavalry
+Aux_Ibe_Scutarii,Auxiliary Scutarii,5,2,chest,15,inf_melee,21,42,30,50,rome_falcata,rome_iron_javelin,0,celtic
+Aux_Ibe_Scutarii_Cav,Auxiliary Scutarii Cavalry,5,0,chest,15,cavalry,37,42,24,55,rome_spear_cav,,0,cavalry
+Aux_Ibe_Slingers,Auxiliary Iberian Slingers,5,25,cloth,5,inf_ranged,7,8,12,35,rome_shortsword,rome_sling,13,celtic_round
+Aux_Ibe_Sword,Auxiliary Iberian Swordsmen,5,5,cloth,10,inf_melee,20,35,20,40,rome_falcata,rome_javelin_light,0,caetra
+Aux_Ill_Cav,Auxiliary Illyrian Cavalry,5,0,chest,10,cavalry,30,28,20,45,rome_spear_cav,,0,cavalry
+Aux_Ill_Coastal_Levies,Auxiliary Coastal Levies,5,2,cloth,5,inf_melee,10,20,11,30,rome_celtic_axe,rome_javelin_precursor,0,thureos
+Aux_Ill_Raiders,Auxiliary Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,55,rome_celtic_axe,rome_javelin_precursor,0,thureos
+Aux_Ind_War_Elephant,Auxiliary Indian War Elephants,5,15,leather,15,elephants,28,34,20,65,tusks,rome_composite_bow_elephant,15,none
+Aux_Infantry,Auxiliary Infantry,5,0,mail,10,inf_melee,15,18,30,45,rome_spear,,0,oval
+Aux_Ita_Socii_Equites,Socii Equites,5,0,chest,10,cavalry,34,38,17,50,rome_spear_cav,,0,cavalry
+Aux_Ita_Socii_Equites_Extraordinarii,Socii Equites Extraordinarii,5,0,bronze,20,cavalry,57,34,11,55,rome_lance,,0,none
+Aux_Ita_Socii_Extraordinarii,Socii Extraordinarii,5,2,bronze,20,inf_melee,18,37,27,55,rome_hoplite_sword,rome_javelin_precursor,0,oval
+Aux_Ita_Socii_Hastati,Socii Hastati,5,2,chest,10,inf_melee,14,28,22,40,rome_hoplite_sword,rome_javelin_precursor,0,oval
+Aux_Num_Cav,Auxiliary Numidian Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+Aux_Num_Javelinmen,Auxiliary Numidian Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+Aux_Par_Horse_Archers,Auxiliary Parthian Horse Archers,5,15,cloth,10,cavalry,4,10,13,40,rome_shortsword,rome_composite_bow_horse,23,none
+Aux_Par_Spear,Auxiliary Parthian Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+Aux_Per_Archers,Auxiliary Persian Archers,5,15,cloth,10,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+Aux_Per_Cav,Auxiliary Persian Cavalry,5,0,scale,15,cavalry,67,40,15,60,rome_lance,,0,none
+Aux_Sar_Armour_Lancers,Auxiliary Armoured Lancers,5,0,leather,15,cavalry,57,40,16,30,rome_lance,,0,none
+Aux_Sar_Horse_Archers,Auxiliary Sarmatian Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+Aux_Sar_Lancers,Auxiliary Sarmatian Lancers,5,0,cloth,10,cavalry,51,34,16,35,rome_lance,,0,none
+Aux_Scy_Armour_horse_Archers,Auxiliary Armoured Horse Archers,5,15,spolas,15,cavalry,15,37,15,45,rome_steppe_sword,rome_composite_bow_horse,23,none
+Aux_Scy_Horse_Archers,Auxiliary Scythian Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+Aux_Syrian_Archers,Auxiliary Syrian Archers,5,15,scale,15,inf_ranged,4,10,13,40,rome_shortsword,rome_recurve_bow_elite,23,none
+Aux_Thr_Cav,Auxiliary Thracian Cavalry,5,7,cloth,10,cavalry,16,40,16,35,rome_shortsword,rome_javelin,18,cavalry
+Aux_Thr_Peltasts,Auxiliary Thracian Peltasts,5,7,padded_improved,15,inf_ranged,12,28,15,45,rome_balkan_sword,rome_javelin_improved,23,pelta
+Aux_Thr_Warriors,Auxiliary Thracian Warriors,5,0,cloth,10,inf_melee,36,46,12,45,rome_rhomphaia,,0,thracian
+Bac_Hillmen,Bactrian Hillmen,5,2,cloth,5,inf_melee,10,28,11,25,rome_eastern_axe,rome_javelin_precursor,0,thureos
+Bac_Horse_Archers,Bactrian Horse Archers,5,15,spolas,15,cavalry,14,40,17,50,rome_kopis,rome_composite_bow_horse,23,none
+Bac_Light_Horse,Bactrian Light Horse,5,0,padded,10,cavalry,29,37,11,30,rome_spear_cav,,0,hoplite_cav
+Bac_Noble_Horse,Bactrian Noble Horse,5,0,bronze,15,cavalry,36,42,27,60,rome_spear_cav_elite,,0,hoplite_cav
+Bac_Peltasts,Bactrian Peltasts,5,10,spolas,10,inf_ranged,10,18,15,45,rome_shortsword,rome_javelin,23,peltast_thureos
+Bac_Royal_Cav,Bactrian Royal Cavalry,5,0,bronze,15,cavalry,76,46,21,70,rome_lance_elite,,0,none
+Bac_Royal_Guard,Bactrian Royal Guard,5,0,bronze,20,inf_melee,29,40,41,70,rome_spear_elite,,0,hoplite
+Bac_Scale_Thorax_Hoplites,Scale Thorax Hoplites,5,0,scale,15,inf_melee,20,35,36,55,rome_hoplite_spear,,0,thureos
+Bri_Ambushers,Ambushers,5,5,none,10,inf_ranged,32,32,30,50,rome_celtic_longsword_bonus_infantry,rome_javelin_light_nonprecursor,0,celtic_shock
+Bri_Ballista,Briton Ballista,5,15,cloth,5,artillery,6,9,14,45,rome_shortsword,,4,none
+Bri_Ballista_Bastion,Briton Bastion Ballista,5,25,cloth,0,artillery,6,9,14,45,rome_shortsword,,20,none
+Bri_Ballista_Shp,Briton Ballista (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Bri_Chariots,Chariots,5,8,mail,20,cavalry,32,43,39,70,rome_celtic_longsword,rome_javelin,20,cavalry
+Bri_Cheiroballistra,Briton Scorpion,5,40,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Bri_Chosen_Spear_Band,Chosen Spear Band,5,2,mail,15,inf_melee,22,28,40,55,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Bri_Chosen_Sword_Band,Chosen Sword Band,5,2,mail,15,inf_melee,29,33,29,55,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Bri_Druidic_Nobles,Druidic Nobles,5,2,cloth,20,inf_melee,30,36,42,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+Bri_Farmers,Farmers,5,2,cloth,5,inf_melee,10,9,21,25,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Bri_Giant_Ballista,Briton Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Bri_Heroic_Nobles,Heroic Nobles,5,2,mail,20,inf_melee,32,43,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+Bri_Heroic_Riders,Heroic Riders,5,0,mail,20,cavalry,46,49,24,70,rome_celtic_spear_cav_elite,,0,cavalry
+Bri_Large_Onager,Briton Heavy Onager,5,15,cloth,5,artillery,7,9,14,40,rome_shortsword,,4,none
+Bri_Onager,Briton Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Bri_Onager_Bastion,Briton Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Bri_Onager_Shp,Briton Onager (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Bri_Painted_Ones,Painted Ones,5,0,none,10,inf_melee,37,37,21,60,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+Bri_Scorpion,Briton Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Bri_Scorpion_Bastion,Briton Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Bri_Scout_Riders,Briton Scout Riders,5,2,cloth,5,cavalry,31,38,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,cavalry
+Bri_Skirm,Briton Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_wooden_javelin,10,celtic_round
+Bri_Slingers,Briton Slingers,5,25,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_sling_improved,18,celtic_round
+Bri_Spear_Band,Spear Band,5,2,cloth,10,inf_melee,21,17,28,40,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+Bri_Sword_Band,Sword Band,5,2,cloth,10,inf_melee,25,25,22,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Bri_Veteran_Riders,Veteran Riders,5,0,light_padded,10,cavalry,37,37,15,55,rome_celtic_spear_cav,,0,cavalry
+Car_African_Pike,African Pikemen,5,0,mail,15,inf_melee,10,38,15,55,rome_pike,,0,pikemen
+Car_Ballista,Carthaginian Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Ballista_Bastion,Carthaginian Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Car_Ballista_Shp,Carthaginian Ballista (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Cav,Carthaginian Cavalry,5,0,spolas,10,cavalry,34,41,14,55,rome_spear_cav,,0,cavalry
+Car_Cheiroballistra,Carthaginian Scorpion,5,40,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Citizen_Militia,Citizen Militia,5,0,spolas,5,inf_melee,15,15,32,45,rome_spear,,0,hoplite
+Car_General,General's Bodyguard,5,0,bronze,20,cavalry,20,23,36,55,rome_spear_cav_elite,,0,cavalry
+Car_Giant_Ballista,Carthaginian Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Hoplites,Carthaginian Hoplites,5,0,spolas,15,inf_melee,20,36,36,55,rome_spear_elite,,0,hoplite
+Car_Large_Onager,Carthaginian Heavy Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Late_Hoplites,Late Carthaginian Hoplites,5,0,mail,15,inf_melee,20,36,36,55,rome_spear_elite,,0,hoplite
+Car_Late_Libyan_Hoplites,Late Libyan Hoplites,5,0,spolas,5,inf_melee,20,24,24,45,rome_spear_anti_cav,,0,hoplite
+Car_Libyan_Hoplites,Libyan Hoplites,5,0,cloth,5,inf_melee,20,24,24,45,rome_spear_anti_cav,,0,hoplite
+Car_Libyan_Infantry,Libyan Infantry,5,2,mail,15,inf_melee,18,41,26,55,rome_kopis,rome_javelin_precursor,0,thureos
+Car_Libyan_Javelin,Libyan Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+Car_Libyan_Peltasts,Libyan Peltasts,5,7,spolas,10,inf_ranged,10,26,19,45,rome_shortsword,rome_javelin,18,peltast_thureos
+Car_Mob,Mob,5,0,cloth,0,inf_melee,3,5,12,20,rome_shortsword,,0,none
+Car_Noble_Cav,Noble Cavalry,5,0,bronze,20,cavalry,63,37,14,65,rome_lance,,0,none
+Car_Onager,Carthaginian Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Onager_Bastion,Carthaginian Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Car_Onager_Shp,Carthaginian Onager (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Polybolos,Carthaginian Polybolos,5,60,cloth,5,artillery,7,9,14,40,rome_shortsword,,4,none
+Car_Polybolos_Bastion,Carthaginian Bastion Polybolos,5,80,cloth,0,artillery,7,14,14,40,rome_shortsword,,20,none
+Car_Sacred_Band,Sacred Band,5,0,bronze,20,inf_melee,22,42,44,70,rome_spear_elite,,0,hoplite
+Car_Scorpion,Carthaginian Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Car_Scorpion_Bastion,Carthaginian Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Car_Snake_Pot_Ballista,Snake Pot Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Axe_Warriors,Axe Warriors,5,2,leather,15,inf_melee,20,35,20,55,rome_celtic_axe,rome_javelin_precursor,0,celtic
+Cel_Ballista,Celtic Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Ballista_Bastion,Celtic Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Cel_Ballista_Shp,Celtic Ballista (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Bowmen,Celtic Bowmen,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Cel_Celtic_Warhounds,Celtic Warhounds,5,0,cloth,5,inf_melee,35,20,28,35,rome_celtic_longsword,,0,caetra
+Cel_Cheiroballistra,Celtic Scorpion,5,40,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Chosen_Spear,Chosen Spearmen,5,2,mail,15,inf_melee,22,26,42,55,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Cel_Chosen_Sword,Chosen Swordsmen,5,2,mail,15,inf_melee,27,34,32,55,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Fierce_Swords,Fierce Swords,5,2,cloth,15,inf_melee,37,41,23,60,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Galatian_Legionaires,Galatian Legionaries,5,2,mail,15,inf_melee,28,40,35,60,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Galatian_Noblemen,Galatian Noblemen,5,2,mail,20,inf_melee,32,36,44,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+Cel_Galatian_Raiders,Galatian Raiders,5,7,cloth,10,cavalry,39,42,16,45,rome_celtic_longsword,rome_javelin,0,caetra_cavalry
+Cel_Galatian_Spears,Galatian Spears,5,2,cloth,10,inf_melee,26,24,38,55,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Cel_Galatian_Swords,Galatian Swords,5,2,cloth,10,inf_melee,28,32,22,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Gallic_Hunters,Gallic Hunters,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+Cel_Gallo_Thracian_Infantry,Gallo-Thracian Infantry,5,2,leather,15,inf_melee,32,34,26,50,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Giant_Ballista,Celtic Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Guerilla_Swordsmen,Guerrilla Swordsmen,5,2,cloth,10,inf_melee,30,30,32,45,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Heavy_Horse,Heavy Horse,5,0,leather,15,cavalry,39,42,22,55,rome_celtic_spear_cav,,0,cavalry
+Cel_Large_Onager,Celtic Heavy Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Levy_Freemen,Levy Freemen,5,2,cloth,10,inf_melee,15,12,25,30,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+Cel_Light_Horse,Light Horse,5,2,cloth,10,cavalry,39,42,16,45,rome_celtic_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+Cel_Mighty_Horse,Mighty Horse,5,0,leather,15,cavalry,39,47,15,55,rome_celtic_spear_cav,,0,cavalry
+Cel_Naked_Spears,Naked Spears,5,2,none,15,inf_melee,30,30,22,55,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+Cel_Naked_Swords,Naked Swords,5,0,none,10,inf_melee,32,30,25,55,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+Cel_Naked_Warriors,Naked Warriors,5,0,none,10,inf_melee,36,34,34,65,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+Cel_Noble_Horse,Noble Horse,5,0,mail_improved,20,cavalry,47,51,24,70,rome_celtic_spear_cav_elite,,0,cavalry
+Cel_Oathsworn,Oathsworn,5,2,mail_improved,20,inf_melee,35,48,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+Cel_Onager,Celtic Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Onager_Bastion,Celtic Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Cel_Onager_Shp,Celtic Onager (Ship),40,1,cloth,5,artillery,6,12,14,40,rome_shortsword,,3,none
+Cel_Raiding_Horsemen,Raiding Horsemen,5,7,light_padded,10,cavalry,25,36,16,50,rome_celtic_hellenic_sword_cav,rome_javelin,13,cavalry
+Cel_Savage_Dogs,Savage Dogs,5,0,cloth,5,inf_melee,20,23,28,35,rome_celtic_longsword,,0,caetra
+Cel_Scorpion,Celtic Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Cel_Scorpion_Bastion,Celtic Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Cel_Short_Swords,Short Swords,5,2,cloth,10,inf_melee,19,37,15,40,rome_hoplite_sword,rome_javelin_precursor,0,celtic
+Cel_Skirm,Celtic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+Cel_Slingers,Celtic Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,celtic_round
+Cel_Spear_Nobles,Spear Nobles,5,2,mail,20,inf_melee,32,34,47,70,rome_celtic_spear_elite,rome_javelin_precursor,0,celtic
+Cel_Spear_Warriors,Spear Warriors,5,2,leather,10,inf_melee,22,24,30,45,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Cel_Sword_Followers,Sword Followers,5,2,mail,20,inf_melee,27,39,27,65,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Tribal_Warriors,Tribal Warriors,5,2,scale_elite,15,inf_melee,26,30,40,55,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Tribesmen,Celtic Tribesmen,5,2,cloth,0,inf_melee,10,9,22,25,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Cel_Veteran_Spears,Veteran Spears,5,2,mail,15,inf_melee,22,28,40,65,rome_celtic_spear,rome_javelin_precursor,0,celtic
+Cel_Warriors,Celtic Warriors,5,2,cloth,15,inf_melee,25,27,20,45,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Cel_Youths,Celtic Youths,5,7,cloth,5,inf_ranged,15,20,17,20,rome_shortsword,rome_javelin,8,celtic_missile
+Dac_Armoured_Spears,Armoured Spears,5,0,mail,15,inf_melee,26,26,35,55,rome_celtic_spear,,0,celtic
+Dac_Ballista,Dacian Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Ballista_Bastion,Dacian Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Dac_Ballista_Shp,Dacian Ballista (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Bow_Horsemen,Bow Horsemen,5,15,cloth,10,cavalry,4,9,13,35,rome_shortsword,rome_composite_bow_horse,18,none
+Dac_Bowmen,Dacian Bowmen,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Dac_Cheiroballistra,Dacian Scorpion,5,40,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Falxmen,Falxmen,5,0,cloth,10,inf_melee,48,38,11,40,rome_falx,,0,none
+Dac_Giant_Ballista,Dacian Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Heavy_Bowmen,Dacian Heavy Bowmen,15,15,leather,5,inf_ranged,12,20,15,40,rome_shortsword,rome_bow_long,18,none
+Dac_Heavy_Skirm,Dacian Heavy Skirmishers,15,7,leather,10,inf_ranged,12,26,15,40,rome_celtic_longsword,rome_javelin,13,celtic_missile
+Dac_Heavy_Spears,Heavy Spears,5,0,leather,15,inf_melee,23,23,28,45,rome_celtic_spear_anti_cav,,0,celtic
+Dac_Large_Onager,Dacian Heavy Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Noble_Horsemen,Noble Horsemen,5,0,scale_elite,20,cavalry,63,53,22,70,rome_lance,,0,none
+Dac_Noble_Spears,Noble Spears,5,0,mail_improved,20,inf_melee,32,32,45,70,rome_celtic_spear_elite,,0,celtic
+Dac_Noble_Swords,Noble Swords,5,2,mail_improved,20,inf_melee,36,43,37,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+Dac_Onager,Dacian Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Onager_Bastion,Dacian Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Dac_Onager_Shp,Dacian Onager (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Scorpion,Dacian Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Dac_Scorpion_Bastion,Dacian Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Dac_Skirm,Dacian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+Dac_Spear_Horsemen,Spear Horsemen,5,0,leather,15,cavalry,31,31,16,45,rome_celtic_spear_cav,,0,cavalry
+Dac_Spear_Warriors,Spear Warriors,5,0,leather,10,inf_melee,17,16,31,45,rome_celtic_spear_anti_cav,,0,celtic
+Dac_Spears,Spears,5,0,cloth,5,inf_melee,12,11,24,30,rome_celtic_spear_anti_cav,,0,celtic
+Dac_Tribesmen,Dacian Tribesmen,5,0,cloth,0,inf_melee,7,7,20,25,rome_celtic_spear,,0,celtic
+Eas_Archers,Eastern Archers,5,15,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_recurve_bow,13,none
+Eas_Armour_Horse_Archers,Armoured Horse Archers,5,15,scale,15,cavalry,14,36,13,45,rome_shortsword,rome_recurve_bow_horse,23,none
+Eas_Axemen,Axemen,5,2,scale,10,inf_melee,22,36,24,50,rome_eastern_axe,rome_javelin_precursor,0,thureos
+Eas_Azat_Knights,Azat Knights,5,0,scale,20,cavalry,40,51,35,60,rome_spear_cav_elite,,0,cavalry
+Eas_Ballista,Eastern Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Ballista_Bastion,Eastern Bastion Ballista,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Eas_Ballista_Shp,Eastern Ballista (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Bithynian_Infantry,Bithynian Infantry,5,2,cloth,10,inf_melee,14,24,18,35,rome_eastern_axe,rome_javelin_precursor,0,caetra
+Eas_Camel_Cataphracts,Camel Cataphracts,5,0,cataphract,5,cavalry,71,44,19,65,rome_lance,,0,none
+Eas_Cappadocian_Cav,Cappadocian Cavalry,5,0,scale,15,cavalry,38,49,17,60,rome_spear_cav_elite,,0,cavalry
+Eas_Cataphracts,Eastern Cataphracts,5,0,cataphract,15,cavalry,67,40,17,60,rome_lance,,0,none
+Eas_Cheiroballistra,Eastern Scorpion,5,40,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Elite_Persian_Archers,Elite Persian Archers,5,15,light_padded,15,inf_ranged,18,28,32,50,rome_spear_anti_cav,rome_recurve_bow_elite,23,none
+Eas_Garrison_Spear,Eastern Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+Eas_Giant_Ballista,Eastern Giant Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Hillmen,Hillmen,5,2,cloth,5,inf_melee,12,25,11,35,rome_eastern_axe,rome_javelin_precursor,0,pelta
+Eas_Horse_Archers,Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_recurve_bow_horse,18,none
+Eas_Horse_Skirm,Horse Skirmishers,5,7,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+Eas_Javelinmen,Eastern Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin_improved,13,pelta
+Eas_Kartli_Axemen,Kartli Axemen,5,2,scale,15,inf_melee,25,43,26,55,rome_eastern_axe,rome_javelin_precursor,0,thureos
+Eas_Large_Onager,Eastern Large Onager,5,15,cloth,5,artillery,7,9,14,35,rome_shortsword,,4,none
+Eas_Median_Cav,Median Cavalry,5,0,scale,15,cavalry,34,40,15,50,rome_spear_cav,,0,cavalry
+Eas_Mob,Mob,5,0,cloth,0,inf_melee,3,5,12,20,rome_shortsword,,0,none
+Eas_Noble_Blood_Cav,Noble Blood Cavalry,5,0,scale,15,cavalry,34,46,15,55,rome_spear_cav,,0,cavalry
+Eas_Noble_Horse_Archers,Noble Horse Archers,5,15,cataphract,15,cavalry,22,39,19,55,rome_eastern_sword,rome_recurve_bow_horse,28,none
+Eas_Noble_Spear,Noble Spearmen,5,0,scale,20,inf_melee,24,32,36,60,rome_spear_elite,,0,hoplite
+Eas_Onager,Eastern Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Onager_Bastion,Eastern Bastion Onager,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Eas_Onager_Shp,Eastern Onager (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Par_Sword,Parthian Swordsmen,5,2,mail,15,inf_melee,19,36,34,60,rome_celtic_hellenic_sword,rome_javelin_precursor,0,thureos
+Eas_Parthian_Foot_Archers,Parthian Foot Archers,5,15,cloth,10,inf_ranged,4,9,13,35,rome_shortsword,rome_composite_bow,18,none
+Eas_Parthian_Horse_Archers,Parthian Horse Archers,5,15,cloth,15,cavalry,4,10,13,40,rome_shortsword,rome_composite_bow_horse,23,none
+Eas_Persian_Cavalry,Persian Cavalry,5,0,scale,15,cavalry,67,40,15,60,rome_lance,,0,none
+Eas_Persian_Hoplites,Persian Hoplites,5,0,leather,10,inf_melee,20,22,34,40,rome_spear,,0,hoplite
+Eas_Persian_Light_Archers,Persian Light Archers,5,15,cloth,10,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+Eas_Pontic_Peltasts,Pontic Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin_improved,18,peltast_thureos
+Eas_Pontic_Sword,Pontic Swordsmen,5,2,scale,10,inf_melee,18,37,30,50,rome_celtic_hellenic_sword,rome_javelin_precursor,0,thureos
+Eas_Royal_Cataphracts,Royal Cataphracts,5,0,cataphract_elite,20,cavalry,76,50,23,65,rome_lance_elite,,0,none
+Eas_Scorpion,Eastern Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Scorpion_Bastion,Eastern Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Eas_Scorpion_Pot_Ballista,Scorpion Pot Ballista,5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Eas_Slingers,Eastern Slingers,5,25,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_sling_improved,13,pelta
+Eas_Spear,Eastern Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+Eas_Syrian_Heavy_Archers,Syrian Heavy Archers,5,15,scale,10,inf_ranged,4,10,13,40,rome_shortsword,rome_recurve_bow_elite,23,none
+Egy_Archers,Egyptian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Egy_Cav,Egyptian Cavalry,5,0,padded,15,cavalry,29,45,18,40,rome_spear_cav,,0,cavalry
+Egy_Galatian_Royal_Guard,Galatian Royal Guard,5,2,mail,20,inf_melee,32,50,39,70,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+Egy_Galatian_Sword,Galatian Swordsmen,5,2,none,10,inf_melee,28,32,22,50,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Egy_Infantry,Egyptian Infantry,5,2,padded,5,inf_melee,8,14,14,30,rome_shortsword,rome_javelin_precursor,0,thureos
+Egy_Javelinmen,Egyptian Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+Egy_Karian_Axemen,Karian Axemen,5,5,cloth,15,inf_melee,21,28,12,40,rome_eastern_axe,rome_javelin_light,0,thureos
+Egy_Mob,Mob,5,0,cloth,0,inf_melee,3,5,12,25,rome_shortsword,,0,none
+Egy_Nubian_Bowmen,Nubian Bowmen,5,15,cloth,10,inf_ranged,4,9,13,35,rome_shortsword,rome_bow_long,18,none
+Egy_Nubian_Spear,Nubian Spearmen,5,0,cloth,15,inf_melee,24,25,28,50,rome_spear,,0,thureos
+Egy_Pike,Egyptian Pikemen,5,0,padded,10,inf_melee,4,30,5,30,rome_pike_levy,,0,pikemen
+Egy_Slingers,Egyptian Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,small_bronze
+Egy_Sobek_Cultists,Sobek Cultists,5,2,padded,15,inf_melee,22,36,36,60,rome_kopis,rome_javelin_precursor,0,thureos
+Ger_Ballista,German Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Ballista_Bastion,German Bastion Ballista,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Ger_Ballista_Shp,German Ballista (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Berserkers,Berserkers,5,0,none,25,inf_melee,51,56,31,75,rome_celtic_longsword_bonus_infantry,,0,germanic_shock
+Ger_Bloodsworn,Bloodsworn,5,2,cloth,15,inf_melee,33,38,14,55,rome_club,rome_javelin_precursor,0,germanic_shock
+Ger_Cheiroballistra,German Scorpion,5,40,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Cimbri_Bowwomen,Cimbri Bow-Women,5,15,cloth,15,inf_ranged,18,28,22,40,rome_spear_anti_cav,rome_recurve_bow,23,none
+Ger_Club_Levy,Club Levy,5,2,cloth,10,inf_melee,16,20,11,30,rome_club,rome_javelin_precursor,0,germanic_wood
+Ger_Giant_Ballista,German Giant Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Hex_Bearers,Hex-Bearers,2,0,cloth,5,inf_melee,16,50,1,50,rome_celtic_hellenic_sword,rome_javelin_precursor,0,germanic_wood
+Ger_Horse_Runners,Horse Runners,5,7,cloth,10,inf_ranged,22,36,5,40,rome_celtic_hellenic_sword,rome_javelin,8,germanic_wood
+Ger_Large_Onager,German Heavy Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Longbow_Hunters,Longbow Hunters,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_longbow,18,none
+Ger_Night_Hunters,Night Hunters,5,2,none,20,inf_melee,28,35,23,55,rome_celtic_spear,rome_javelin_precursor,0,germanic_shock
+Ger_Noble_Riders,Noble Riders,5,0,mail,20,cavalry,46,47,22,70,rome_celtic_spear_cav_elite,,0,germanic_cav
+Ger_Onager,German Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Onager_Bastion,German Bastion Onager,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Ger_Onager_Shp,German Onager (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Riders_Hunt,Riders of the Hunt,5,0,cloth,15,cavalry,42,42,20,55,rome_celtic_spear_cav,,0,cavalry
+Ger_Round_Shield_Sword,Round Shield Swordsmen,5,2,cloth,15,inf_melee,24,40,9,45,rome_celtic_hellenic_sword,rome_javelin_precursor,0,germanic_wood
+Ger_Scorpion,German Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ger_Scorpion_Bastion,German Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Ger_Scout_Riders,Germanic Scout Riders,5,7,cloth,10,cavalry,24,34,10,45,rome_celtic_hellenic_sword_cav,rome_javelin,10,germanic_cav
+Ger_Slingers,Germanic Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,10,germanic_small_skirm
+Ger_Spear_Brothers,Spear Brothers,5,2,cloth,15,inf_melee,23,25,36,40,rome_celtic_spear,rome_javelin_precursor,0,germanic_hex
+Ger_Spear_Levy,Spear Levy,5,2,cloth,10,inf_melee,17,18,29,30,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,germanic_wood
+Ger_Spear_Wall,Spear Wall,5,2,padded,20,inf_melee,23,25,46,55,rome_celtic_spear,rome_javelin_precursor,0,germanic_wall
+Ger_Spearwomen,Spearwomen,5,2,light_padded,10,inf_melee,23,32,20,50,rome_celtic_spear,rome_javelin_precursor,0,germanic_hex
+Ger_Sword_Masters,Sword Masters,5,2,mail,30,inf_melee,32,43,37,70,rome_celtic_longsword,rome_javelin_precursor,0,germanic_hex
+Ger_Tribesmen,Germanic Tribesmen,5,0,cloth,5,inf_melee,10,10,21,25,rome_celtic_spear,,0,germanic_wood
+Ger_Wodanaz_Spears,Wodanaz Spears,5,2,cloth,25,inf_melee,29,38,39,70,rome_celtic_spear_elite,rome_javelin_precursor,0,germanic_hex
+Ger_Wolf_Warriors,Wolf Warriors,5,2,cloth,15,inf_melee,35,42,21,65,rome_club,rome_javelin_precursor,0,germanic_shock
+Ger_Youths,Germanic Youths,5,7,cloth,5,inf_ranged,10,18,15,20,rome_shortsword,rome_javelin,8,germanic_small_skirm
+Gre_Agema_Cav,Agema Cavalry,5,0,bronze_elite,20,cavalry,76,46,21,70,rome_lance_elite,,0,none
+Gre_Agema_Spears,Agema Spears,5,5,mail_improved,15,inf_melee,28,32,34,65,rome_spear_elite,rome_javelin_light,0,thureos
+Gre_Agrianian_Axemen,Agrianian Axemen,5,7,light_padded,10,inf_ranged,27,30,16,50,rome_celtic_axe,rome_javelin,15,thureos
+Gre_Archers,Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Gre_Aspis_Companion_Cav,Aspis Companion Cavalry,5,2,bronze,20,cavalry,40,68,19,70,rome_kopis_cav,rome_javelin_precursor,0,hoplite_cav
+Gre_Ballista,Greek Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Ballista_Bastion,Greek Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Gre_Ballista_Shp,Greek Ballista (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Beehive_Onager,Greek Beehive Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Bronze_Shield_Pike,Bronze Shield Pikemen,5,0,spolas,20,inf_melee,11,43,23,65,rome_pike,,0,pikemen
+Gre_Cheiroballistra,Greek Scorpion,5,40,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Gre_Cimmerian_Heavy_Archers,Cimmerian Heavy Archers,5,15,spolas,15,inf_ranged,8,16,18,55,rome_spear_anti_cav,rome_composite_bow,28,none
+Gre_Cimmerian_Noble_Infantry,Cimmerian Noble Infantry,5,0,spolas,20,inf_melee,21,41,45,70,rome_hoplite_spear_elite,,0,hoplite
+Gre_Citizen_Cav,Citizen Cavalry,5,0,spolas,10,cavalry,28,37,13,45,rome_hoplite_spear_cav,,0,hoplite_cav
+Gre_Citizen_Hoplites,Citizen Hoplites,5,0,cloth,5,inf_melee,10,16,28,35,rome_hoplite_spear,,0,hoplite
+Gre_Colchian_Nobles,Colchian Nobles,5,0,scale_elite,20,inf_melee,21,34,49,70,rome_hoplite_spear_elite,,0,hoplite
+Gre_Companion_Cav,Companion Cavalry,5,0,bronze_elite,20,cavalry,76,46,21,70,rome_lance_elite,,0,none
+Gre_Cretan_Archers,Cretan Archers,5,15,leather,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+Gre_Foot_Companions,Foot Companions,5,0,spolas_improved,20,inf_melee,13,49,33,70,rome_pike_elite,,0,pikemen
+Gre_Giant_Ballista,Greek Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Gorgos_Skirmishers,Gorgo's Skirmishers,5,25,cloth,10,inf_ranged,3,8,2,35,rome_shortsword,rome_sling_improved,25,small_bronze
+Gre_Hellenic_Cataphracts,Hellenic Cataphracts,5,0,cataphract,20,cavalry,76,46,23,70,rome_lance_elite,,0,none
+Gre_Helot_Archers,Helot Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Gre_Helot_Javelinmen,Helot Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_wooden_javelin,13,pelta
+Gre_Helot_Slingers,Helot Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+Gre_Heroes_Sparta,Heroes of Sparta,5,0,bronze,25,inf_melee,33,48,50,75,rome_spear_elite,,0,hoplite
+Gre_Hippeus_Lancers,Hippeus Lancers,5,0,bronze,20,cavalry,57,44,15,65,rome_lance_elite,,0,none
+Gre_Hoplites,Hoplites,5,0,spolas,15,inf_melee,21,34,42,55,rome_hoplite_spear,,0,hoplite
+Gre_Javelinmen,Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_wooden_javelin,13,pelta
+Gre_Large_Onager,Greek Heavy Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Levy_Pike,Levy Pikemen,5,0,leather,5,inf_melee,4,30,5,35,rome_pike_levy,,0,pikemen
+Gre_Levy_Thureos_Spears,Levy Thureos Spears,5,5,cloth,10,inf_melee,21,19,22,40,rome_spear,rome_javelin_light,0,thureos
+Gre_Light_Cav,Light Cavalry,5,0,leather,10,cavalry,29,38,10,40,rome_spear_cav,,0,caetra_fast_cav
+Gre_Light_Hoplites,Light Hoplites,5,0,padded,15,inf_melee,18,23,30,45,rome_hoplite_spear,,0,hoplite
+Gre_Light_Peltasts,Light Peltasts,5,10,cloth,10,inf_ranged,10,18,15,45,rome_shortsword,rome_javelin,23,peltast_thureos
+Gre_Massilian_Cav,Massilian Cavalry,5,0,leather,15,cavalry,36,40,10,55,rome_spear_cav,,0,caetra_fast_cav
+Gre_Massilian_Hoplites,Massilian Hoplites,5,0,mail_improved,20,inf_melee,26,36,42,65,rome_hoplite_spear_elite,,0,hoplite
+Gre_Massilian_Thureos_Spears,Massilian Thureos Spears,5,5,leather,15,inf_melee,30,28,24,55,rome_spear,rome_javelin_light,0,thureos
+Gre_Militia_Hoplites,Militia Hoplites,5,0,cloth,5,inf_melee,15,21,30,45,rome_hoplite_spear,,0,hoplite
+Gre_Mob,Mob,5,0,cloth,0,inf_melee,3,5,12,20,rome_shortsword,,0,none
+Gre_Molossian_Dogs,Molossian Dogs,5,0,cloth,5,inf_melee,20,35,28,35,rome_celtic_longsword,,0,caetra
+Gre_Onager,Greek Onager,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Onager_Bastion,Greek Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Gre_Onager_Shp,Greek Onager (Ship),40,1,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Gre_Peltasts,Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+Gre_Pergamon_Noble_Cavalry,Pergamenes Noble Cavalry,5,0,mail_improved,20,cavalry,76,46,21,70,rome_lance_elite,,0,none
+Gre_Periokoi_Hoplites,Perioikoi Hoplites,5,0,leather,15,inf_melee,14,24,35,45,rome_hoplite_spear,,0,hoplite
+Gre_Periokoi_Peltasts,Perioikoi Peltasts,5,7,leather,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,13,peltast_thureos
+Gre_Periokoi_Pike,Perioikoi Pikemen,5,0,leather,10,inf_melee,7,34,12,45,rome_pike,,0,pikemen
+Gre_Periokoi_Spears,Perioikoi Spears,5,2,leather,10,inf_melee,20,20,25,40,rome_spear,rome_javelin_precursor,0,thureos
+Gre_Picked_Hoplites,Picked Hoplites,5,0,bronze,20,inf_melee,25,42,46,75,rome_hoplite_spear_elite,,0,hoplite
+Gre_Picked_Peltasts,Picked Peltasts,5,10,spolas,15,inf_ranged,12,28,15,55,rome_kopis,rome_javelin_improved,23,peltast_thureos
+Gre_Pike,Pikemen,5,0,spolas,15,inf_melee,7,34,15,45,rome_pike,,0,pikemen
+Gre_Polybolos,Greek Polybolos,5,60,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Gre_Polybolos_Bastion,Greek Bastion Polybolos,5,80,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Gre_Pontic_Royal_Cav,Pontic Royal Cavalry,5,0,bronze,20,cavalry,76,46,17,70,rome_lance,,0,none
+Gre_Ptolemaic_Cav,Ptolemaic Cavalry,5,0,bronze,20,cavalry,63,55,22,70,rome_lance,,0,none
+Gre_Rhodian_Slingers,Rhodian Slingers,5,25,light_padded,15,inf_ranged,6,12,14,55,rome_shortsword,rome_sling_lead,28,small_bronze
+Gre_Royal_Cav,Hellenic Royal Cavalry,5,0,bronze,20,cavalry,76,46,17,70,rome_lance_elite,,0,none
+Gre_Royal_Guard,Hellenic Royal Guard,5,0,bronze,20,inf_melee,13,46,28,70,rome_pike_elite,,0,pikemen
+Gre_Royal_Peltasts,Royal Peltasts,5,3,spolas,20,inf_melee,21,62,34,70,rome_kopis,rome_javelin_light,0,hoplite
+Gre_Royal_Spartans,Royal Spartans,5,0,bronze,20,inf_melee,28,44,52,75,rome_hoplite_spear_elite,,0,hoplite
+Gre_Royal_Thorax_Sword,Royal Thorax Swordsmen,5,2,mail_improved,20,inf_melee,27,46,39,70,rome_celtic_hellenic_sword_elite,rome_javelin_precursor,0,thureos
+Gre_Sarissa_Cav,Sarissa Cavalry,5,0,cloth,10,cavalry,51,34,14,35,rome_lance,,0,none
+Gre_Scorpion,Greek Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Gre_Scorpion_Bastion,Greek Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Gre_Scythed_Chariots,Scythed Chariots,5,0,scale_elite,15,cavalry,45,54,29,65,rome_gladius,,0,none
+Gre_Scythian_Hoplites,Scythian Hoplites,5,0,spolas,15,inf_melee,20,30,41,50,rome_spear,,0,hoplite
+Gre_Shield_Bearers,Shield Bearers,5,0,bronze_elite,20,inf_melee,28,41,42,70,rome_spear_elite,,0,hoplite
+Gre_Silver_Shield_Pike,Silver Shield Pikemen,5,0,bronze_elite,20,inf_melee,13,44,32,70,rome_pike_elite,,0,pikemen
+Gre_Silver_Shield_Sword,Silver Shield Swordsmen,5,2,mail_improved,20,inf_melee,27,43,42,70,rome_celtic_hellenic_sword_elite,rome_javelin_precursor,0,thureos
+Gre_Skirm_Cav,Skirmisher Cavalry,5,7,cloth,5,cavalry,4,9,13,35,rome_shortsword,rome_wooden_javelin,18,pelta_cavalry
+Gre_Slingers,Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,small_bronze
+Gre_Spartan_Hoplites,Spartan Hoplites,5,0,spolas,15,inf_melee,26,36,50,65,rome_hoplite_spear,,0,hoplite
+Gre_Spartan_Pike,Spartan Pikemen,5,0,spolas,20,inf_melee,9,41,18,60,rome_pike,,0,pikemen
+Gre_Spartan_Youths,Spartan Youths,5,0,cloth,10,inf_melee,18,18,26,40,rome_hoplite_spear,,0,hoplite
+Gre_Tarantine_Cav,Tarantine Cavalry,5,7,leather,15,cavalry,11,18,16,50,rome_shortsword,rome_javelin,23,cavalry
+Gre_Thessalian_Cav,Thessalian Cavalry,5,0,spolas_improved,20,cavalry,67,40,15,65,rome_lance,,0,none
+Gre_Thorax_Hoplites,Thorax Hoplites,5,0,mail_improved,15,inf_melee,22,34,44,65,rome_hoplite_spear_elite,,0,hoplite
+Gre_Thorax_Pike,Thorax Pikemen,5,0,mail,15,inf_melee,9,39,23,55,rome_pike,,0,pikemen
+Gre_Thorax_Sword,Thorax Swordsmen,5,2,mail,15,inf_melee,18,38,32,55,rome_celtic_hellenic_sword,rome_javelin_precursor,0,thureos
+Gre_Thureos_Hoplites,Thureos Hoplites,5,0,spolas,15,inf_melee,24,34,34,55,rome_hoplite_spear,,0,hoplite
+Gre_Thureos_Spears,Thureos Spears,5,5,spolas,10,inf_melee,26,24,30,50,rome_spear,rome_javelin_light,0,thureos
+Ibe_Balearic_Slingers,Balearic Slingers,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+Ibe_Ballista,Iberian Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Ballista_Bastion,Iberian Bastion Ballista,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Ibe_Ballista_Shp,Iberian Ballista (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Cantabrian_Cav,Cantabrian Cavalry,5,7,cloth,15,cavalry,6,12,14,55,rome_shortsword,rome_javelin_improved,28,caetra
+Ibe_Cav,Iberian Cavalry,5,2,cloth,10,cavalry,31,50,10,40,rome_falcata_cav,rome_javelin_precursor,0,caetra_cavalry
+Ibe_Celtiberian_Cav,Celtiberian Cavalry,5,0,chest,15,cavalry,44,40,27,55,rome_spear_cav,,0,cavalry
+Ibe_Cheiroballistra,Iberian Scorpion,5,40,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Giant_Ballista,Iberian Giant Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Guerilla_Warriors,Guerrilla Warriors,5,2,cloth,15,inf_melee,27,42,25,50,rome_falcata,rome_iron_javelin,0,caetra
+Ibe_Large_Onager,Iberian Heavy Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Lusitani_Guerillas,Lusitani Guerrillas,5,5,cloth,10,inf_melee,12,18,28,45,rome_spear,rome_javelin_light,0,caetra
+Ibe_Lusitani_Nobles,Lusitani Nobles,5,2,mail,20,inf_melee,32,64,37,70,rome_kopis,rome_iron_javelin,0,caetra
+Ibe_Lusitani_Spear,Lusitani Spearmen,5,2,chest,15,inf_melee,25,32,40,65,rome_spear_elite,rome_iron_javelin,0,iberian_scuta
+Ibe_Lusitani_Swordswomen,Lusitani Swordswomen,5,2,cloth,5,inf_melee,10,40,15,55,rome_falcata,rome_iron_javelin,0,caetra
+Ibe_Noble_Cav,Noble Cavalry,5,0,mail,20,cavalry,49,55,22,70,rome_spear_cav_elite,,0,cavalry
+Ibe_Noble_Fighters,Noble Fighters,5,2,mail,20,inf_melee,38,56,32,70,rome_falcata_elite,rome_iron_javelin,0,celtic
+Ibe_Onager,Iberian Onager,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Onager_Bastion,Iberian Bastion Onager,5,25,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Ibe_Onager_Shp,Iberian Onager (Ship),40,1,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Painted_Warriors,Painted Warriors,5,2,cloth,15,inf_melee,32,42,20,60,rome_falcata,rome_iron_javelin,0,celtic
+Ibe_Scorpion,Iberian Scorpion (Fixed),5,30,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ibe_Scorpion_Bastion,Iberian Bastion Scorpion,5,40,cloth,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Ibe_Scut_Spear,Scutarii Spearmen,5,2,chest,15,inf_melee,18,23,28,50,rome_spear,rome_iron_javelin,0,celtic
+Ibe_Scutarii,Scutarii,5,2,chest,15,inf_melee,21,42,30,50,rome_falcata,rome_iron_javelin,0,celtic
+Ibe_Scutarii_Cav,Scutarii Cavalry,5,0,chest,15,cavalry,37,42,24,55,rome_spear_cav,,0,cavalry
+Ibe_Skirm,Iberian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_round
+Ibe_Slingers,Iberian Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,celtic_round
+Ibe_Spear,Iberian Spearmen,5,2,cloth,10,inf_melee,10,14,24,30,rome_spear_anti_cav,rome_iron_javelin,0,caetra
+Ibe_Sword,Iberian Swordsmen,5,5,cloth,10,inf_melee,20,35,20,40,rome_falcata,rome_iron_javelin,0,caetra
+Ibe_Tribesmen,Iberian Tribesmen,5,2,cloth,0,inf_melee,9,11,22,25,rome_spear,rome_javelin_precursor,0,caetra
+Ibe_Vet_Shield_Warriors,Veteran Shield Warriors,5,2,chest,15,inf_melee,30,50,35,65,rome_kopis,rome_iron_javelin,0,caetra
+Ill_Cav,Illyrian Cavalry,5,0,chest,10,cavalry,30,28,20,45,rome_spear_cav,,0,cavalry
+Ill_Hoplites,Illyrian Hoplites,5,0,bronze,15,inf_melee,20,32,34,55,rome_hoplite_spear,,0,hoplite
+Ill_Levies,Illyrian Levies,5,2,cloth,5,inf_melee,14,28,12,40,rome_celtic_axe,rome_javelin_precursor,0,thureos
+Ill_Marines,Illyrian Marines,15,5,leather,10,inf_melee,22,36,30,55,rome_spear,rome_javelin_light,0,thureos
+Ill_Noble_Hoplites,Illyrian Noble Hoplites,5,0,bronze_elite,20,inf_melee,30,38,38,70,rome_hoplite_spear_elite,,0,hoplite
+Ill_Raiders,Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,55,rome_celtic_axe,rome_javelin_precursor,0,thureos
+Ill_Slave_Javelinmen,Slave Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+Ill_Slave_Slingers,Slave Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+Ill_Spear,Illyrian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear_anti_cav,,0,celtic
+Ill_Thureos_Spears,Illyrian Thureos Spears,5,5,leather,10,inf_melee,22,20,26,40,rome_spear,rome_javelin_light,0,thureos
+Ill_Tribesmen,Illyrian Tribesmen,5,0,cloth,0,inf_melee,10,10,21,25,rome_spear,,0,celtic
+Ind_Armour_Elephants,Indian Armoured Elephants,5,15,leather,15,elephants,44,64,24,60,tusks,rome_composite_bow_elephant,15,none
+Ind_War_Elephants,Indian War Elephants,5,15,leather,15,elephants,28,34,20,40,tusks,rome_composite_bow_elephant,13,none
+Ita_Campanian_Cavalry,Campanian Cavalry,5,2,bronze,20,cavalry,33,69,10,70,rome_gladius_elite_Cav,rome_javelin_precursor,0,cavalry
+Ita_Cav,Italian Cavalry,5,0,chest,10,cavalry,34,38,17,50,rome_spear_cav,,0,cavalry
+Ita_Etruscan_Hoplites,Etruscan Hoplites,5,0,spolas_improved,20,inf_melee,24,32,46,60,rome_spear_elite,,0,hoplite
+Ita_Levy_Skirm,Levy Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+Ita_Levy_Slingers,Levy Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+Ita_Mob,Mob,5,0,cloth,0,inf_melee,3,5,12,20,rome_shortsword,,0,none
+Ita_Noble_Cav,Italian Noble Cavalry,5,2,bronze,20,cavalry,33,79,10,70,rome_gladius_elite_Cav,rome_javelin_precursor,0,cavalry
+Ita_Noble_Infantry,Italian Noble Infantry,5,0,bronze,20,inf_melee,29,34,35,70,rome_spear_elite,,0,thureos
+Ita_Samnite_Warriors,Samnite Warriors,5,2,bronze,20,inf_melee,25,36,30,55,rome_hoplite_sword,rome_javelin_precursor,0,oval
+Ita_Spear,Italian Spearmen,5,0,chest_improved,10,inf_melee,15,18,30,40,rome_spear,,0,thureos
+Ita_Sword,Italian Swordsmen,5,2,chest,10,inf_melee,10,34,20,45,rome_gladius,rome_javelin_precursor,0,thureos
+Mer_Afr_Archers,Mercenary Sabean Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Mer_Afr_Cav,Mercenary Sabean Cavalry,5,2,cloth,15,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+Mer_Afr_Elephants,Mercenary African Elephants,5,0,leather,15,elephants,36,54,21,50,tusks,,0,none
+Mer_Afr_Spear,Mercenary Sabean Spearmen,5,0,cloth,10,inf_melee,11,13,24,30,rome_spear,,0,oval
+Mer_Ara_Camel_Archers,Mercenary Camel Archers,5,15,cloth,5,cavalry,8,16,15,35,rome_shortsword,rome_recurve_bow_horse,13,none
+Mer_Ara_Camel_Spear,Mercenary Camel Spearmen,5,0,padded,5,cavalry,25,28,10,40,rome_spear_cav,,0,caetra_cavalry
+Mer_Ara_Cav,Mercenary Arabian Cavalry,5,2,cloth,10,cavalry,28,46,10,40,rome_generic_sword_cav,rome_javelin_precursor,0,caetra_cavalry
+Mer_Ara_Spear,Mercenary Arabian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,oval
+Mer_Bac_Hillmen,Mercenary Bactrian Hillmen,5,2,cloth,5,inf_melee,10,28,11,25,rome_eastern_axe,rome_javelin_precursor,0,thureos
+Mer_Bac_Light_Horse,Mercenary Bactrian Light Horse,5,0,padded,10,cavalry,29,37,11,30,rome_spear_cav,,0,hoplite_cav
+Mer_Bri_Scout_Riders,Mercenary Briton Scout Riders,5,2,cloth,5,cavalry,31,38,10,35,rome_celtic_spear_cav,rome_javelin_precursor,0,cavalry
+Mer_Bri_Slingers,Mercenary Briton Slingers,5,25,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_sling_improved,18,celtic_round
+Mer_Bri_Spear_Band,Mercenary Spear Band,5,2,cloth,10,inf_melee,21,17,28,40,rome_celtic_spear_anti_cav,rome_javelin_precursor,0,celtic
+Mer_Cel_Axe_Warriors,Mercenary Axe Warriors,5,2,leather,15,inf_melee,20,35,20,55,rome_celtic_axe,rome_javelin_precursor,0,celtic
+Mer_Cel_Light_Horse,Mercenary Celtic Light Horse,5,2,cloth,10,cavalry,39,42,16,45,rome_celtic_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+Mer_Cel_Naked_Swords,Mercenary Naked Swords,5,0,none,15,inf_melee,32,30,24,55,rome_celtic_longsword_bonus_infantry,,0,celtic_shock
+Mer_Cel_Short_Swords,Mercenary Short Swords,5,2,cloth,10,inf_melee,19,37,15,40,rome_hoplite_sword,rome_javelin_precursor,0,celtic
+Mer_Cel_Skirm,Mercenary Celtic Skirmishers,5,7,cloth,10,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+Mer_Cel_Warhounds,Mercenary Celtic Warhounds,5,0,cloth,5,inf_melee,35,20,28,35,rome_celtic_longsword,,0,caetra
+Mer_Cel_Warriors,Mercenary Celtic Warriors,5,2,cloth,15,inf_melee,25,27,20,40,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Mer_Dac_Bowmen,Mercenary Dacian Bowmen,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Mer_Dac_Falxmen,Mercenary Falxmen,5,0,cloth,10,inf_melee,48,38,11,40,rome_falx,,0,none
+Mer_Dac_Skirm,Mercenary Dacian Skirmishers,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+Mer_Dac_Spear_Horsemen,Mercenary Spear Horsemen,5,0,leather,15,cavalry,31,31,16,45,rome_celtic_spear_cav,,0,cavalry
+Mer_Dac_Spears,Mercenary Dacian Spears,5,0,cloth,10,inf_melee,12,11,24,30,rome_celtic_spear_anti_cav,,0,celtic
+Mer_Eas_Cappadocian_Cav,Mercenary Cappadocian Cavalry,5,0,scale,15,cavalry,38,49,17,60,rome_spear_cav_elite,,0,cavalry
+Mer_Eas_Hillmen,Mercenary Hillmen,5,2,cloth,5,inf_melee,10,20,11,25,rome_eastern_axe,rome_javelin_precursor,0,pelta
+Mer_Eas_Javelinmen,Mercenary Eastern Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin_improved,13,pelta
+Mer_Eas_Skirm_Cav,Mercenary Horse Skirmishers,5,7,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_javelin_improved,18,pelta_cavalry
+Mer_Eas_Syrian_Archers,Mercenary Syrian Archers,5,15,scale,10,inf_ranged,4,10,13,40,rome_shortsword,rome_recurve_bow_elite,23,none
+Mer_Egy_Archers,Mercenary Egyptian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Mer_Egy_Inf,Mercenary Egyptian Infantry,5,2,padded,5,inf_melee,8,16,16,30,rome_shortsword,rome_javelin_precursor,0,celtic
+Mer_Egy_Leopard_Warriors,Mercenary Leopard Warriors,5,0,cloth,15,inf_melee,30,36,30,65,rome_spear,,0,thureos
+Mer_Gal_Gallic_Hunters,Mercenary Gallic Hunters,5,15,cloth,5,inf_ranged,5,17,15,40,rome_shortsword,rome_bow_long,30,none
+Mer_Gal_Light_Horse,Mercenary Gallic Light Horse,5,2,cloth,10,cavalry,39,42,24,45,rome_celtic_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+Mer_Gal_Noble_Horse,Mercenary Noble Horse,5,0,mail_improved,20,cavalry,47,51,24,70,rome_celtic_spear_cav_elite,,0,cavalry
+Mer_Gal_Warriors,Mercenary Gallic Warriors,5,2,cloth,10,inf_melee,20,25,28,45,rome_celtic_longsword,rome_javelin_precursor,0,celtic
+Mer_Ger_Longbow_Hunters,Mercenary Longbow Hunters,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_longbow,18,none
+Mer_Ger_Scout_Riders,Mercenary Germanic Scout Riders,5,7,cloth,10,cavalry,24,34,10,45,rome_celtic_hellenic_sword_cav,rome_javelin,10,germanic_cav
+Mer_Ger_Spear_Brothers,Mercenary Spear Brothers,5,2,cloth,15,inf_melee,23,25,32,40,rome_celtic_spear,rome_javelin_precursor,0,germanic_hex
+Mer_Ger_Spearwomen,Mercenary Spearwomen,5,2,light_padded,10,inf_melee,23,32,20,50,rome_celtic_spear,rome_javelin_precursor,0,germanic_hex
+Mer_Ger_Wolf_Warriors,Mercenary Wolf Warriors,5,2,cloth,15,inf_melee,35,42,21,65,rome_club,rome_javelin_precursor,0,germanic_shock
+Mer_Gre_Citizen_Cav,Mercenary Citizen Cavalry,5,0,spolas,10,cavalry,28,37,13,45,rome_hoplite_spear_cav,,0,hoplite_cav
+Mer_Gre_Cretan_Archers,Mercenary Cretan Archers,5,15,leather,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+Mer_Gre_Gorgos_Skirmishers,Mercenary Gorgo's Skirmishers,5,25,cloth,10,inf_ranged,3,8,2,35,rome_shortsword,rome_sling_improved,25,small_bronze
+Mer_Gre_Hoplites,Mercenary Hoplites,5,0,leather,15,inf_melee,21,34,42,55,rome_hoplite_spear,,0,hoplite
+Mer_Gre_Molossian_Dogs,Mercenary Molossian Dogs,5,0,cloth,5,inf_melee,20,35,28,35,rome_celtic_longsword,,0,caetra
+Mer_Gre_Peltasts,Mercenary Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+Mer_Gre_Rhodian_Slingers,Mercenary Rhodian Slingers,5,25,light_padded,15,inf_ranged,6,12,14,55,rome_shortsword,rome_sling_lead,28,small_bronze
+Mer_Gre_Tarantine_Cav,Mercenary Tarantine Cavalry,5,7,leather,15,cavalry,11,18,16,50,rome_shortsword,rome_javelin,23,cavalry
+Mer_Gre_Thureos_Spears,Mercenary Thureos Spears,5,5,leather,10,inf_melee,26,24,30,50,rome_spear,rome_javelin_light,0,thureos
+Mer_Gre_Vet_Hoplites,Mercenary Veteran Hoplites,5,0,bronze,20,inf_melee,25,35,44,65,rome_hoplite_spear_elite,,0,hoplite
+Mer_Ibe_Balearic_Slingers,Mercenary Balearic Slingers,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+Mer_Ibe_Cantabrian_Cav,Mercenary Cantabrian Cavalry,5,7,cloth,15,cavalry,6,12,14,55,rome_shortsword,rome_javelin_improved,28,caetra
+Mer_Ibe_Cav,Mercenary Iberian Cavalry,5,2,cloth,10,cavalry,31,50,10,40,rome_falcata_cav,rome_javelin_precursor,0,caetra_cavalry
+Mer_Ibe_Lusitani_Swordswomen,Mercenary Lusitani Swordswomen,5,2,cloth,5,inf_melee,10,40,15,55,rome_falcata,rome_iron_javelin,0,caetra
+Mer_Ibe_Noble_Fighters,Mercenary Noble Fighters,5,2,mail,20,inf_melee,38,56,32,70,rome_falcata_elite,rome_iron_javelin,0,celtic
+Mer_Ibe_Scutarii,Mercenary Scutarii,5,2,chest,15,inf_melee,21,42,30,50,rome_falcata,rome_iron_javelin,0,celtic
+Mer_Ibe_Scutarii_Cav,Mercenary Scutarii Cavalry,5,0,chest,15,cavalry,37,42,24,55,rome_spear_cav,,0,cavalry
+Mer_Ibe_Slingers,Mercenary Iberian Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,celtic_round
+Mer_Ibe_Sword,Mercenary Iberian Swordsmen,5,5,cloth,10,inf_melee,20,35,20,40,rome_falcata,rome_javelin_light,0,caetra
+Mer_Ill_Cav,Mercenary Illyrian Cavalry,5,0,chest,10,cavalry,30,28,20,45,rome_spear_cav,,0,cavalry
+Mer_Ill_Coastal_Levies,Mercenary Coastal Levies,5,2,cloth,5,inf_melee,10,20,11,30,rome_celtic_axe,rome_javelin_precursor,0,thureos
+Mer_Ill_Raiders,Mercenary Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,55,rome_celtic_axe,rome_javelin_precursor,0,thureos
+Mer_Ind_War_Elephants,Mercenary Indian War Elephants,5,15,leather,15,elephants,28,34,20,60,tusks,rome_composite_bow_elephant,15,none
+Mer_Ita_Campanian_Cavalry,Mercenary Campanian Cavalry,5,2,bronze,20,cavalry,33,69,10,70,rome_gladius_elite_Cav,rome_javelin_precursor,0,cavalry
+Mer_Ita_Cav,Mercenary Italian Cavalry,5,0,chest,10,cavalry,34,38,17,50,rome_spear_cav,,0,cavalry
+Mer_Ita_Etruscan_Hoplites,Mercenary Etruscan Hoplites,5,0,spolas_improved,20,inf_melee,24,32,46,60,rome_spear_elite,,0,hoplite
+Mer_Ita_Samnite_Warriors,Mercenary Samnite Warriors,5,2,bronze,20,inf_melee,25,36,30,55,rome_hoplite_sword,rome_javelin_precursor,0,oval
+Mer_Ita_Spear,Mercenary Italian Spearmen,5,0,chest_improved,10,inf_melee,15,18,30,40,rome_spear,,0,thureos
+Mer_Ita_Sword,Mercenary Italian Swordsmen,5,2,chest,10,inf_melee,10,34,20,45,rome_gladius,rome_javelin_precursor,0,thureos
+Mer_Kushite_Shieldwomen,Mercenary Kushite Shieldwomen,5,0,cloth,10,inf_melee,20,27,22,60,rome_spear,,0,thureos
+Mer_Num_Cav,Mercenary Numidian Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+Mer_Num_Javelinmen,Mercenary Numidian Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+Mer_Num_Noble_Cav,Mercenary Numidian Noble Cavalry,5,7,mail,25,cavalry,30,65,19,70,rome_kopis,rome_javelin_improved,28,pelta_cavalry
+Mer_Par_Horse_Archers,Mercenary Parthian Horse Archers,5,15,cloth,10,cavalry,4,10,13,40,rome_shortsword,rome_composite_bow_horse,23,none
+Mer_Par_Spear,Mercenary Parthian Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+Mer_Pel_Agrianian_Axemen,Mercenary Agrianian Axemen,5,7,cloth,10,inf_ranged,14,22,16,50,rome_celtic_axe,rome_javelin,15,thureos
+Mer_Pel_Ionian_Hippeus,Mercenary Ionian Hippeus,5,2,bronze,20,cavalry,22,36,25,55,rome_spear_cav_elite,rome_javelin_precursor,0,none
+Mer_Pel_Kretan_Archers,Mercenary Kretan Archers,5,15,cloth,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+Mer_Pel_Rodian_Slingers,Mercenary Rodian Slingers,5,25,light_padded,15,inf_ranged,6,12,14,55,rome_shortsword,rome_sling_lead,28,small_bronze
+Mer_Pel_Thr_Peltasts,Mercenary Thraike Peltasts,5,7,cloth,15,inf_ranged,12,28,15,45,rome_balkan_sword,rome_javelin_improved,23,pelta
+Mer_Per_Archers,Mercenary Persian Archers,5,15,cloth,5,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+Mer_Per_Cav,Mercenary Persian Cavalry,5,0,scale,15,cavalry,67,40,15,60,rome_lance,,0,none
+Mer_Rom_Gladiatrices,Mercenary Gladiatrices,5,0,leather,20,inf_melee,22,57,25,65,rome_gladius_elite,,0,celtic_shock
+Mer_Rom_Gladiatrices_Spear,Mercenary Spear Gladiatrices,5,0,leather,15,inf_melee,20,40,35,60,rome_spear_elite,,0,celtic_shock
+Mer_Sar_Armour_Lancers,Mercenary Armoured Lancers,5,0,leather,15,cavalry,57,40,16,30,rome_lance,,0,none
+Mer_Sar_Horse_Archers,Mercenary Sarmatian Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+Mer_Sar_Lancers,Mercenary Sarmatian Lancers,5,0,cloth,10,cavalry,51,34,16,35,rome_lance,,0,none
+Mer_Scy_Armour_Horse_Archers,Mercenary Armoured Horse Archers,5,15,spolas,15,cavalry,15,37,15,45,rome_steppe_sword,rome_composite_bow_horse,23,none
+Mer_Scy_Horse_Archers,Mercenary Scythian Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+Mer_Ste_Amazonian_Riders,Mercenary 'Amazonian' Riders,20,15,cloth,5,cavalry,4,7,2,40,rome_shortsword,rome_composite_bow_elite,10,none
+Mer_Syrian_Armoured_Elephants,Mercenary Syrian Armoured Elephants,5,7,leather,15,elephants,44,64,24,60,tusks,rome_javelin_elephant,15,none
+Mer_Thr_Cav,Mercenary Thracian Cavalry,5,7,cloth,10,cavalry,16,40,16,35,rome_shortsword,rome_javelin,18,cavalry
+Mer_Thr_Peltasts,Mercenary Thracian Peltasts,5,7,padded_improved,15,inf_ranged,12,28,15,45,rome_balkan_sword,rome_javelin_improved,23,pelta
+Mer_Thr_Warriors,Mercenary Thracian Warriors,5,0,cloth,10,inf_melee,36,46,12,45,rome_rhomphaia,,0,thracian
+Num_Javelinmen,Numidian Javelinmen,5,7,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_javelin,23,pelta
+Num_Noble_Infantry,Numidian Noble Infantry,5,2,mail,20,inf_melee,29,34,38,70,rome_spear_elite,rome_javelin_precursor,0,thureos
+Num_Spear,Numidian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear_anti_cav,,0,caetra
+Pel_Archer_Marines,Archer Marines,25,15,cloth,15,inf_ranged,3,8,12,35,rome_shortsword,rome_bow,25,none
+Pel_Archers,Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Pel_Armoured_Marines,Armoured Marines,5,0,spolas,25,inf_melee,26,54,52,65,rome_hoplite_spear,,0,hoplite
+Pel_Baktrian_Cavalry,Baktrian Cavalry,5,0,padded,10,cavalry,29,37,11,30,rome_spear_cav,,0,hoplite_cav
+Pel_Helot_Archers,Helot Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Pel_Helot_Javelinmen,Helot Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_wooden_javelin,13,pelta
+Pel_Helot_Slingers,Helot Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+Pel_Hillmen,Hillmen,5,2,spolas,5,inf_melee,12,28,14,40,rome_eastern_axe,rome_javelin_precursor,0,pelta
+Pel_Hippeus,Hippeus,5,2,bronze,20,cavalry,25,40,25,65,rome_spear_cav_elite,rome_javelin_precursor,0,none
+Pel_Hoplites,Hoplites,5,0,spolas,15,inf_melee,21,34,42,55,rome_hoplite_spear,,0,hoplite
+Pel_Immortal_Archers,Immortal Archers,5,15,cloth,10,inf_ranged,18,28,32,65,rome_spear_anti_cav,rome_recurve_bow_elite,23,none
+Pel_Immortal_Spearmen,Immortal Spearmen,5,0,leather,10,inf_melee,26,40,46,65,rome_spear,,0,thureos
+Pel_Javelin_Marines,Javelin Marines,25,7,cloth,15,inf_ranged,3,8,12,35,rome_shortsword,rome_wooden_javelin,25,pelta
+Pel_Javelinmen,Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_wooden_javelin,13,pelta
+Pel_Kilikian_Javelinmen,Kilikian Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_javelin_improved,13,pelta
+Pel_Light_Cavalry,Light Cavalry,5,2,cloth,10,cavalry,20,32,24,35,rome_spear_cav,rome_javelin_precursor,0,none
+Pel_Light_Hoplites,Light Hoplites,5,0,padded,15,inf_melee,18,23,30,40,rome_hoplite_spear,,0,hoplite
+Pel_Marines,Marines,5,0,cloth,20,inf_melee,25,42,46,55,rome_hoplite_spear,,0,hoplite
+Pel_Median_Cavalry,Median Cavalry,5,2,scale,15,cavalry,27,44,24,60,rome_spear_cav_elite,rome_javelin_precursor,0,none
+Pel_Median_Spear,Median Spearmen,5,0,cloth,5,inf_melee,11,13,24,25,rome_spear,,0,tower
+Pel_Militia_Hoplites,Militia Hoplites,5,0,cloth,10,inf_melee,15,21,38,45,rome_hoplite_spear,,0,hoplite
+Pel_Periokoi_Hoplites,Perioikoi Hoplites,5,0,leather,15,inf_melee,14,24,35,45,rome_hoplite_spear,,0,hoplite
+Pel_Persian_Archer_Marines,Persian Archer Marines,25,15,cloth,20,inf_ranged,4,9,13,40,rome_shortsword,rome_recurve_bow,28,none
+Pel_Persian_Archers,Persian Archers,5,15,cloth,10,inf_ranged,4,9,13,30,rome_shortsword,rome_recurve_bow,18,none
+Pel_Phoenician_Marines,Phoenician Marines,5,0,spolas,25,inf_melee,25,42,46,65,rome_hoplite_spear,,0,hoplite
+Pel_Phyrgian_Spear,Phyrgian Spearmen,5,2,cloth,5,inf_melee,11,22,20,35,rome_spear,rome_javelin_precursor,0,thureos
+Pel_Picked_Hoplites,Picked Hoplites,5,0,bronze,20,inf_melee,25,42,46,75,rome_hoplite_spear_elite,,0,hoplite
+Pel_Royal_Spartans,Royal Spartans,5,0,bronze,20,inf_melee,28,44,52,75,rome_hoplite_spear_elite,,0,hoplite
+Pel_Sakae_Horse_Archers,Sakae Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+Pel_Skiritai,Skiritai,5,10,cloth,10,inf_melee,22,26,30,60,rome_spear,rome_javelin_light,0,thureos
+Pel_Slingers,Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,small_bronze
+Pel_Spartan_Archer_Marines,Spartan Archer Marines,25,15,cloth,15,inf_ranged,3,8,12,35,rome_shortsword,rome_bow,25,none
+Pel_Spartan_Hoplites,Spartan Hoplites,5,0,spolas,15,inf_melee,26,36,50,65,rome_hoplite_spear,,0,hoplite
+Pel_Spartan_Marines,Spartan Marines,5,0,spolas,25,inf_melee,26,46,50,75,rome_hoplite_spear,,0,hoplite
+Pel_Spartan_Youths,Spartan Youths,5,0,cloth,10,inf_melee,18,18,26,40,rome_hoplite_spear,,0,hoplite
+Pel_Theban_Hippeus,Theban Hippeus,5,2,bronze,20,cavalry,26,44,48,65,rome_spear_cav_elite,rome_javelin_precursor,0,none
+Pel_Thessalian_Hippeus,Thessalian Hippeus,5,2,bronze,20,cavalry,30,42,48,65,rome_spear_cav_elite,rome_javelin_precursor,0,none
+Pel_Thr_Archers,Thraike Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+Pel_Thr_Cav,Thraike Cavalry,5,7,cloth,10,cavalry,16,40,16,35,rome_kopis,rome_javelin,18,cavalry
+Pel_Thr_Marines,Thraike Marines,5,7,cloth,15,inf_ranged,12,28,15,45,rome_balkan_sword,rome_javelin_improved,23,pelta
+Pel_Thr_Nobles,Thraike Nobles,5,0,spolas,20,inf_melee,63,76,14,70,rome_rhomphaia,,0,thracian
+Pel_Thr_Peltasts,Thraike Peltasts,5,7,cloth,15,inf_ranged,12,28,15,45,rome_balkan_sword,rome_javelin_improved,23,pelta
+Pel_Thr_Royal_Cav,Thraike Royal Cavalry,5,2,bronze,20,cavalry,43,49,16,70,rome_spear_cav_elite,rome_javelin_precursor,0,cavalry
+Pel_Thr_Warriors,Thraike Warriors,5,0,cloth,10,inf_melee,33,45,12,40,rome_rhomphaia,,0,thracian
+Rom_Armour_Legionaries,Armoured Legionaries,5,2,segmentata_arm,15,inf_melee,15,58,26,65,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+Rom_Ballista,Roman Ballista,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Ballista_Bastion,Roman Bastion Ballista,5,25,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Rom_Ballista_Shp,Roman Ballista (Ship),40,1,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Beehive_Onager,Roman Beehive Onager,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Cheiroballistra,Roman Scorpion,5,40,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Eagle_Cohort,Eagle Cohort,5,2,segmentata,20,inf_melee,12,47,35,65,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+Rom_Equites,Equites,5,0,mail,10,cavalry,29,33,12,40,rome_spear_cav,,0,cavalry
+Rom_Evocati_Cohort,Evocati Cohort,5,2,segmentata,15,inf_melee,15,61,23,65,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+Rom_First_Cohort,First Cohort,5,2,mail_improved,20,inf_melee,12,47,33,65,rome_gladius_marian,rome_pilum_heavy,0,scutum_marian
+Rom_General,General & Bodyguard,5,0,bronze,15,cavalry,20,28,41,55,rome_spear_cav,,0,cavalry
+Rom_Giant_Ballista,Roman Giant Ballista,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Gladiator_Spear,Gladiator Spearmen,5,0,none,20,inf_melee,28,45,35,50,rome_spear_elite,,0,celtic_shock
+Rom_Gladiators,Gladiators,5,0,none,25,inf_melee,22,67,25,55,rome_gladius_elite,,0,celtic_shock
+Rom_Gladiatrices,Gladiatrices,5,0,leather,20,inf_melee,22,57,25,65,rome_gladius_elite,,0,celtic_shock
+Rom_Gladiatrices_Spear,Spear Gladiatrices,5,0,leather,15,inf_melee,20,40,35,60,rome_spear_elite,,0,celtic_shock
+Rom_Hastati,Hastati,5,2,chest,10,inf_melee,12,35,18,45,rome_gladius,rome_pilum_light,0,scutum
+Rom_Large_Onager,Roman Heavy Onager,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Legatus,Legatus,5,0,mail,15,cavalry,20,28,41,55,rome_spear_cav,,0,cavalry
+Rom_Legionaries,Legionaries,5,2,mail,15,inf_melee,14,47,23,55,rome_gladius_marian,rome_pilum_heavy,0,scutum_marian
+Rom_Legionary_Cav,Legionary Cavalry,5,0,mail,15,cavalry,29,33,10,45,rome_spear_cav,,0,cavalry
+Rom_Legionary_Cohort,Legionary Cohort,5,2,segmentata,15,inf_melee,14,47,23,55,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+Rom_Leves,Leves,5,7,cloth,5,inf_ranged,3,5,12,20,rome_shortsword,rome_wooden_javelin,8,pelta
+Rom_Onager,Roman Onager,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Onager_Bastion,Roman Bastion Onager,5,25,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Rom_Onager_Prologue,Ballista,5,15,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Onager_Shp,Roman Onager (Ship),40,1,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Plebs,Plebs,5,0,cloth,0,inf_melee,3,5,12,20,rome_shortsword,,0,none
+Rom_Polybolos,Roman Polybolos,5,60,mail,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Rom_Polybolos_Bastion,Roman Bastion Polybolos,5,80,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Rom_Praetorian_Cav,Praetorian Cavalry,5,0,mail,20,cavalry,42,49,22,70,rome_spear_cav_elite,,0,cavalry
+Rom_Praetorian_Guard,Praetorian Guard,5,2,segmentata,20,inf_melee,19,65,30,70,rome_gladius_elite,rome_pilum_heavy,0,scutum_marian
+Rom_Praetorians,Praetorians,5,2,mail_improved,20,inf_melee,19,65,30,70,rome_gladius_elite,rome_pilum_heavy,0,scutum_marian
+Rom_Principes,Principes,5,2,mail,15,inf_melee,14,47,23,55,rome_gladius,rome_pilum_light,0,scutum
+Rom_Rorarii,Rorarii,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,scutum
+Rom_Scorpion,Roman Scorpion (Fixed),5,30,mail,5,artillery,6,9,14,40,rome_shortsword,,4,none
+Rom_Scorpion_Bastion,Roman Bastion Scorpion,5,40,mail,0,artillery,6,9,14,40,rome_shortsword,,20,none
+Rom_Triarii,Triarii,5,0,bronze,20,inf_melee,24,31,34,65,rome_spear_elite,,0,scutum
+Rom_Velites,Velites,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+Rom_Vet_Legionaries,Veteran Legionaries,5,2,mail_improved,15,inf_melee,15,59,23,65,rome_gladius_marian,rome_pilum_heavy,0,scutum_marian
+Rom_Vigiles,Vigiles,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear,,0,scutum
+Rom_War_Dogs,War Dogs,5,0,cloth,5,inf_melee,20,23,28,35,rome_celtic_longsword,,0,caetra
+Ste_Amazonian_Riders,Scythian 'Amazonian' Riders,20,15,cloth,5,cavalry,4,7,2,40,rome_shortsword,rome_composite_bow_elite,10,none
+Ste_Archers,Steppe Archers,5,15,cloth,5,inf_ranged,3,8,12,20,rome_shortsword,rome_composite_bow,13,none
+Ste_Armour_Horse_Archers,Armoured Horse Archers,5,15,spolas,15,cavalry,15,37,15,45,rome_steppe_sword,rome_composite_bow_horse,23,none
+Ste_Armoured_Lancers,Steppe Armoured Lancers,5,0,spolas,15,cavalry,57,40,16,50,rome_lance,,0,none
+Ste_Ballista,Steppe Ballista,5,15,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+Ste_Ballista_Bastion,Steppe Bastion Ballista,5,25,cloth,0,artillery,6,9,14,35,rome_shortsword,,20,none
+Ste_Horse_Archers,Steppe Horse Archers,5,15,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_composite_bow_horse,18,none
+Ste_Horse_Skirm,Steppe Horse Skirmishers,5,7,cloth,10,cavalry,4,9,13,30,rome_shortsword,rome_javelin,18,none
+Ste_Lancers,Steppe Lancers,5,0,cloth,10,cavalry,51,34,16,35,rome_lance,,0,none
+Ste_Noble_Horse_Archers,Noble Horse Archers,5,15,scale,15,cavalry,16,49,16,60,rome_steppe_sword,rome_composite_bow_horse,28,none
+Ste_Noble_Lancers,Steppe Noble Lancers,5,0,scale,15,cavalry,76,46,21,60,rome_lance,,0,none
+Ste_Noblewomen,Scythian Noblewomen,30,15,spolas,10,cavalry,15,30,3,60,rome_steppe_sword,rome_composite_bow_elite,23,none
+Ste_Royal_Horse_Archers,Royal Horse Archers,5,15,scale_elite,20,cavalry,19,60,22,70,rome_steppe_sword,rome_composite_bow_horse,33,none
+Ste_Saka_Cataphract_Horse_Archers,Saka Cataphract Horse Archers,5,15,cataphract,15,cavalry,18,53,18,70,rome_steppe_sword,rome_composite_bow_horse,28,none
+Ste_Saka_Cataphracts,Saka Cataphracts,5,0,cataphract,20,cavalry,68,45,25,70,rome_lance_elite,,0,none
+Ste_Saka_Noble_Armour_Lancers,Saka Noble Armoured Lancers,5,0,cataphract,20,cavalry,63,55,23,65,rome_lance_elite,,0,none
+Ste_Sarmatian_Horsemen,Sarmatian Horsemen,5,0,scale,15,cavalry,38,48,17,55,rome_celtic_spear_cav,,0,germanic_cav
+Ste_Sarmatian_Riders,Sarmatian Riders,5,0,cloth,10,cavalry,33,39,11,45,rome_celtic_spear_cav,,0,caetra_fast_cav
+Ste_Sarmatian_Royal_Lancers,Sarmatian Royal Lancers,5,0,cataphract,30,cavalry,80,46,21,70,rome_lance_elite,,0,none
+Ste_Scythian_Royal_Horse,Scythian Royal Horse,5,0,scale_elite,20,cavalry,43,49,23,70,rome_spear_cav_elite,,0,hoplite_cav
+Ste_Scythian_Royal_Skirmishers,Scythian Royal Skirmishers,5,7,scale,15,cavalry,31,52,14,70,rome_steppe_sword,rome_javelin_improved,28,germanic_cav
+Ste_Spear,Steppe Spearmen,5,0,cloth,5,inf_melee,14,14,22,25,rome_spear_anti_cav,,0,celtic
+Ste_Tribesmen,Tribesmen,5,0,cloth,0,inf_melee,9,10,21,20,rome_spear,,0,celtic
+Ste_Young_Axes,Young Axes,5,0,cloth,5,inf_melee,14,28,11,25,rome_celtic_axe,,0,caetra
+Thr_Bowmen,Thracian Bowmen,5,15,cloth,5,inf_ranged,3,12,12,25,rome_shortsword,rome_bow,13,none
+Thr_Cav,Thracian Cavalry,5,7,cloth,10,cavalry,16,40,16,35,rome_kopis,rome_javelin,18,cavalry
+Thr_Horsemen,Thracian Horsemen,5,0,leather,15,cavalry,31,31,16,45,rome_celtic_spear_cav,,0,cavalry
+Thr_Nobles,Thracian Nobles,5,0,spolas,20,inf_melee,63,76,14,70,rome_rhomphaia,,0,thracian
+Thr_Peltasts,Thracian Peltasts,5,7,padded_improved,15,inf_ranged,12,28,15,45,rome_balkan_sword,rome_javelin_improved,23,pelta
+Thr_Royal_Cav,Thracian Royal Cavalry,5,2,bronze,20,cavalry,43,49,16,70,rome_spear_cav_elite,rome_javelin_precursor,0,cavalry
+Thr_Skirm,Thracian Skirmishers,5,7,cloth,5,inf_ranged,3,12,12,25,rome_shortsword,rome_javelin_improved,13,pelta
+Thr_Slingers,Thracian Slingers,5,25,cloth,5,inf_ranged,3,12,12,25,rome_shortsword,rome_sling,13,pelta
+Thr_Tribal_Garrison,Tribal Garrison,5,7,cloth,0,inf_ranged,3,5,12,20,rome_shortsword,rome_javelin,8,pelta
+Thr_Warriors,Thracian Warriors,5,0,cloth,10,inf_melee,36,46,12,45,rome_rhomphaia,,0,thracian
+_test_dummy,Test Dummy,5,0,padded_improved,15,cavalry,35,52,16,38,rome_eastern_axe,,0,none
+dk_afr_armoured_desert_cavalry,Armoured Desert Cavalry,5,0,spolas_improved,10,cavalry,30,42,18,45,rome_hoplite_spear_cav,,0,caetra_cavalry
+dk_afr_desert_cavalry,Desert Cavalry,5,0,cloth,10,cavalry,35,45,12,35,rome_spear_cav,,0,caetra_cavalry
+dk_afr_desert_chariots,Desert Chariots,5,7,cloth,20,cavalry,6,16,17,55,rome_shortsword,rome_javelin,13,none
+dk_afr_slave_infantry,Slave Infantry,5,0,none,10,inf_melee,18,22,14,25,rome_falcata,,0,small_round
+dk_ara_armoured_camel_spearmen,Armoured Camel Spearmen,5,0,scale,10,cavalry,30,44,12,55,rome_spear_cav,,0,caetra_cavalry
+dk_ara_caravan_guard,Caravan Guard,5,2,spolas,10,inf_melee,22,22,32,50,rome_spear,rome_javelin_light_nonprecursor,0,tower
+dk_ara_desert_chariots,Desert Chariots,5,7,cloth,20,cavalry,6,16,17,55,rome_shortsword,rome_javelin,13,none
+dk_ara_desert_heavy_lancers,Desert Heavy Lancers,5,0,scale,15,cavalry,72,44,20,50,rome_lance,,0,none
+dk_ara_desert_levy,Desert Levy,0,0,cloth,5,inf_melee,15,15,20,25,rome_falcata,,0,oval
+dk_kush_african_elephants,African Elephants,5,0,leather,15,elephants,24,54,21,55,tusks,,0,none
+dk_kush_african_war_elephants,African War Elephants,5,7,leather,15,elephants,44,64,24,65,tusks,rome_javelin_elephant,15,none
+dk_kush_armoured_shotel_warriors,Armoured Shotel Warriors,5,2,scale_elite,20,inf_melee,28,40,46,65,rome_shotel_elite,rome_javelin_precursor,0,tower
+dk_kush_disciples_of_apedemak,Disciples of Apedemak,5,0,none,25,inf_melee,60,60,32,75,rome_celtic_longsword_bonus_infantry,,0,large_hide
+dk_kush_kushite_bowwomen,Kushite Archers,5,15,cloth,10,inf_ranged,6,14,16,50,rome_falcata,dk_long_bow_poison,18,none
+dk_kush_kushite_pikes,Kushite Pikes,5,0,padded,10,inf_melee,6,32,10,40,rome_pike,,0,pikemen
+dk_kush_kushite_royal_guard,Kushite Royal Guard,5,0,scale_elite,20,cavalry,42,52,23,65,rome_spear_cav_elite,,0,caetra_cavalry
+dk_kush_kushite_slave_infantry,Kushite Slave Infantry,5,2,cloth,10,inf_melee,15,20,22,30,rome_falcata,rome_javelin_precursor,0,round
+dk_kush_kushite_slave_spearmen,Kushite Slave Spearmen,5,2,cloth,15,inf_melee,18,20,26,40,rome_spear,rome_javelin_light_nonprecursor,0,thureos
+dk_kush_leopard_warriors,Leopard Warriors,5,0,cloth,15,inf_melee,30,36,30,65,rome_spear,,0,thureos
+dk_kush_royal_kushite_archers,Royal Kushite Archers,5,15,leather,15,inf_ranged,10,16,18,55,rome_falcata,dk_composite_bow_poison_elite,28,none
+dk_kush_scythed_chariots,Scythed Chariots,5,0,scale_elite,15,cavalry,45,54,29,65,rome_gladius,,0,none
+dk_kush_shotel_warriors,Shotel Warriors,5,2,mail,15,inf_melee,25,38,42,50,rome_shotel,rome_javelin_precursor,0,oval
+dk_kush_slave_slingers,Slave Slingers,5,25,none,5,inf_ranged,3,8,10,25,rome_shortsword,rome_sling,13,small_bronze
+dk_mer_desert_cavalry,Mercenary Desert Cavalry,5,0,cloth,10,cavalry,35,45,12,30,rome_spear_cav,,0,caetra_cavalry
+dk_mer_nubian_bowmen,Mercenary Nubian Bowmen,5,15,cloth,10,inf_ranged,4,9,13,35,rome_shortsword,rome_bow_long,18,none
+dk_mer_nubian_spearmen,Mercenary Nubian Spearmen,5,0,cloth,15,inf_melee,24,25,28,50,rome_spear,,0,thureos
+dk_nab_armoured_desert_hoplites,Armoured Desert Hoplites,5,0,mail_improved,15,inf_melee,30,38,40,55,rome_hoplite_spear_elite,,0,hoplite
+dk_nab_desert_hoplites,Desert Hoplites,5,0,padded,15,inf_melee,20,25,28,40,rome_hoplite_spear,,0,hoplite
+dk_nab_desert_pikemen,Desert Pikemen,5,0,cloth,10,inf_melee,4,28,5,35,rome_pike,,0,pikemen
+dk_nab_heavy_desert_spearmen,Heavy Desert Spearmen,5,0,scale,20,inf_melee,26,34,34,55,rome_spear_elite,,0,oval
+dk_nab_hellenic_desert_cataphracts,Hellenic Desert Cataphracts,5,0,cataphract,20,cavalry,78,48,18,65,rome_lance_elite,,0,none
+dk_nab_nabatean_axe_warriors,Nabataean Axe Warriors,5,2,leather,15,inf_melee,20,35,20,50,rome_eastern_axe,rome_javelin_precursor,0,oval
+dk_nab_nabatean_heavy_archers,Nabataean Heavy Archers,5,15,scale,10,inf_ranged,6,14,12,40,rome_falcata,rome_recurve_bow_elite,23,none
+dk_nab_nabatean_light_peltasts,Nabataean Light Peltasts,5,10,cloth,10,inf_ranged,10,18,15,40,rome_falcata,rome_javelin,23,peltast_thureos
+dk_nab_nabatean_noble_cavalry,Nabataean Noble Cavalry,5,0,scale,15,cavalry,38,50,18,55,rome_spear_cav,,0,cavalry
+dk_nab_nabatean_swordsmen,Nabataean Swordsmen,5,2,padded,20,inf_melee,24,32,22,35,rome_falcata,rome_javelin_precursor,0,oval
+dk_nab_nabatean_thorax_pikes,Nabataean Thorax Pikes,5,0,mail,15,inf_melee,10,40,18,50,rome_pike,,0,pikemen
+dk_nab_rekem_palace_guard,Rekem Palace Guard,5,0,bronze_elite,20,inf_melee,30,44,40,65,rome_spear_elite,,0,hoplite
+dk_nab_scythed_chariots,Scythed Chariots,5,0,scale_elite,15,cavalry,45,54,29,65,rome_gladius,,0,none
+dk_num_african_elephants,African Elephants,5,0,leather,15,elephants,24,54,21,55,tusks,,0,none
+dk_num_armoured_desert_chariots,Armoured Desert Chariots,5,7,mail_improved,25,cavalry,8,18,20,60,rome_shortsword,rome_javelin,13,none
+dk_num_armoured_numidian_cavalry,Armoured Numidian Cavalry,5,7,mail,25,cavalry,36,48,25,55,rome_kopis,rome_javelin_improved,28,pelta_cavalry
+dk_num_armoured_numidian_riders,Armoured Numidian Riders,5,0,spolas_improved,15,cavalry,60,42,22,50,rome_lance,,0,none
+dk_num_armoured_numidian_spearmen,Armoured Numidian Spearmen,5,0,mail,15,inf_melee,28,28,34,50,rome_celtic_spear,,0,celtic
+dk_num_desert_cohort,Desert Cohort,5,2,segmentata,20,inf_melee,12,47,35,65,rome_gladius_imperial,rome_pilum_heavy,0,scutum_imperial
+dk_num_desert_legionaries,Desert Legionaries,5,2,mail,15,inf_melee,14,47,23,55,rome_gladius_marian,rome_pilum_heavy,0,scutum_marian
+dk_num_desert_legionary_cavalry,Desert Legionary Cavalry,5,2,mail,15,cavalry,26,30,10,50,rome_spear_cav,rome_javelin_precursor,0,cavalry
+dk_num_desert_vigiles,Desert Vigiles,5,0,cloth,5,inf_melee,15,15,22,30,rome_spear,,0,scutum
+dk_num_gaetuli_horse_skirmishers,Gaetuli Horse Skirmishers,5,7,none,10,cavalry,6,12,12,30,rome_falcata,rome_javelin_improved,18,pelta_cavalry
+dk_num_gaetuli_tribesmen,Gaetuli Tribesmen,5,2,none,10,inf_melee,36,30,36,55,rome_celtic_longsword_bonus_infantry,rome_javelin_light_nonprecursor,0,none
+dk_num_heavy_numidian_skirmishers,Heavy Numidian Skirmishers,5,7,mail,15,inf_ranged,18,30,18,50,rome_falcata,rome_javelin_improved,23,pelta
+dk_num_numidian_light_infantry,Numidian Light Infantry,5,2,cloth,10,inf_melee,28,32,22,40,rome_falcata,rome_javelin_precursor,0,oval
+dk_num_numidian_riders,Numidian Riders,5,0,cloth,10,cavalry,58,36,18,35,rome_lance,,0,none
+dk_saba_camel_lancers,Camel Lancers,5,0,padded,5,cavalry,44,24,16,40,rome_lance,,0,none
+dk_saba_desert_spearmen,Desert Spearmen,5,0,cloth,5,inf_melee,11,16,24,30,rome_spear,,0,oval
+dk_saba_marib_camel_cataphracts,Ma'rib Camel Cataphracts,5,0,cataphract_elite,10,cavalry,75,48,22,65,rome_lance,,0,none
+dk_saba_marib_royal_guard,Ma'rib Royal Guard,5,0,bronze_elite,20,inf_melee,30,42,40,70,rome_spear_elite,,0,oval
+dk_saba_mer_himyar_cavalry,Mercenary Himyar Cavalry,5,2,scale,15,cavalry,34,40,15,50,rome_spear_cav,rome_javelin_precursor,0,cavalry
+dk_saba_mer_marib_guard,Mercenary Ma'rib Guard,5,0,scale,20,inf_melee,24,30,40,55,rome_spear_elite,,0,oval
+dk_saba_merc_maas_gat_marauders,Mercenary Maas Gat Marauders,5,2,leather,15,inf_melee,36,44,22,45,rome_eastern_axe,rome_javelin_precursor,0,thureos
+dk_saba_royal_camel_archers,Royal Camel Archers,5,15,mail_improved,5,cavalry,16,22,16,55,rome_falcata,rome_recurve_bow_horse,13,none
+dk_saba_royal_marib_cavalry,Royal Ma'rib Cavalry,5,0,scale_elite,20,cavalry,42,52,23,65,rome_spear_cav_elite,,0,caetra_cavalry
+dk_saba_sabaean_archers,Sabaean Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+dk_saba_sabaean_camel_cataphracts,Sabaean Camel Cataphracts,5,0,cataphract,5,cavalry,68,42,20,60,rome_lance,,0,none
+dk_saba_sabaean_spearmen,Sabaean Spearmen,5,0,leather,5,inf_melee,11,16,30,35,rome_spear,,0,oval
+dk_saba_sabaean_swordsmen,Sabaean Swordsmen,5,2,padded_improved,10,inf_melee,28,34,26,35,rome_falcata,rome_javelin_precursor,0,oval
+inv_aequi_horsemen,Native Aequi Horsemen,5,0,cloth,10,cavalry,40,35,20,20,rome_spear_cav,,0,caetra_cavalry
+inv_aequi_swordsmen,Native Aequi Swordsmen,5,0,cloth,20,inf_melee,15,45,35,20,rome_gladius_elite,,0,pikemen
+inv_african_cavalry,African Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+inv_african_elephants,African Elephants,5,0,leather,15,elephants,24,54,21,55,tusks,,0,none
+inv_app_archers,Iapygian Archers,5,15,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_bow,13,none
+inv_app_cavalry,Iapygian Cavalry,5,0,cloth,10,cavalry,30,20,10,40,rome_spear_cav,,0,cavalry
+inv_app_hoplites,Iapygian Hoplites,5,0,spolas,15,inf_melee,15,35,30,40,rome_hoplite_spear,,0,hoplite
+inv_app_horse_skirmishers,Iapygian Horse Skirmishers,5,7,cloth,5,cavalry,5,9,10,30,rome_spear_cav,rome_javelin,18,caetra_cavalry
+inv_app_light_spearmen,Iapygian Light Spearmen,5,0,cloth,5,inf_melee,10,21,20,30,rome_hoplite_spear,,0,pikemen
+inv_app_noble_hoplites,Iapygian Noble Hoplites,5,0,bronze,20,inf_melee,25,35,35,50,rome_hoplite_spear_elite,,0,hoplite
+inv_app_peltasts,Iapygian Peltasts,5,7,spolas,10,inf_ranged,10,18,15,40,rome_shortsword,rome_javelin,18,peltast_thureos
+inv_app_swordsmen,Iapygian Swordsmen,5,0,chest,10,inf_melee,10,13,10,40,rome_shortsword,,0,none
+inv_apulian_archers,Native Iapygian Archers,5,18,cloth,15,inf_ranged,3,8,12,30,rome_shortsword,rome_bow,13,none
+inv_apulian_javelinmen,Native Iapygian Javelinmen,5,7,cloth,10,inf_ranged,10,18,15,40,rome_generic_sword,rome_javelin,18,peltast_thureos
+inv_brutii_slingers,Native Bruttii Slingers,5,25,cloth,10,inf_ranged,5,15,10,30,rome_generic_sword,rome_sling,13,none
+inv_brutii_tribesmen,Native Bruttii Tribesmen,5,1,cloth,0,inf_melee,20,15,5,30,rome_spear,rome_javelin_precursor,13,none
+inv_car_Infantry,Carthaginian Infantry,5,2,spolas_improved,15,inf_melee,18,41,26,55,rome_kopis,rome_javelin_precursor,0,thureos
+inv_car_ballista,Carthaginian Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_car_carthaginian_cavalry,Carthaginian Cavalry,5,0,leather,10,cavalry,30,30,10,45,rome_spear_cav,,0,caetra_cavalry
+inv_car_carthaginian_javelin,Carthaginian Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,celtic_missile
+inv_car_carthaginian_peltasts,Carthaginian Peltasts,5,7,spolas,10,inf_ranged,10,26,19,45,rome_shortsword,rome_javelin,18,peltast_thureos
+inv_car_citizen_militia,Citizen Militia,5,0,cloth,5,inf_melee,15,15,22,30,rome_spear,,0,celtic_missile
+inv_car_hoplites,Carthaginian Hoplites,5,0,spolas,15,inf_melee,20,36,36,55,rome_spear_elite,,0,hoplite
+inv_car_mob,Mob,5,0,cloth,0,inf_melee,3,5,12,20,rome_shortsword,,0,none
+inv_car_polybolos,Carthaginian Polybolos,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_car_sacred_band,Sacred Band,5,0,bronze,20,inf_melee,22,42,44,70,rome_spear_elite,,0,hoplite
+inv_car_sword_militia,Sword Militia,5,0,cloth,5,inf_melee,15,15,22,30,rome_generic_sword,,0,celtic_missile
+inv_carthaginian_infantry,Native Carthaginian Infantry,5,2,chest_improved,10,inf_melee,10,25,15,35,rome_kopis,rome_javelin_precursor,0,thureos
+inv_carthaginian_spearmen,Native Carthaginian Spearmen,5,0,cloth,10,inf_melee,10,20,20,30,rome_spear_anti_cav,,0,hoplite
+inv_etr_archers,Etruscan Archers,5,15,cloth,10,inf_ranged,4,10,30,30,rome_shortsword,rome_bow,13,none
+inv_etr_axe_infantry,Etruscan Axe Infantry,5,0,spolas,10,inf_melee,5,35,30,35,rome_celtic_axe,,0,pikemen
+inv_etr_ballista,Etruscan Ballista,5,60,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+inv_etr_chariots,Etruscan Chariots,5,7,cloth,20,cavalry,32,35,45,70,rome_generic_sword,rome_javelin,20,caetra_cavalry
+inv_etr_city_guard,Etruscan City Guard,5,0,spolas,10,inf_melee,5,30,45,50,rome_celtic_longsword_bonus_infantry,,0,scutum
+inv_etr_etruscan_cavalry,Etruscan Cavalry,5,0,chest_improved,15,cavalry,25,35,35,45,rome_spear_elite,,0,caetra_cavalry
+inv_etr_heavy_hoplites,Etruscan Heavy Hoplites,5,0,bronze,10,inf_melee,15,45,70,55,rome_hoplite_spear_elite,,0,hoplite
+inv_etr_hoplites,Etruscan Hoplites,5,0,chest,10,inf_melee,10,25,40,40,rome_hoplite_spear,,0,hoplite
+inv_etr_horse_skirmishers,Italian Horse Skirmishers,5,7,chest,5,cavalry,5,9,10,30,rome_generic_sword_cav,rome_javelin,18,caetra_cavalry
+inv_etr_light_spearmen,Etruscan Light Spearmen,5,0,cloth,5,inf_melee,5,15,30,30,rome_spear,,0,oval
+inv_etr_polybolos,Etruscan Polybolos,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_etr_skirmishers,Etruscan Skirmishers,5,7,cloth,10,inf_ranged,3,5,10,15,rome_shortsword,rome_wooden_javelin,8,small_round
+inv_etr_slingers,Etruscan Slingers,5,25,cloth,5,inf_ranged,3,5,5,20,rome_shortsword,rome_sling,13,small_round
+inv_etruscan_spearmen,Native Etruscan Spearmen,5,0,cloth,5,inf_melee,5,7,5,25,rome_spear,,0,oval
+inv_gre_ballista,Greek Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_gre_hippeus,Hippeus,5,0,bronze,20,cavalry,25,40,25,40,rome_spear_cav,,0,none
+inv_gre_hippotoxotes,Hippotoxotes,5,15,light_padded,10,cavalry,5,10,10,30,rome_shortsword,rome_bow_horse,0,none
+inv_gre_hoplites,Hoplites,5,0,spolas,15,inf_melee,15,35,40,50,rome_hoplite_spear,,0,hoplite
+inv_gre_horse_skirmishers,Horse Skirmishers,5,7,cloth,5,cavalry,5,10,10,30,rome_shortsword,rome_wooden_javelin,18,celtic_round
+inv_gre_light_hoplites,Light Hoplites,5,0,cloth,10,inf_melee,15,25,25,35,rome_hoplite_spear,,0,hoplite
+inv_gre_militia_spearmen,Militia Spearmen,5,0,cloth,5,inf_melee,5,10,12,30,rome_hoplite_spear,,0,pikemen
+inv_gre_polybolos,Greek Polybolos,5,60,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+inv_gre_sicillian_skirmishers,Sicilian Peltasts,5,7,spolas,15,inf_ranged,5,35,30,50,rome_shortsword,rome_javelin,13,peltast_thureos
+inv_gre_slingers,Greek Slingers,5,25,cloth,5,inf_ranged,3,5,5,20,rome_shortsword,rome_sling,13,none
+inv_gre_toxotes,Toxotes,5,15,cloth,20,inf_ranged,3,8,12,50,rome_shortsword,rome_bow,13,none
+inv_greek_archers,Native Greek Archers,5,15,cloth,10,inf_ranged,3,8,12,30,rome_shortsword,rome_bow,10,none
+inv_greek_militia,Native Greek Militia,5,0,cloth,5,inf_melee,5,10,10,25,rome_hoplite_spear,,0,pikemen
+inv_ill_hoplites,Illyrian Hoplites,5,0,bronze,15,inf_melee,20,35,34,45,rome_hoplite_spear,,0,hoplite
+inv_ill_nobles,Illyrian Nobles,5,0,bronze,15,inf_melee,15,45,30,45,rome_hoplite_spear,,0,hoplite
+inv_ill_raiders,Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,55,rome_celtic_axe,rome_javelin_precursor,0,thureos
+inv_ill_slave_javelinmen,Slave Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+inv_ill_slave_slingers,Slave Slingers,5,25,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_sling,13,pelta
+inv_ill_spearmen,Illyrian Spearmen,5,0,cloth,5,inf_melee,11,13,24,30,rome_spear_anti_cav,,0,celtic
+inv_ill_tribesmen,Illyrian Tribesmen,5,0,cloth,0,inf_melee,10,10,21,25,rome_spear,,0,thureos
+inv_ins_gallic_elder_swordsmen,Gallic Elder Swordsmen,5,2,leather,5,inf_melee,30,60,45,60,rome_celtic_longsword_elite,rome_javelin_precursor,0,celtic
+inv_ins_gallic_heavy_spearmen,Gallic Heavy Spearmen,5,0,leather,20,inf_melee,10,35,45,45,rome_celtic_spear_elite,,0,celtic
+inv_ins_highland_hunters,Highland Hunters,5,15,leather,5,inf_ranged,5,17,15,40,rome_generic_sword,rome_bow_long,30,none
+inv_ins_longsword_warriors,Longsword Warriors,5,0,leather,10,inf_melee,30,40,30,40,rome_shotel,,0,celtic_shock
+inv_iol_ballista,Iolean Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_iol_heavy_nuragic_runners,Heavy Nuragic Runners,5,0,leather,20,inf_melee,45,35,10,50,rome_iolean_glove,,0,oval
+inv_iol_iolean_javelinmen,Iolean Javelinmen,5,10,spolas_improved,15,inf_ranged,10,20,20,35,rome_generic_sword,rome_javelin_improved,18,round
+inv_iol_noble_sardi_archers,Noble Sardi Archers,5,20,leather,15,inf_ranged,5,25,40,60,rome_generic_sword,rome_composite_bow,23,none
+inv_iol_nuragic_ambushers,Nuragic Ambushers,5,7,cloth,10,inf_ranged,30,35,15,40,rome_generic_sword,rome_javelin_improved,13,round
+inv_iol_nuragic_runners,Nuragic Runners,5,0,none,20,inf_melee,35,20,5,40,rome_iolean_glove,,0,oval
+inv_iol_nuragic_shield_wall,Nuragic Shield Wall,5,0,leather,10,inf_melee,5,20,35,30,rome_spear,,0,oval
+inv_iol_nuragic_warriors,Nuragic Warriors,5,0,leather,10,inf_melee,20,40,25,35,rome_kopis,,0,round
+inv_iol_polybolos,Iolean Polybolos,5,60,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+inv_iol_sardi_axemen,Sardi Axemen,5,0,leather,10,inf_melee,20,30,15,30,rome_celtic_axe,,0,round
+inv_iol_sardi_bowmen,Sardi Bowmen,5,15,cloth,5,inf_ranged,5,5,10,30,rome_shortsword,rome_bow_long,13,none
+inv_iol_sardi_cavalry,Sardi Cavalry,5,0,cloth,10,cavalry,30,20,20,30,rome_spear_cav,,0,none
+inv_iol_sardi_hillmen,Sardi Hillmen,5,0,cloth,10,inf_melee,5,15,10,30,rome_generic_sword,,0,none
+inv_iol_sardi_horse_skirmishers,Sardi Horse Skirmishers,5,7,cloth,5,cavalry,20,5,10,30,rome_generic_sword_cav,rome_javelin_light,0,round
+inv_iol_sardi_skirmishers,Sardi Skirmishers,5,7,cloth,5,inf_ranged,5,10,15,20,rome_shortsword,rome_wooden_javelin,13,small_round
+inv_iol_sardi_slingers,Sardi Slingers,5,25,cloth,5,inf_ranged,3,5,5,30,rome_shortsword,rome_sling,15,small_round
+inv_iol_sardi_spearmen,Sardi Spearmen,5,0,cloth,5,inf_melee,5,20,30,30,rome_spear,,0,round
+inv_iol_sherden_horsemen,Sherden Horsemen,5,0,leather,15,cavalry,35,30,30,40,rome_generic_sword_cav,,0,round
+inv_iol_sherden_swordsmen,Sherden Swordsmen,5,0,leather,15,inf_melee,35,45,30,50,rome_celtic_longsword_elite,,0,round
+inv_ita_horse_skirmishers,Italian Horse Skirmishers,5,7,chest,5,cavalry,5,9,10,30,rome_generic_sword_cav,rome_javelin,18,caetra_cavalry
+inv_ita_italian_cavalry,Italian Cavalry,5,0,cloth,10,cavalry,30,25,20,45,rome_spear_cav,,0,none
+inv_ita_italic_skirmishers,Italian Skirmishers,5,7,cloth,10,inf_ranged,3,5,10,15,rome_shortsword,rome_wooden_javelin,8,small_round
+inv_ita_italic_slingers,Italian Slingers,5,25,cloth,5,inf_ranged,3,5,5,20,rome_shortsword,rome_sling,13,small_round
+inv_ita_italic_spearmen,Italian Spearmen,5,0,cloth,10,inf_melee,3,5,30,25,rome_spear,,0,round
+inv_ita_italic_swordsmen,Italian Swordsmen,5,0,cloth,5,inf_melee,10,15,20,30,rome_generic_sword,,0,oval
+inv_ita_umbrian_defenders,Umbrian Defenders,5,0,chest_improved,10,inf_melee,3,35,50,50,rome_spear_elite,,0,round
+inv_ita_veteran_spearmen,Italian Veteran Spearmen,5,0,bronze,15,inf_melee,10,30,35,40,rome_hoplite_spear,,0,hoplite
+inv_ita_veteran_swordsmen,Italian Veteran Swordsmen,5,0,spolas,10,inf_melee,20,35,15,45,rome_gladius,,0,oval
+inv_italian_hillmen,Native Italian Hillmen,5,0,cloth,5,inf_melee,5,15,5,35,rome_generic_sword,,0,none
+inv_italian_skirmishers,Native Italian Skirmishers,5,7,cloth,5,inf_ranged,5,5,5,20,rome_shortsword,rome_wooden_javelin,0,small_round
+inv_italian_slingers,Native Italian Slingers,5,25,cloth,5,inf_ranged,5,5,5,20,rome_shortsword,rome_sling,13,small_round
+inv_italian_swordsmen,Native Italian Swordsmen,5,0,cloth,5,inf_melee,5,12,15,25,rome_generic_sword,,0,oval
+inv_latin_spearmen,Native Latin Spearmen,5,0,cloth,5,inf_melee,5,9,5,40,rome_spear,,0,oval
+inv_latin_tribesmen,Native Latin Tribesmen,5,0,cloth,0,inf_melee,5,10,5,40,rome_generic_sword,,0,none
+inv_ligurian_axe_warriors,Native Ligurian Axe Warriors,5,0,leather,15,inf_melee,30,30,20,40,rome_celtic_axe,,0,celtic_shock
+inv_ligurian_horsemen,Native Ligurian Horsemen,5,0,leather,15,cavalry,30,35,20,40,rome_celtic_spear_cav,,0,none
+inv_ligurian_swordsmen,Native Ligurian Swordsmen,5,0,leather,15,inf_melee,30,45,10,45,rome_generic_sword,,0,celtic
+inv_local_campanian_cavalry,Native Campanian Cavalry,5,2,chest_improved,10,cavalry,30,20,10,40,rome_kopis_cav,rome_javelin_precursor,0,cavalry
+inv_local_gallic_axemen,Native Gallic Axemen,5,0,cloth,15,inf_melee,20,35,10,35,rome_celtic_axe,,0,celtic_shock
+inv_local_gallic_horsemen,Native Gallic Horsemen,5,0,cloth,5,cavalry,30,25,10,25,rome_celtic_spear_cav,,0,none
+inv_local_gallic_hunters,Native Gallic Hunters,5,15,cloth,5,inf_ranged,5,10,10,20,rome_shortsword,rome_bow,13,none
+inv_local_naked_warriors,Naked Native Warriors,5,0,none,10,inf_melee,40,50,20,50,rome_shotel,,0,celtic
+inv_lucanian_ambushers,Native Lucanian Ambushers,10,7,chest,10,inf_ranged,10,35,30,40,rome_generic_sword,rome_javelin,13,pikemen
+inv_lucanian_warriors,Native Lucanian Warriors,5,0,chest,10,inf_melee,20,40,20,40,rome_gladius,,0,pikemen
+inv_mercenary_aequi_swordsmen,Mercenary Aequi Swordsmen,5,0,chest_improved,20,inf_melee,15,45,35,20,rome_gladius_elite,,0,pikemen
+inv_mercenary_african_cavalry,Mercenary African Cavalry,5,7,cloth,10,cavalry,10,18,14,55,rome_shortsword,rome_javelin_improved,28,pelta_cavalry
+inv_mercenary_african_elephants,Mercenary African Elephants,5,0,leather,15,elephants,24,54,21,55,tusks,,0,none
+inv_mercenary_artas'_chosen,Mercenary Artas' Chosen,10,7,spolas,10,inf_ranged,10,28,25,50,rome_generic_sword,rome_javelin_improved,18,hoplite
+inv_mercenary_balearic_slingers,Mercenary Balearic Slingers,5,25,cloth,10,inf_ranged,4,10,13,45,rome_shortsword,rome_sling_lead,23,celtic_round
+inv_mercenary_ballista,Mercenary Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_mercenary_brutti_veterans,Mercenary Brutti Veterans,5,1,chest,0,inf_melee,30,40,25,45,rome_spear,rome_javelin_precursor,13,none
+inv_mercenary_campanian_cavalry,Mercenary Campanian Cavalry,5,2,chest_improved,10,cavalry,30,20,10,40,rome_kopis_cav,rome_javelin_precursor,0,cavalry
+inv_mercenary_carthaginian_hoplites,Mercenary Carthaginian Hoplites,5,0,light_padded,5,inf_melee,20,24,24,45,rome_spear_anti_cav,,0,hoplite
+inv_mercenary_carthaginian_javelin,Mercenary Carthaginian Javelinmen,5,7,cloth,5,inf_ranged,3,8,12,25,rome_shortsword,rome_javelin,13,pelta
+inv_mercenary_carthaginian_peltasts,Mercenary Carthaginian Peltasts,5,7,spolas,10,inf_ranged,10,26,19,45,rome_shortsword,rome_javelin,18,peltast_thureos
+inv_mercenary_cretan_archers,Mercenary Cretan Archers,5,15,cloth,15,inf_ranged,6,12,14,55,rome_shortsword,rome_composite_bow_elite,28,none
+inv_mercenary_eques,Mercenary Eques,5,0,cloth,10,cavalry,30,30,10,45,rome_spear_cav,,0,caetra_cavalry
+inv_mercenary_etr_archers,Mercenary Etruscan Archers,5,15,cloth,10,inf_ranged,4,8,20,30,rome_shortsword,rome_bow,13,none
+inv_mercenary_etruscan_axe_infantry,Mercenary Etruscan Axe Infantry,5,0,spolas,10,inf_melee,5,30,20,40,rome_celtic_axe,,0,pikemen
+inv_mercenary_etruscan_hoplites,Mercenary Etruscan Hoplites,5,0,chest,10,inf_melee,5,20,20,40,rome_hoplite_spear,,0,hoplite
+inv_mercenary_gallic_axe_cavalry,Mercenary Gallic Axe Cavalry,5,0,cloth,10,cavalry,40,45,10,40,rome_eastern_axe_elite,,0,celtic_shock
+inv_mercenary_gallic_axemen,Mercenary Gallic Axemen,5,0,cloth,15,inf_melee,20,40,10,35,rome_celtic_axe,,0,celtic_shock
+inv_mercenary_gallic_horsemen,Mercenary Gallic Horsemen,5,0,cloth,5,cavalry,30,25,10,25,rome_celtic_spear_cav,,0,none
+inv_mercenary_hippeus,Mercenary Hippeus,5,0,bronze,20,cavalry,25,40,25,40,rome_spear_cav,,0,none
+inv_mercenary_hoplites,Mercenary Hoplites,5,0,spolas,15,inf_melee,15,35,40,50,rome_hoplite_spear,,0,hoplite
+inv_mercenary_iberian_cavalry,Mercenary Iberian Cavalry,5,2,chest,10,cavalry,31,50,10,40,rome_spear_cav,rome_javelin_precursor,0,caetra_cavalry
+inv_mercenary_ill_hoplites,Mercenary Illyrian Hoplites,5,0,bronze,15,inf_melee,20,35,34,45,rome_hoplite_spear,,0,hoplite
+inv_mercenary_ill_raiders,Mercenary Illyrian Raiders,5,2,chest,5,inf_melee,16,34,15,55,rome_celtic_axe,rome_javelin_precursor,0,thureos
+inv_mercenary_italian_hillmen,Mercenary Italian Hillmen,5,0,cloth,5,inf_melee,5,15,5,35,rome_generic_sword,,0,none
+inv_mercenary_italian_swordsmen,Mercenary Italian Swordsmen,5,0,cloth,5,inf_melee,10,15,20,25,rome_generic_sword,,0,oval
+inv_mercenary_italic_skirmishers,Mercenary Italian Skirmishers,5,7,cloth,10,inf_ranged,3,5,10,15,rome_shortsword,rome_wooden_javelin,8,small_round
+inv_mercenary_latin_warriors,Mercenary Latin Warriors,5,0,cloth,0,inf_melee,5,10,5,40,rome_generic_sword,,0,round
+inv_mercenary_ligurian_axe_warriors,Mercenary Ligurian Axe Warriors,5,0,leather,15,inf_melee,15,50,30,45,rome_celtic_axe,,0,celtic
+inv_mercenary_ligurian_horsemen,Mercenary Ligurian Horsemen,5,0,leather,10,cavalry,30,30,30,35,rome_celtic_spear_cav,,0,none
+inv_mercenary_ligurian_swordsmen,Mercenary Ligurian Swordsmen,5,0,leather,15,inf_melee,20,40,40,35,rome_generic_sword,,0,celtic
+inv_mercenary_lucanian_veterans,Mercenary Lucanian Veterans,5,0,chest,10,inf_melee,30,45,20,40,rome_gladius,,0,hoplite
+inv_mercenary_massilian_hoplites,Mercenary Massilian Hoplites,5,0,mail_improved,20,inf_melee,26,36,42,65,rome_hoplite_spear_elite,,0,hoplite
+inv_mercenary_naked_warriors,Mercenary Naked Warriors,5,0,none,20,inf_melee,45,55,20,50,rome_shotel,,0,celtic
+inv_mercenary_nuragic_runners,Mercenary Nuragic Runners,5,0,none,20,inf_melee,35,20,5,40,rome_iolean_glove,,0,oval
+inv_mercenary_nuragic_warriors,Mercenary Nuragic Warriors,5,0,leather,10,inf_melee,20,40,25,45,rome_kopis,,0,round
+inv_mercenary_sabine_skirmishers,Mercenary Sabine Skirmishers,5,7,cloth,5,inf_ranged,3,10,5,30,rome_shortsword,rome_javelin,13,small_round
+inv_mercenary_samnite_veterans,Mercenary Samnite Veterans,5,0,chest,10,inf_melee,15,35,30,40,rome_gladius,,0,hoplite
+inv_mercenary_sardi_bowmen,Mercenary Sardi Bowmen,5,15,cloth,5,inf_ranged,5,5,10,30,rome_shortsword,rome_bow,13,none
+inv_mercenary_sicilian_slingers,Mercenary Sicilian Slingers,5,25,cloth,5,inf_ranged,10,10,10,15,rome_generic_sword,rome_sling,13,pikemen
+inv_mercenary_sicilian_tribesmen,Mercenary Sicilian Tribesmen,5,0,cloth,5,inf_melee,10,10,10,15,rome_generic_sword,,0,none
+inv_mercenary_sileraioi_hoplites,Mercenary Sileraioi Hoplites,5,0,bronze,20,inf_melee,15,50,50,30,rome_hoplite_spear,,0,hoplite
+inv_mercenary_spartan_hoplites,Mercenary Spartan Hoplites,5,0,bronze,20,inf_melee,28,44,52,75,rome_hoplite_spear_elite,,0,hoplite
+inv_mercenary_thessalian_cavalry,Mercenary Thessalian Cavalry,5,0,chest_improved,20,cavalry,67,40,15,65,rome_lance,,0,none
+inv_mercenary_toxotes,Mercenary Toxotes,5,15,cloth,20,inf_ranged,3,8,12,50,rome_shortsword,rome_bow,13,none
+inv_mercenary_umbrian_defenders,Mercenary Umbrian Defenders,5,0,chest_improved,10,inf_melee,3,30,45,45,rome_spear,,0,round
+inv_mercenary_velites,Mercenary Velites,5,7,cloth,10,inf_ranged,4,10,15,30,rome_shortsword,rome_javelin,13,round
+inv_mercenary_veneti_axemen,Mercenary Veneti Axemen,5,0,cloth,10,inf_melee,10,30,25,30,rome_celtic_axe,,0,celtic
+inv_mercenary_veneti_horsemen,Mercenary Veneti Horsemen,5,0,cloth,5,cavalry,40,30,10,30,rome_celtic_spear_cav,,0,none
+inv_mercenary_veneti_raiders,Mercenary Veneti Raiders,5,7,chest,5,cavalry,30,20,20,30,rome_generic_sword_cav,rome_javelin_light,13,caetra_cavalry
+inv_mercenary_volsci_veterans,Mercenary Volsci Veterans,5,0,chest_improved,15,inf_melee,15,40,30,45,rome_gladius,,0,hoplite_cav
+inv_rom_accensi,Accensi,5,25,cloth,5,inf_ranged,3,5,5,20,rome_shortsword,rome_sling,13,small_round
+inv_rom_ballista,Roman Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_rom_centuriae,Centuriae,5,0,chest,15,inf_melee,15,35,45,45,rome_hoplite_spear,,0,hoplite
+inv_rom_elite_equites,Elite Equites,5,0,bronze,10,cavalry,40,45,15,50,rome_spear_cav_elite,,0,caetra_cavalry
+inv_rom_ensis_centuriae,Ensis Centuriae,5,0,chest,15,inf_melee,20,40,35,45,rome_gladius,,0,hoplite
+inv_rom_ensis_principes,Ensis Principes,5,2,chest_improved,15,inf_melee,35,50,30,50,rome_gladius_elite,rome_pilum,0,scutum
+inv_rom_eques,Eques,5,0,cloth,10,cavalry,30,30,10,45,rome_spear_cav,,0,caetra_cavalry
+inv_rom_hastati,Hastati,5,2,chest,10,inf_melee,20,25,10,40,rome_spear,rome_javelin_precursor,0,scutum
+inv_rom_horse_skirmishers,Horse Skirmishers,5,7,chest,5,cavalry,5,9,10,30,rome_generic_sword_cav,rome_javelin,18,caetra_cavalry
+inv_rom_latin_spearmen,Latin Spearmen,5,0,cloth,5,inf_melee,5,9,15,40,rome_spear,,0,none
+inv_rom_latin_tribesmen,Latin Tribesmen,5,0,cloth,0,inf_melee,5,10,5,40,rome_generic_sword,,0,none
+inv_rom_leves,Leves,5,7,cloth,5,inf_ranged,3,5,5,20,rome_shortsword,rome_wooden_javelin,8,small_round
+inv_rom_polybolos,Roman Polybolos,5,60,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+inv_rom_principes,Principes,5,2,chest,15,inf_melee,35,50,35,45,rome_spear,rome_pilum,0,scutum
+inv_rom_roman_light_hoplites,Roman Light Hoplites,5,0,chest,10,inf_melee,5,20,25,40,rome_hoplite_spear,,0,hoplite
+inv_rom_roman_swordsmen,Roman Swordsmen,5,0,chest,10,inf_melee,10,20,20,35,rome_generic_sword,,0,hoplite_cav
+inv_rom_rorarii,Rorarii,5,2,cloth,10,inf_melee,15,20,15,40,rome_gladius,rome_pilum_light,0,scutum
+inv_rom_triarii,Triarii,5,2,bronze,20,inf_melee,25,60,50,70,rome_spear_elite,rome_pilum_heavy,0,scutum
+inv_rom_velites,Velites,5,7,cloth,10,inf_ranged,4,10,15,30,rome_shortsword,rome_javelin,13,round
+inv_rom_veteran_centuriae,Veteran Centuriae,5,0,bronze,20,inf_melee,15,50,65,50,rome_hoplite_spear_elite,,0,hoplite
+inv_sabine_skirmishers,Native Sabine Skirmishers,5,7,cloth,5,inf_ranged,3,10,5,30,rome_shortsword,rome_javelin,13,small_round
+inv_sabine_warriors,Native Sabine Warriors,5,0,cloth,10,inf_melee,10,15,5,30,rome_generic_sword,,0,small_round
+inv_sam_armoured_spearmen,Samnite Armoured Spearmen,5,0,chest_improved,15,inf_melee,10,30,40,50,rome_spear,,0,oval
+inv_sam_ballista,Samnite Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_sam_hirpinian_warriors,Hirpinian Warriors,5,0,cloth,25,inf_melee,40,55,10,70,rome_gladius,,0,thracian
+inv_sam_italian_hillmen,Italian Hillmen,5,0,cloth,5,inf_melee,5,15,5,35,rome_generic_sword,,0,none
+inv_sam_italian_hillmen_ver_sacrum,Ver Sacrum Swordsmen,5,0,cloth,5,inf_melee,5,15,5,35,rome_generic_sword,,0,none
+inv_sam_italian_horse_skirmishers,Italian Horse Skirmishers,5,7,chest,5,cavalry,10,5,5,30,rome_generic_sword_cav,rome_javelin,13,caetra_cavalry
+inv_sam_italian_slingers,Italian Slingers,5,25,cloth,5,inf_ranged,5,5,5,20,rome_shortsword,rome_sling,13,small_round
+inv_sam_italian_slingers_ver_sacrum,Ver Sacrum Slingers,5,25,cloth,5,inf_ranged,5,5,5,20,rome_shortsword,rome_sling,13,small_round
+inv_sam_light_infantryman,Samnite Light Infantryman,5,0,cloth,10,inf_melee,10,25,12,35,rome_generic_sword,,0,celtic_shock
+inv_sam_light_spearmen,Samnite Light Spearmen,5,0,cloth,10,inf_melee,5,20,18,35,rome_spear,,0,celtic_shock
+inv_sam_light_spearmen_ver_sacrum,Ver Sacrum Spearmen,5,0,cloth,10,inf_melee,5,20,18,35,rome_spear,,0,celtic_shock
+inv_sam_linen_legion,Linen Legion,5,0,chest,20,inf_melee,15,55,40,75,rome_spear_elite,,13,oval
+inv_sam_lucanian_warriors,Lucanian Warriors,5,0,chest,10,inf_melee,30,45,30,50,rome_gladius,,0,celtic_shock
+inv_sam_polybolos,Samnite Polybolos,5,60,cloth,5,artillery,6,9,14,35,rome_shortsword,,4,none
+inv_sam_silver_infantryman,Samnite Silver Infantryman,5,0,chest,20,inf_melee,20,60,50,75,rome_celtic_longsword_elite,,0,hoplite
+inv_samnite_infantryman,Native Samnite Infantryman,5,0,cloth,10,inf_melee,10,25,12,30,rome_generic_sword,,0,thracian
+inv_sar_corsic_marksmen,Corsican Marksmen,5,15,leather,15,inf_ranged,5,15,25,60,rome_generic_sword,rome_bow,23,none
+inv_sardi_bowmen,Native Sardi Bowmen,5,15,cloth,5,inf_ranged,5,5,5,20,rome_shortsword,rome_bow,13,none
+inv_sardi_hillmen,Native Sardi Hillmen,5,0,cloth,5,inf_melee,5,10,10,20,rome_generic_sword,,0,none
+inv_sen_chariots,Gallic Chariots,5,7,cloth,20,cavalry,32,35,45,50,rome_generic_sword,rome_javelin,20,celtic_round
+inv_sen_gallic_axe_cavalry,Gallic Axe Cavalry,5,0,cloth,10,cavalry,40,45,10,40,rome_eastern_axe_elite,,0,celtic_shock
+inv_sen_gallic_axemen,Gallic Axemen,5,0,cloth,15,inf_melee,35,40,10,40,rome_celtic_axe,,0,celtic_shock
+inv_sen_gallic_horse_skirmishers,Gallic Horse Skirmishers,5,7,cloth,5,cavalry,5,10,10,25,rome_generic_sword_cav,rome_javelin_light,0,celtic_missile
+inv_sen_gallic_horsemen,Gallic Horsemen,5,0,cloth,5,cavalry,30,25,10,25,rome_celtic_spear_cav,,0,none
+inv_sen_gallic_hunters,Gallic Hunters,5,15,cloth,5,inf_ranged,5,10,10,20,rome_shortsword,rome_bow,13,none
+inv_sen_gallic_skirmishers,Gallic Skirmishers,5,7,cloth,5,inf_ranged,5,10,10,20,rome_shortsword,rome_wooden_javelin,13,celtic_missile
+inv_sen_gallic_spearmen,Gallic Spearmen,5,0,leather,15,inf_melee,10,30,20,30,rome_celtic_spear,,0,celtic_shock
+inv_sen_naked_warriors,Naked Warriors,5,0,none,20,inf_melee,45,55,20,50,rome_shotel,,0,celtic_shock
+inv_sen_noble_horsemen,Noble Horsemen,5,0,leather,15,cavalry,40,40,20,45,rome_celtic_spear_cav_elite,,0,celtic_round
+inv_sen_noble_swordsmen,Noble Gallic Swordsmen,5,0,leather,20,inf_melee,50,55,25,45,rome_shotel,,0,celtic_shock
+inv_sen_tribeless_slingers,Tribeless Slingers,5,25,cloth,5,inf_ranged,3,5,5,25,rome_shortsword,rome_sling,11,small_round
+inv_sen_tribeless_spearmen,Tribeless Spearmen,5,0,none,15,inf_melee,10,15,20,30,rome_celtic_spear,,0,none
+inv_sen_tribeless_warriors,Tribeless Warriors,5,0,none,15,inf_melee,20,20,5,30,rome_generic_sword,,0,none
+inv_sen_young_swords,Young Swords,5,0,cloth,10,inf_melee,15,35,5,30,rome_falcata,,0,celtic_round
+inv_sicilian_tribesmen,Native Sicilian Tribesmen,5,0,cloth,5,inf_melee,10,10,10,15,rome_generic_sword,,0,none
+inv_syr_elite_hoplites,Elite Hoplites,5,0,bronze,20,inf_melee,25,42,50,50,rome_hoplite_spear_elite,,0,hoplite
+inv_syr_giant_ballista,Giant Ballista,5,15,cloth,5,artillery,6,9,14,40,rome_shortsword,,4,none
+inv_tar_tarantine_cavalry,Tarantine Cavalry,5,7,spolas,15,cavalry,15,30,35,50,rome_shortsword,rome_javelin,23,cavalry
+inv_tar_tarantine_hoplites,Tarantine Hoplites,5,0,bronze,20,inf_melee,20,45,65,70,rome_hoplite_spear_elite,,0,hoplite
+inv_tar_tarantine_peltasts,Tarantine Peltasts,5,10,spolas,15,inf_ranged,12,28,15,55,rome_kopis,rome_javelin_improved,23,peltast_thureos
+inv_tribeless_warriors,Native Tribeless Warriors,5,0,none,15,inf_melee,20,20,5,30,rome_generic_sword,,0,none
+inv_umbrian_hillmen,Native Umbrian Hillmen,5,0,cloth,10,inf_melee,3,5,30,30,rome_generic_sword,,0,round
+inv_umbrian_spearmen,Native Umbrian Spearmen,5,0,cloth,10,inf_melee,3,5,30,30,rome_spear,,0,round
+inv_ven_ambushers,Veneti Ambushers,5,7,chest,10,inf_ranged,15,35,20,35,rome_celtic_longsword,rome_javelin_light,13,celtic_missile
+inv_ven_italian_swordsmen,Italian Swordsmen,5,0,cloth,5,inf_melee,10,20,20,30,rome_generic_sword,,0,oval
+inv_ven_noble_veneti_swordsmen,Noble Veneti Swordsmen,5,0,chest,15,inf_melee,15,45,45,45,rome_celtic_longsword,,0,celtic
+inv_ven_veneti_axemen,Veneti Axemen,5,0,cloth,10,inf_melee,10,30,25,30,rome_celtic_axe,,0,celtic
+inv_ven_veneti_ekuperatis,Veneti Ekupetaris,5,0,leather,20,cavalry,65,55,40,55,rome_celtic_hellenic_sword_cav,,0,cavalry
+inv_ven_veneti_heavy_cavalry,Veneti Heavy Cavalry,5,0,spolas_improved,10,cavalry,50,40,40,40,rome_celtic_spear_cav,,0,cavalry
+inv_ven_veneti_horsemen,Veneti Horsemen,5,0,cloth,5,cavalry,40,30,10,30,rome_celtic_spear_cav,,0,none
+inv_ven_veneti_hunters,Veneti Hunters,5,15,cloth,5,inf_ranged,5,10,25,30,rome_shortsword,rome_bow,13,none
+inv_ven_veneti_mounted_raiders,Veneti Mounted Raiders,5,7,chest,5,cavalry,30,20,20,30,rome_generic_sword_cav,rome_javelin_light,13,celtic_round
+inv_ven_veneti_outriders,Veneti Outriders,5,7,chest_improved,10,cavalry,40,30,30,40,rome_generic_sword_cav,rome_javelin_improved,13,celtic_round
+inv_ven_veneti_spearmen,Veneti Spearmen,5,0,chest,10,inf_melee,5,25,30,40,rome_celtic_spear,,0,celtic
+inv_veneti_raiders,Native Veneti Raiders,5,7,chest,5,cavalry,10,10,20,20,rome_generic_sword_cav,rome_javelin_light,13,celtic_round
+inv_volsci_spearmen,Native Volsci Spearmen,10,1,cloth,10,inf_melee,15,28,27,40,rome_spear,rome_javelin_precursor,0,pikemen
+inv_volsci_warriors,Native Volsci Warriors,5,1,cloth,10,inf_melee,15,32,23,40,rome_gladius,rome_javelin_precursor,0,pikemen
+test_placeholder_nuragic_warriors,Test Placeholder Nuragic Warriors,5,0,none,20,inf_melee,40,30,15,40,rome_iolean_glove,,0,round
+test_test,Test Unit,0,0,leather,10,inf_melee,0,10,20,20,rome_celtic_axe,,0,germanic_small_skirm
+testtest_test,Alani 'Amazonian' Archers,20,15,cloth,5,cavalry,4,7,2,40,rome_shortsword,rome_composite_bow_elite,10,none

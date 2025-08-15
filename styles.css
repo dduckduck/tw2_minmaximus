@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --border-color: rgb(134, 134, 134);
+}
+
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+}
+
+body {
+  background: #1a1a1a;
+}
+
+/*main section has 3 columns: Player - Comparison data - AI */
+
+main {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+select {
+  background: #292727;
+}
+
+.selectionCard {
+  background: #292727;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  flex: 1 1 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.factionAndUnitSelection {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  gap: 1rem;
+}
+
+
+.unitBlock {
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.centreContent {
+  flex: 0 60%;
+  background: #3d3d3d;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.trend-up {
+    color: #77dd77; 
+    font-weight: bold;
+}
+
+.trend-down {
+    color: #ff6961; 
+    font-weight: bold;
+}
+
+
+#comparisonData {
+    width: 100%;   
+    border-collapse: collapse; 
+}
+
+
+
+#comparisonData th, #comparisonData td {
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+#comparisonData th {
+    background-color: #4d4d4d;
+    font-weight: bold;
+}
+
+#comparisonData td {
+    background-color: #2e2e2e;
+}
+
+/*Easier to read*/
+#comparisonData tr:hover td {
+    background-color: #454545;
+}
+

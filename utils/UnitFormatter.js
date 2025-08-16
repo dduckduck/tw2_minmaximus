@@ -4,7 +4,6 @@
 */
 function prepareBasicStats(unitData, defaultValue = "N/A") {
     const stats = unitData.unitStats || {};
-    console.log(stats);
     return [
         ["Category", `${stats.category ?? defaultValue}`],
         ["Morale", stats.morale ?? defaultValue],

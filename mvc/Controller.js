@@ -63,18 +63,20 @@ export class Controller {
         const unitKey = select.value;
         const containerId = select.id;
         console.log("Unit changed to -> ", unitKey, " on: ", select.id);
+        if (!unitKey || unitKey.length < 1) {
+            console.error("unitKey is null or empty");
+            return;
+        }
 
         this.model.setCurrentUnitFor(containerId, unitKey);
         const unitData = this.model.getCurrentUnitDataFor(containerId);
         const dataRows = formatInfo(unitData);
 
-        if(this.bothUnitSelected()){
+        if (this.bothUnitSelected()) {
             console.log("Both units selected. Updating comparison table");
             const playerUnit = this.model.getCurrentUnitDataFor(CONTAINER_KEY.PLAYER_UNITS);
             const aiUnit = this.model.getCurrentUnitDataFor(CONTAINER_KEY.AI_UNITS);
-
-            const comparisondata = this.model.compareUnits(playerUnit,aiUnit);
-            
+            const comparisondata = this.model.compareUnits(playerUnit, aiUnit);
             this.view.updateComparisonTable(comparisondata);
         }
         this.view.updateUnitData(containerId, dataRows);

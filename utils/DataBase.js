@@ -71,7 +71,6 @@ export class DataBase {
                 return values.some(v => v.trim().length > 0);
             }).map(line => {
                 const values = line.split(",");
-                console.log(line);
                 const data = Object.fromEntries(headers.map((h, i) => [h, values[i]]));
                 return new Row(data);
             });
@@ -123,25 +122,29 @@ export class DataBase {
 
         const mp_df = this.getDataFrame(DataBase.CSV_FILES.MILITARY_GROUPS.KEY);
         const units = mp_df.getRowsForKey(military_group_id);
-        console.log(units);
-        console.log("Found: ", units.length, " units");
-        return units;
+
+        // Naval comparison is pointless?
+        const onlyLandUnits = units.filter((row) => {
+            const unit = this.getUnit(row.unit_id);
+            console.log("FILTERING: ", unit);
+            return unit.is_naval === "0";
+        })
+        console.log("Found: ", units.length, " units | Only lands units", onlyLandUnits.length);
+        return onlyLandUnits;
     }
 
     getUnit(unitId) {
         console.log("Fetching unit with id : ", unitId);
         const allUnitsDf = this.getDataFrame(DataBase.CSV_FILES.ALL_UNITS.KEY);
         const unit = allUnitsDf.getRowsForKey(unitId)[0];
-
         const landUnitDf = this.getDataFrame(DataBase.CSV_FILES.LAND_UNITS.KEY);
         const landUnit = landUnitDf.getRowsForKey(unit.land_unit_id)[0];
-
         const mergedUnit = {
             ...landUnit,
+            is_naval: unit.is_naval,
             upkeep_cost: unit.upkeep_cost,
             recruitment_cost: unit.recruitment_cost,
         };
-
         return new Row(mergedUnit);
     }
 

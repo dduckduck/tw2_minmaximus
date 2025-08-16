@@ -75,58 +75,6 @@ function prepareMissileWeapon(unitData, defaultValue = "N/A") {
     ];
 }
 
-function buildSymbolHTML(symbol, count) {
-    const className = symbol === "+" ? "plus"
-        : symbol === "-" ? "minus"
-            : "equal";
-    const content = symbol.repeat(count);
-    return `<span class="${className}">${content}</span>`;
-}
-
-function buildComparisonLine(label, leftValue, rightValue, barLength = 13, labelWidth = 24) {
-    const max = Math.max(leftValue, rightValue, 1); // evitar división por 0
-    const leftRatio = leftValue / max;
-    const rightRatio = rightValue / max;
-
-    let leftSymbol, rightSymbol;
-    if (leftValue > rightValue) {
-        leftSymbol = "+";
-        rightSymbol = "-";
-    } else if (rightValue > leftValue) {
-        leftSymbol = "-";
-        rightSymbol = "+";
-    } else {
-        leftSymbol = "=";
-        rightSymbol = "=";
-    }
-
-    const leftBar = buildSymbolHTML(leftSymbol, Math.round(barLength * leftRatio));
-    const rightBar = buildSymbolHTML(rightSymbol, Math.round(barLength * rightRatio));
-
-    const labelContent = `[${label}]`;
-    const totalPadding = labelWidth - labelContent.length;
-    const padLeft = Math.floor(totalPadding / 2);
-    const padRight = totalPadding - padLeft;
-    const labelStr = " ".repeat(padLeft) + labelContent + " ".repeat(padRight);
-
-    return `(${leftValue.toString().padStart(3)}) ${leftBar} ${labelStr} ${rightBar} (${rightValue.toString().padEnd(3)})`;
-}
-
-export function buildComparisonLines(leftUnit, rightUnit) {
-    const comparisons = [
-        ["Melee Attack", +leftUnit.unitStats.melee_attack ?? 0, +rightUnit.unitStats.melee_attack ?? 0],
-        ["Melee Defense", (+leftUnit.unitStats.melee_defence ?? 0) + (+leftUnit.shield?.shield_defence_value ?? 0),
-            (+rightUnit.unitStats.melee_defence ?? 0) + (+rightUnit.shield?.shield_defence_value ?? 0)],
-        ["Armour", (+leftUnit.armour?.armour_value ?? 0) + (+leftUnit.shield?.shield_armour_value ?? 0),
-            (+rightUnit.armour?.armour_value ?? 0) + (+rightUnit.shield?.shield_armour_value ?? 0)],
-        ["Melee Weapon", +leftUnit.meleeWeapon?.damage ?? 0, +rightUnit.meleeWeapon?.damage ?? 0],
-        ["Melee Weapon AP", +leftUnit.meleeWeapon?.ap_damage ?? 0, +rightUnit.meleeWeapon?.ap_damage ?? 0],
-        ["Misile Weapon Damage", +leftUnit.projectile?.damage ?? 0, +rightUnit.projectile?.damage ?? 0],
-        ["Misile Weapon AP", +leftUnit.projectile?.ap_damage ?? 0, +rightUnit.projectile?.ap_damage ?? 0],
-    ];
-    return comparisons.map(([label, lVal, rVal]) => buildComparisonLine(label, lVal, rVal));
-}
-
 function buildBlock(title, rows) {
     const blockWidth = 40;
     const MAX_LABEL_LEN = 16;

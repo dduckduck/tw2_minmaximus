@@ -8,7 +8,7 @@
 # Formulas
 
 
-### This values are hardcoded in to the game
+## Hardcoded values
 Some values are hardcoded in the game and can be found in _kv_rules.xml
 ```
 BASE_HIT_CHANCE = 40
@@ -16,7 +16,7 @@ MIN_HIT_CHANCE = 15
 MAX_HIT_CHANCE = 75
 ```
 
-### Basic unit data
+## Basic unit data
 This values are obtained from:
 - land_units.xml
 - melee_weapons.xml
@@ -30,8 +30,7 @@ Melee_Defence_Chance = Your.Melee_Defence_Chance + Your.Shield_Defence_Value
 Missile_Defence_Chance = Your.Shield_Missile_Block_Chance
 Melee_Armour_Value = Your.Armour_Value + Your.Shield_Armour_Value
 ```
-:
-### Agregated data
+## Agregated data
 These values are calculated using the basic unit data and simple statistical formulas:
 | Name                        | Formula                                                                 | Purpose                                                                                     |
 |------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|

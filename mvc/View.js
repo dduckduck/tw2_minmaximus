@@ -22,11 +22,9 @@ export class View {
      * @param {boolean} initialTrigger 
      */
     registerEvent(containerKey, event, callback, initialTrigger) {
-        console.log("registering event: ", event, " for ", containerKey);
         const container = this.getContainerByKey(containerKey);
         container.addEventListener(event, callback);
         if (initialTrigger) {
-            console.log("Triggering initial event");
             container.dispatchEvent(new Event(event));
         }
     }
@@ -38,7 +36,6 @@ export class View {
             const option = document.createElement("option");
             option.value = campaign.campaign_id;
             option.text = campaign.onscreen_name;
-            // option.text = row.getValueFor("name") + " | " + row.getValueFor(primaryKey);
             container.appendChild(option);
         }
     }
@@ -77,7 +74,6 @@ export class View {
             const option = document.createElement("option");
             option.value = unit.unit_id;
             option.text = unit.unit_id;
-            console.log(unit);
             container.appendChild(option);
         }
         container.dispatchEvent(new Event("change", { bubbles: true }));
@@ -103,9 +99,7 @@ export class View {
     }
 
     updateComparisonTable(data) {
-        console.log("Aqui estamos", data);
         const table = this.#containers[CONTAINER_KEY.COMPARISON_TABLE];
-        console.log(table);
         table.innerHTML = "";
 
         const { playerUnit, aiUnit, stats } = data;

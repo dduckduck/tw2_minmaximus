@@ -53,11 +53,11 @@ export class Model {
         switch (containerId) {
             case CONTAINER_KEY.PLAYER_FACTIONS:
                 this.currentPlayerFaction = factionKey;
-                console.log("currentPlayerFaction: ", this.currentPlayerFaction);
+                
                 break;
             case CONTAINER_KEY.AI_FACTIONS:
                 this.currentAiFaction = factionKey;
-                console.log("currentPlayerFaction: ", this.currentAiFaction);
+                
                 break;
             default:
                 console.error("Not a valid value for faction: ", containerId);
@@ -81,11 +81,11 @@ export class Model {
         switch (containerId) {
             case CONTAINER_KEY.PLAYER_UNITS:
                 this.currentPlayerUnit = unitKey;
-                console.log("currentPlayerUnit: ", this.currentPlayerUnit);
+                
                 break;
             case CONTAINER_KEY.AI_UNITS:
                 this.currentAiUnit = unitKey;
-                console.log("currentAiUnit: ", this.currentAiUnit);
+                
                 break;
             default:
                 console.error("Not a valid value for unit: ", containerId);
@@ -143,7 +143,7 @@ export class Model {
         return unitData;
     }
     compareUnits(playerUnit, aiUnit) {
-        console.log(playerUnit);
+        
 
         const MIN_HIT_CHANCE = 15;
         const MAX_HIT_CHANCE = 75;

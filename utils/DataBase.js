@@ -71,7 +71,6 @@ export class DataBase {
                 return values.some(v => v.trim().length > 0);
             }).map(line => {
                 const values = line.split(",");
-                console.log(line);
                 const data = Object.fromEntries(headers.map((h, i) => [h, values[i]]));
                 return new Row(data);
             });
@@ -95,8 +94,6 @@ export class DataBase {
      * @returns {DataFrame} 
      */
     getDataFrame(dataFrameName) {
-        console.log("DataBase looking for table: ", dataFrameName);
-        if (this.#dataFrames.has(dataFrameName)) console.log("Table for: ", dataFrameName, " found");
         const df = this.#dataFrames.get(dataFrameName);
         return df;
     }
@@ -107,67 +104,60 @@ export class DataBase {
     }
 
     getFactionsForCampaign(campaign_id) {
-        console.log("Fetching factions for campaign: ", campaign_id);
         const df = this.getDataFrame(DataBase.CSV_FILES.FACTION.KEY);
         const rows = df.getAllRows().filter(r => r.campaign_id === campaign_id);
-        console.log("Found: ", rows.length, " factions");
         return rows;
     }
 
     getUnitsForFaction(factionId) {
-        console.log("Fetching units for faction: ", factionId);
         const faction_df = this.getDataFrame(DataBase.CSV_FILES.FACTION.KEY);
         const faction = faction_df.getRowsForKey(factionId)[0];
         const military_group_id = faction.military_group_id;
-        console.log("Target faction military group: ", military_group_id);
 
         const mp_df = this.getDataFrame(DataBase.CSV_FILES.MILITARY_GROUPS.KEY);
         const units = mp_df.getRowsForKey(military_group_id);
-        console.log(units);
-        console.log("Found: ", units.length, " units");
-        return units;
+
+        // Naval comparison is pointless?
+        const onlyLandUnits = units.filter((row) => {
+            const unit = this.getUnit(row.unit_id);
+            return unit.is_naval === "0";
+        })
+        return onlyLandUnits;
     }
 
     getUnit(unitId) {
-        console.log("Fetching unit with id : ", unitId);
         const allUnitsDf = this.getDataFrame(DataBase.CSV_FILES.ALL_UNITS.KEY);
         const unit = allUnitsDf.getRowsForKey(unitId)[0];
-
         const landUnitDf = this.getDataFrame(DataBase.CSV_FILES.LAND_UNITS.KEY);
         const landUnit = landUnitDf.getRowsForKey(unit.land_unit_id)[0];
-
         const mergedUnit = {
             ...landUnit,
+            is_naval: unit.is_naval,
             upkeep_cost: unit.upkeep_cost,
             recruitment_cost: unit.recruitment_cost,
         };
-
         return new Row(mergedUnit);
     }
 
     getArmour(armourId) {
-        console.log("Fetching armour with id : ", armourId);
         const armourDf = this.getDataFrame(DataBase.CSV_FILES.ARMOUR.KEY);
         const armour = armourDf.getRowsForKey(armourId)[0];
         return armour;
     }
 
     getShield(shieldId) {
-        console.log("Fetching shield with id : ", shieldId);
         const shieldDf = this.getDataFrame(DataBase.CSV_FILES.SHIELD.KEY);
         const shield = shieldDf.getRowsForKey(shieldId)[0];
         return shield;
     }
 
     getMeleeWeapon(weaponId) {
-        console.log("Fetching melee weapon with id : ", weaponId);
         const weaponDf = this.getDataFrame(DataBase.CSV_FILES.MELEE_WEAPON.KEY);
         const weapon = weaponDf.getRowsForKey(weaponId)[0];
         return weapon;
     }
 
     getRangeWeapon(weaponId) {
-        console.log("Fetching range weapon with id : ", weaponId);
         const weaponDf = this.getDataFrame(DataBase.CSV_FILES.RANGE_WEAPON.KEY);
         const weapon = weaponDf.getRowsForKey(weaponId)[0];
         return weapon;
@@ -184,12 +174,10 @@ export class DataBase {
     toString() {
         let info = "[DataBase INFO]";
         info += `\nDataFrames: ${this.#dataFrames.size}`;
-
         for (const [key, df] of this.#dataFrames.entries()) {
             const count = df.size;
             info += `\n- ${key}: ${count}`;
         }
-
         return info;
     }
 

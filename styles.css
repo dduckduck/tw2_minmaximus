@@ -69,11 +69,13 @@ select {
 .trend-up {
     color: #77dd77; 
     font-weight: bold;
+    font-size: 13px;
 }
 
 .trend-down {
     color: #ff6961; 
     font-weight: bold;
+    font-size: 13px;
 }
 
 

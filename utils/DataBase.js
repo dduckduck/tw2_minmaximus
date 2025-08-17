@@ -122,7 +122,7 @@ export class DataBase {
             const unit = this.getUnit(row.unit_id);
             return unit.is_naval === "0";
         })
-        return onlyLandUnits;
+        return onlyLandUnits.reverse();
     }
 
     getUnit(unitId) {

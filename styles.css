@@ -79,30 +79,30 @@ select {
 }
 
 
-#comparisonData {
+.comparisonTable {
     width: 100%;   
     border-collapse: collapse; 
 }
 
 
 
-#comparisonData th, #comparisonData td {
+.comparisonTable th, td {
     border: 1px solid var(--border-color);
     padding: 0.5rem 1rem;
     text-align: center;
 }
 
-#comparisonData th {
+.comparisonTable th {
     background-color: #4d4d4d;
     font-weight: bold;
 }
 
-#comparisonData td {
+.comparisonTable td {
     background-color: #2e2e2e;
 }
 
 /*Easier to read*/
-#comparisonData tr:hover td {
+.comparisonTable tr:hover td {
     background-color: #454545;
 }
 

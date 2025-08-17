@@ -102,10 +102,34 @@ export class View {
         const table = this.#containers[CONTAINER_KEY.COMPARISON_TABLE];
         table.innerHTML = "";
 
-        const { playerUnit, aiUnit, stats } = data;
+        const { playerUnit, aiUnit } = data;
         const units = [playerUnit, aiUnit];
 
-        //1. Headers: Stats | playerUnit.onscreen_name | aiUnit.onscreen_name
+        // Orden personalizado con "" como separador de fila vacía
+        const statsOrder = [
+            "missile_defence_chance",
+            "melee_defence_chance",
+            "effective_defence_chance",
+            "melee_armour_value",
+            "expected_melee_defence",
+            "",
+            "melee_attack_chance",
+            "melee_hit_chance",
+            "effective_melee_hit_chance",
+            "melee_weapon_damage",
+            "melee_weapon_ap",
+            "expected_melee_damage",
+            "melee_combat_score",
+            "",
+            "effective_range_hit_chance",
+            "range_weapon_damage",
+            "range_weapon_ap",
+            "expected_range_damage",
+            "expected_range_defence",
+            "range_combat_score"
+        ];
+
+        // 1. Cabeceras
         const thead = document.createElement("thead");
         const trHead = document.createElement("tr");
 
@@ -122,8 +146,19 @@ export class View {
         thead.appendChild(trHead);
         table.appendChild(thead);
 
-        //2. Append rows
-        stats.forEach(stat => {
+        // 2. Filas en orden personalizado
+        statsOrder.forEach(stat => {
+            if (stat === "") {
+                // Fila vacía
+                const trEmpty = document.createElement("tr");
+                const tdEmpty = document.createElement("td");
+                tdEmpty.colSpan = units.length + 1;
+                tdEmpty.innerHTML = "&nbsp;";
+                trEmpty.appendChild(tdEmpty);
+                table.appendChild(trEmpty);
+                return;
+            }
+
             const tr = document.createElement("tr");
             const tdStat = document.createElement("td");
             tdStat.textContent = stat;
@@ -132,26 +167,23 @@ export class View {
             units.forEach((unit, i) => {
                 const td = document.createElement("td");
                 td.textContent = unit[stat];
-                if (stat !== "onscreen_name") {
-                    const otherUnit = units[1 - i];
-                    const diff = unit[stat] - otherUnit[stat];
-                    const trend = document.createElement("span");
 
-                    if (diff > 0) {
-                        trend.textContent = ` ▲ (+${diff.toFixed(2)})`;
-                        trend.classList.add("trend-up");
-                    } else if (diff < 0) {
-                        trend.textContent = ` ▼ (${diff.toFixed(2)})`;
-                        trend.classList.add("trend-down");
-                    } else {
-                        trend.textContent = ""; // no cambia
-                    }
+                const otherUnit = units[1 - i];
+                const diff = unit[stat] - otherUnit[stat];
+                const trend = document.createElement("span");
 
-                    td.appendChild(trend);
+                if (diff > 0) {
+                    trend.textContent = ` ▲ (+${diff.toFixed(2)})`;
+                    trend.classList.add("trend-up");
+                } else if (diff < 0) {
+                    trend.textContent = ` ▼ (${diff.toFixed(2)})`;
+                    trend.classList.add("trend-down");
                 }
 
+                td.appendChild(trend);
                 tr.appendChild(td);
             });
+
             table.appendChild(tr);
         });
     }
